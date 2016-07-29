@@ -1,0 +1,31 @@
+{
+  "name": "grab-l2-classic-db",
+  "version": "1.0.0",
+  "description": "service to grab db from plakis db",
+  "main": "index.js",
+  "scripts": {
+    "start": "npm run database & node index.js",
+    "database": "md mongo-db & mongod --dbpath ./mongo-db",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DadUndead/grab-l2-classic-db.git"
+  },
+  "keywords": [
+    "l2-classic"
+  ],
+  "author": "aklimenko",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/DadUndead/grab-l2-classic-db/issues"
+  },
+  "homepage": "https://github.com/DadUndead/grab-l2-classic-db#readme",
+  "dependencies": {
+    "cheerio": "^0.20.0",
+    "exec": "^0.2.1",
+    "lodash": "^4.14.0",
+    "mongoose": "^4.5.7",
+    "request": "^2.74.0"
+  }
+}
