@@ -2,3 +2,6 @@
 /bower_components
 /mongo-db
 npm-debug*
+img/
+logs.txt
+test.js
