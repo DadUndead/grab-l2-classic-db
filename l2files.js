@@ -99,13 +99,25 @@ NPC.find(
           }).join('\t')
         )
 
+        const NPCGRP0 = npcgrp[0].split('\t')
 
-        // let newNpcs = [npcgrp[0]]
-        // newNpcs.push(_.map(npcs,(npc,i)=>
-        //   _.map(npcgrp[0].split('\t'), (np, j) =>{
-        //       return _.find(npcgrp, line=>line.split('\t')[0]*1==npc.id).split('\t')[j]
-        //   })
-        // ))
+        let newNpcs = [npcgrp[0]]
+        newNpcs.push(_.map(npcs,(npc,i)=>
+          _.map(NPCGRP0, (np, j) =>{
+              const l = _.find(npcgrp, line=> line.split('\t')[0]*1==npc.id)
+              const LINE= l.split('\t')
+              if (j>15 && NPCGRP0[j].includes('dtab1[')){
+                if (!LINE[j]) {
+                  return SKILL_MIN_ID+i
+                }else if (LINE[j-1]==SKILL_MIN_ID+i){
+                  return 1                }
+              }
+              console.log('SKILL_MIN_ID:',SKILL_MIN_ID+i)
+              return LINE[j]
+          })
+        ))
+
+        console.log('=>',newNpcs)
 
         // _.forEach(npcs, (npc,i)=>{
         //   _.forEach(
@@ -122,18 +134,18 @@ NPC.find(
         //
         // })
 
-      fs.appendFile('./files/skillname_classic-eu.txt',newSkills.join('\n')+'\n', (err)=>{
-        if (err) throw err
-        console.log('NewSkills',newSkills.length,'appended')
-      })
-
-      fs.appendFile('./files/skillgrp_classic.txt',newSkillIcons.join('\n')+'\n', (err)=>{
-        if (err) throw err
-        console.log('NewSkillIcons',newSkillIcons.length,'appended')
-      })
-
-      fs.writeFile('./files/npcgrp_classic.txt',npcgrp.join('\n')+'\n', (err)=>{
-        if (err) throw err
-        console.log('NewNpcs',npcgrp.length,'appended')
-      })
+      // fs.appendFile('./files/skillname_classic-eu.txt',newSkills.join('\n')+'\n', (err)=>{
+      //   if (err) throw err
+      //   console.log('NewSkills',newSkills.length,'appended')
+      // })
+      //
+      // fs.appendFile('./files/skillgrp_classic.txt',newSkillIcons.join('\n')+'\n', (err)=>{
+      //   if (err) throw err
+      //   console.log('NewSkillIcons',newSkillIcons.length,'appended')
+      // })
+      //
+      // fs.writeFile('./files/npcgrp_classic.txt',npcgrp.join('\n')+'\n', (err)=>{
+      //   if (err) throw err
+      //   console.log('NewNpcs',npcgrp.length,'appended')
+      // })
   })
