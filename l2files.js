@@ -100,52 +100,44 @@ NPC.find(
         )
 
         const NPCGRP0 = npcgrp[0].split('\t')
+        const NPC_IDS = _.map(npcgrp, (line, i)=>({id:line.split('\t')[0]*1, index:i}))
 
-        let newNpcs = [npcgrp[0]]
-        newNpcs.push(_.map(npcs,(npc,i)=>
-          _.map(NPCGRP0, (np, j) =>{
-              const l = _.find(npcgrp, line=> line.split('\t')[0]*1==npc.id)
-              const LINE= l.split('\t')
-              if (j>15 && NPCGRP0[j].includes('dtab1[')){
-                if (!LINE[j]) {
-                  return SKILL_MIN_ID+i
-                }else if (LINE[j-1]==SKILL_MIN_ID+i){
-                  return 1                }
-              }
-              console.log('SKILL_MIN_ID:',SKILL_MIN_ID+i)
-              return LINE[j]
-          })
-        ))
+        _.forEach(npcs,(npc,i)=>{
+            const idx = _.find(NPC_IDS, line=> line.id==npc.id).index
+            const LINE= npcgrp[idx].split('\t')
+            let flag = false
+            const ln = _.map(NPCGRP0, (np, j) =>{
+                          if (j>15 && NPCGRP0[j].includes('dtab1[')){
+                            console.log('LINE[j-1]:',LINE[j-1])
+                            if (!LINE[j] && !flag) {
+                              flag = !flag
+                              LINE[j] = SKILL_MIN_ID+i
+                            }else if (LINE[j-1]==SKILL_MIN_ID+i){
+                              LINE[j] = '1'
+                            }
+                          }
+                          console.log('SKILL_MIN_ID:',SKILL_MIN_ID+i)
+                          return LINE[j]
+                      })
+            console.log("ln:",ln);
+            npcgrp[idx]=ln.join('\t')
+          }
+        )
 
-        console.log('=>',newNpcs)
+      console.log('=>',npcgrp)
 
-        // _.forEach(npcs, (npc,i)=>{
-        //   _.forEach(
-        //     _.find(npcgrp, np=>npc.id==np.split('\t')[0]*1).split('\t'),
-        //     (element,j)=>{
-        //       for (let k=0; k<23; k+=2){
-        //         if (npcgrp[0].split('\t')[i]=='dtab1['+k+']'&&element==''){
-        //           element=SKILL_MIN_ID+i
-        //
-        //         }
-        //       }
-        //     }
-        //   )
-        //
-        // })
+      fs.appendFile('./files/skillname_classic-eu.txt',newSkills.join('\n')+'\n', (err)=>{
+        if (err) throw err
+        console.log('NewSkills',newSkills.length,'appended')
+      })
 
-      // fs.appendFile('./files/skillname_classic-eu.txt',newSkills.join('\n')+'\n', (err)=>{
-      //   if (err) throw err
-      //   console.log('NewSkills',newSkills.length,'appended')
-      // })
-      //
-      // fs.appendFile('./files/skillgrp_classic.txt',newSkillIcons.join('\n')+'\n', (err)=>{
-      //   if (err) throw err
-      //   console.log('NewSkillIcons',newSkillIcons.length,'appended')
-      // })
-      //
-      // fs.writeFile('./files/npcgrp_classic.txt',npcgrp.join('\n')+'\n', (err)=>{
-      //   if (err) throw err
-      //   console.log('NewNpcs',npcgrp.length,'appended')
-      // })
+      fs.appendFile('./files/skillgrp_classic.txt',newSkillIcons.join('\n')+'\n', (err)=>{
+        if (err) throw err
+        console.log('NewSkillIcons',newSkillIcons.length,'appended')
+      })
+
+      fs.writeFile('./files/npcgrp_classic.txt',npcgrp.join('\n')+'\n', (err)=>{
+        if (err) throw err
+        console.log('NewNpcs',npcgrp.length,'appended')
+      })
   })
