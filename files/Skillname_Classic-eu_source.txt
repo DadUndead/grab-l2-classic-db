@@ -1,5 +1,5 @@
 id1	id2	level1	level2	id3	id4	level3	level4	name	description	desc_val	desc_add1	desc_val1	desc_add2	desc_val2
-1	0	1	0	0	0	-1	-1	a,Triple Slash\0	u,Quickly strikes the target three times with $s1 Power. For $s2 decreases enemyï¿½s P. Def. by $s3. Requires dual swords. Over-hit is possible. Ignores shield block.\0	a,517;10 seconds;23%\0	a,none\0	a,	a,none\0	a,
+1	0	1	0	0	0	-1	-1	a,Triple Slash\0	u,Quickly strikes the target three times with $s1 Power. For $s2 decreases enemy’s P. Def. by $s3. Requires dual swords. Over-hit is possible. Ignores shield block.\0	a,517;10 seconds;23%\0	a,none\0	a,	a,none\0	a,
 1	0	2	0	1	0	1	0	a,Triple Slash\0	a,	a,549;10 seconds;23%\0	a,none\0	a,	a,none\0	a,
 1	0	3	0	1	0	2	0	a,Triple Slash\0	a,	a,583;10 seconds;23%\0	a,none\0	a,	a,none\0	a,
 1	0	4	0	1	0	3	0	a,Triple Slash\0	a,	a,619;10 seconds;23%\0	a,none\0	a,	a,none\0	a,
@@ -3572,7 +3572,7 @@ id1	id2	level1	level2	id3	id4	level3	level4	name	description	desc_val	desc_add1	
 411	0	1	0	0	0	-1	-1	a,Stealth\0	a,Prevents being pre-emptively attacked by monsters for $s1, and decreases Evasion by $s2, P. Def. by $s3, M. Def. by $s4, Accuracy by $s5 and P. Atk. by $s6.\0	a,2 minutes;12;45%;45%;12;45%\0	a,none\0	a,	a,none\0	a,
 411	0	2	0	411	0	1	0	a,Stealth\0	a,	a,2 minutes;8;30%;30%;12;45%\0	a,none\0	a,	a,none\0	a,
 411	0	3	0	411	0	2	0	a,Stealth\0	a,	a,2 minutes;4;15%;15%;12;45%\0	a,none\0	a,	a,none\0	a,
-412	0	1	0	0	0	-1	-1	a,Sand Bomb\0	u,Hurls a sand cloud onto the enemy.For $s1, decreases targetï¿½s P. Accuracy  by $s2 and M. Accuracy by $s3.\0	a,30 seconds;4;4\0	a,none\0	a,	a,none\0	a,
+412	0	1	0	0	0	-1	-1	a,Sand Bomb\0	u,Hurls a sand cloud onto the enemy.For $s1, decreases target’s P. Accuracy  by $s2 and M. Accuracy by $s3.\0	a,30 seconds;4;4\0	a,none\0	a,	a,none\0	a,
 412	0	2	0	412	0	1	0	a,Sand Bomb\0	a,	a,30 seconds;4;4\0	a,none\0	a,	a,none\0	a,
 412	0	3	0	412	0	2	0	a,Sand Bomb\0	a,	a,30 seconds;4;4\0	a,none\0	a,	a,none\0	a,
 412	0	4	0	412	0	3	0	a,Sand Bomb\0	a,	a,30 seconds;4;4\0	a,none\0	a,	a,none\0	a,
@@ -4497,7 +4497,7 @@ id1	id2	level1	level2	id3	id4	level3	level4	name	description	desc_val	desc_add1	
 530	0	1	0	0	0	-1	-1	a,Dance of Alignment\0	a,Increases all party members' Holy/Dark Attack Resistance by 30 for 2 minutes. Additionally increases MP Consumption when dancing while song/dance is in effect. Requires a dualsword.\0	a,	a,none\0	a,	a,none\0	a,
 531	0	1	0	0	0	-1	-1	a,Critical Wound\0	a,Increases Critical Damage by +30%%. Requires a dagger.\0	a,	a,none\0	a,	a,none\0	a,
 532	0	1	0	0	0	-1	-1	a,Counter Chance\0	a,When attacked, Casting Spd. - 15%% and MP Consumption - 5%% for 1 minute.\0	a,	a,none\0	a,	a,none\0	a,
-533	0	1	0	0	0	-1	-1	a,Counter Rapid Shot\0	u,When attacked, characterï¿½s bow Atk. Spd.+ 15%% for 1 minute.\0	a,	a,none\0	a,	a,none\0	a,
+533	0	1	0	0	0	-1	-1	a,Counter Rapid Shot\0	u,When attacked, character’s bow Atk. Spd.+ 15%% for 1 minute.\0	a,	a,none\0	a,	a,none\0	a,
 534	0	1	0	0	0	-1	-1	a,Counter Dash\0	a,When attacked, party members' Speed + 40 for 1 minute.\0	a,	a,none\0	a,	a,none\0	a,
 535	0	1	0	0	0	-1	-1	a,Counter Mind\0	a,When attacked, recovers MP at a certain rate.\0	a,	a,none\0	a,	a,none\0	a,
 536	0	1	0	0	0	-1	-1	a,Over the Body\0	a,Expends spirit points so that for 60 seconds, Increases Max HP by 35%%, HP Recovery Bonus by 15%%, P. Atk. by 25%%, P. Def. by 30%%, Atk. Spd. 10%%, and Speed by 10%%. Can be used when CP is more than 80%%.\0	a,	a,none\0	a,	a,none\0	a,
@@ -4878,12 +4878,12 @@ id1	id2	level1	level2	id3	id4	level3	level4	name	description	desc_val	desc_add1	
 762	0	1	0	0	0	-1	-1	a,Insane Crusher\0	a,Unleashes a powerful strike with 8409 Power added to P. Atk. and Dark Curse to surrounding enemies when rage reaches its peak. Cancels at least one of the enemy's buffs, and temporarily decreases Max CP greatly, Debuff Resistance, and effectiveness of receiving HP recovery. Requires a sword or blunt weapon. Ignores shield defense. Critical and Over-hit are possible.\0	a,	a,none\0	a,	a,none\0	a,
 763	0	1	0	0	0	-1	-1	a,Hell Scream\0	a,Roars with the voice of hell. For 8 seconds, decreases the nearby enemies' P. Def. by 30%%, M. Def. by 30%%, Speed by 30%%. Inflicts fear and causes them to flee.\0	a,	a,none\0	a,	a,none\0	a,
 764	0	1	0	0	0	-1	-1	a,Song of Windstorm\0	a,Increases all party members' resistance to bow attacks by 10 and crossbow attacks by 5 for 2 minutes. MP Consumption is additionally increased if the skill is used while song/dance effect is in place.\0	a,	a,none\0	a,	a,none\0	a,
-765	0	1	0	0	0	-1	-1	a,Dance of Blade Storm\0	u,Increases a party memberï¿½s resistance to bow attacks by 45, crossbow attacks by 25 and M. Atk. by 99%% for 15 seconds. MP Consumption is additionally increased if the skill is used while song/dance effect is in place. Requires dual swords to be equipped.\0	a,	a,none\0	a,	a,none\0	a,
+765	0	1	0	0	0	-1	-1	a,Dance of Blade Storm\0	u,Increases a party member’s resistance to bow attacks by 45, crossbow attacks by 25 and M. Atk. by 99%% for 15 seconds. MP Consumption is additionally increased if the skill is used while song/dance effect is in place. Requires dual swords to be equipped.\0	a,	a,none\0	a,	a,none\0	a,
 766	0	1	0	0	0	-1	-1	a,Sixth Sense\0	a,When stamina is at its limit, sensation reaches its peak to increase Evasion by 15 when HP is below 30%%.\0	a,	a,none\0	a,	a,none\0	a,
 767	0	1	0	0	0	-1	-1	a,Expose Vulnerability\0	a,Gives flesh and takes a bone. Decreases the enemy's P. Def. by momentarily exposing his weakness when receiving the enemy's attack. Increases the critical hit rate of general attacks.\0	a,	a,none\0	a,	a,none\0	a,
 768	0	1	0	0	0	-1	-1	a,Exciting Adventure\0	a,Feels extreme excitement during a melee. For 30 seconds, increases Speed by 20, Evasion by 15, vital point attack rate by 30%%, physical skill Evasion Rate by 40%%, and Buff-canceling Attack Resistance by 90.\0	a,	a,none\0	a,	a,none\0	a,
 769	0	1	0	0	0	-1	-1	a,Wind Riding\0	a,Storms the battleground riding the Wind. For 30 seconds, increases Speed by 50, Evasion by 20, vital point attack rate by 20%%, physical skill Evasion Rate by 75%%, and Buff-canceling Attack Resistance by 80.\0	a,	a,none\0	a,	a,none\0	a,
-770	0	1	0	0	0	-1	-1	a,Ghost Walking\0	a,Infiltrates the battleground like a ghost.ï¿½For 30 seconds, increases Speed by 33, Evasion by 15, vital point attack rate by 40%%, physical skill Evasion Rate by 60%%, and Buff-canceling Attack Resistance by 90.\0	a,	a,none\0	a,	a,none\0	a,
+770	0	1	0	0	0	-1	-1	a,Ghost Walking\0	a,Infiltrates the battleground like a ghost. For 30 seconds, increases Speed by 33, Evasion by 15, vital point attack rate by 40%%, physical skill Evasion Rate by 60%%, and Buff-canceling Attack Resistance by 90.\0	a,	a,none\0	a,	a,none\0	a,
 774	0	1	0	0	0	-1	-1	a,Dread Pool\0	a,Fear spreads around the area. Decreases nearby enemies' Speed by 33%%, P. Def. by 33%%, and Evasion by 10. Inflicts fear and causes them to flee for 8 seconds.\0	a,	a,none\0	a,	a,none\0	a,
 775	0	1	0	0	0	-1	-1	a,Weapon Blockade\0	a,Cancels the enemy's weapon with a dazzling movement for 5 seconds. Need to recharge 2nd stage of Momentum. Requires a dualsword.\0	a,	a,none\0	a,	a,none\0	a,
 776	0	1	0	0	0	-1	-1	a,Force of Destruction\0	a,Attacks the enemy with 4500 Power added to P. Atk. and penetrates the target with destructive energy. Momentum Stage 2 Recharge needed. Requires a fist weapon. Over-hit and Critical are possible.\0	a,	a,none\0	a,	a,none\0	a,
@@ -8034,7 +8034,7 @@ id1	id2	level1	level2	id3	id4	level3	level4	name	description	desc_val	desc_add1	
 1334	0	7	0	1334	0	6	0	a,Summon Cursed Man\0	a,	a,4\0	a,none\0	a,	a,none\0	a,
 1335	0	1	0	0	0	-1	-1	a,Balance Life\0	a,Equalizes HP of all party members.\0	a,	a,none\0	a,	a,none\0	a,
 1336	0	1	0	0	0	-1	-1	a,Curse of Doom\0	a,Blocks all the enemy's physical and magical skills for 1 minute.\0	a,	a,none\0	a,	a,none\0	a,
-1337	0	1	0	0	0	-1	-1	a,Curse of Abyss\0	u,For 30 seconds decreases targetï¿½s Speed by 10%%, P. Def. by 30%%, Evasion by 6, M. Atk. by 30%%, Casting Spd. by 20%% and magic Crit. Rate by 30%%.\0	a,	a,none\0	a,	a,none\0	a,
+1337	0	1	0	0	0	-1	-1	a,Curse of Abyss\0	u,For 30 seconds decreases target’s Speed by 10%%, P. Def. by 30%%, Evasion by 6, M. Atk. by 30%%, Casting Spd. by 20%% and magic Crit. Rate by 30%%.\0	a,	a,none\0	a,	a,none\0	a,
 1338	0	1	0	0	0	-1	-1	a,Arcane Chaos\0	a,For 30 seconds, decreases Buff-canceling Attack Resistance by 30%%, Debuff Resistance by 30%% and drains 24 MP every second. Increases physical skill MP Consumption by 10%% and magic skill MP Consumption by 30%%.\0	a,	a,none\0	a,	a,none\0	a,
 1339	0	1	0	0	0	-1	-1	a,Fire Vortex\0	a,Summons a dimensional vortex that inflicts Fire damage on the enemy, supplementing user's M. Atk. with 140 Power. For 30 seconds, decreases Speed by 10%%, Atk. Spd. by 30%%, Casting Spd. by 10%%, and Fire Resistance by 20. Consumes 12 MP every second. Over-hit is possible.\0	a,	a,none\0	a,	a,none\0	a,
 1340	0	1	0	0	0	-1	-1	a,Ice Vortex\0	a,Stirs up a vortex connected to the dimension of Water and inflicts Water damage on the enemy with 140 Power added to M. Atk. For 30 seconds, decreases Speed by 30%%, Atk. Spd. by 10%%, Casting Spd. by 10%%, and resistance against Water by 20. Consumes 12 MP every second. Over-hit is possible.\0	a,	a,none\0	a,	a,none\0	a,
@@ -8064,7 +8064,7 @@ id1	id2	level1	level2	id3	id4	level3	level4	name	description	desc_val	desc_add1	
 1364	0	1	0	0	0	-1	-1	a,Pa'agrio's Eye\0	a,For 20 minutes increases nearby clan members' Accuracy by 4 and Critical Attack resistance by 30%%.\0	a,	a,none\0	a,	a,none\0	a,
 1365	0	1	0	0	0	-1	-1	a,Pa'agrio's Soul\0	a,For 20 minutes, increases nearby clan members' M. Atk. by 75%% and M. Def. by 30%%.\0	a,	a,none\0	a,	a,none\0	a,
 1366	0	1	0	0	0	-1	-1	a,Seal of Despair\0	a,For 30 sec., decreases nearby enemies' Accuracy by -6, P. Atk. by -10%%, Critical Rate by 30%%, Critical Damage by 30%%, Speed by 20%%, M. Def. by 30%%, and Atk. Spd. by 30%%.\0	a,	a,none\0	a,	a,none\0	a,
-1367	0	1	0	0	0	-1	-1	a,Seal of Disease\0	u,For 2 minutes. decreases nearby enemy clan membersï¿½ healing through magic by 50%%.\0	a,	a,none\0	a,	a,none\0	a,
+1367	0	1	0	0	0	-1	-1	a,Seal of Disease\0	u,For 2 minutes. decreases nearby enemy clan members’ healing through magic by 50%%.\0	a,	a,none\0	a,	a,none\0	a,
 1368	0	1	0	0	0	-1	-1	a,Expand Dwarven Craft\0	a,Increases the number of recipes that can be recorded in Dwarven-only recipe books.\0	a,	a,none\0	a,	a,none\0	a,
 1368	0	2	0	1368	0	1	0	a,Expand Dwarven Craft\0	a,	a,	a,none\0	a,	a,none\0	a,
 1368	0	3	0	1368	0	2	0	a,Expand Dwarven Craft\0	a,	a,	a,none\0	a,	a,none\0	a,
@@ -8270,7 +8270,7 @@ id1	id2	level1	level2	id3	id4	level3	level4	name	description	desc_val	desc_add1	
 1412	0	1	0	0	0	-1	-1	a,Spell Turning\0	a,Disrupts a nearby target's casting, disrupting their spell.\0	a,	a,none\0	a,	a,none\0	a,
 1413	0	1	0	0	0	-1	-1	a,Chant of Magnus\0	a,For 5 minutes, a powerful spirit acts to increase all party members' Max MP by 15%%, MP Recovery Bonus by +1.5 when equipped with light or heavy armor, MP Recovery Bonus by 4 when equipped with a robe, M. Def. by 30%%, M. Atk. by 30%%, Casting Spd. by 20%%, Fire/Water/Wind/Earth Resistance by 10, Debuff Resistance by 25, and Buff-canceling Attack Resistance by 40. Consumes 40 Spirit Ore.\0	a,	a,none\0	a,	a,none\0	a,
 1414	0	1	0	0	0	-1	-1	a,Victories of Pa'agrio\0	a,For 5 minutes, receives help from a great spirit to increase a party member's Max CP by 20%%, CP Recovery Bonus by 20%%, Max MP by 20%%, Critical Rate by 20%%, Critical Damage by 20%%, P. Atk. by 10%%, P. Def. by 20%%, Atk. Spd. by 20%%, M. Atk. by 20%%, M. Def. by 20%%, Casting Spd. by 20%%, and Debuff Resistance by 10%%. Decreases Speed by 20%%. Consumes 40 Spirit Ore.\0	a,	a,none\0	a,	a,none\0	a,
-1415	0	1	0	0	0	-1	-1	a,Pa'agrio's Emblem\0	u,For 5 minutes, increases nearby clan membersï¿½ Buff-canceling Attack Resistance by 30%% and Debuff Resistance by 20%%.\0	a,	a,none\0	a,	a,none\0	a,
+1415	0	1	0	0	0	-1	-1	a,Pa'agrio's Emblem\0	u,For 5 minutes, increases nearby clan members’ Buff-canceling Attack Resistance by 30%% and Debuff Resistance by 20%%.\0	a,	a,none\0	a,	a,none\0	a,
 1416	0	1	0	0	0	-1	-1	a,Pa'agrio's Fist\0	a,For $s1, restores and increases clan members' Max CP by $s2.\0	a,30 seconds;2%\0	a,none\0	a,	a,none\0	a,
 1416	0	2	0	1416	0	1	0	a,Pa'agrio's Fist\0	a,	a,30 seconds;3%\0	a,none\0	a,	a,none\0	a,
 1416	0	3	0	1416	0	2	0	a,Pa'agrio's Fist\0	a,	a,30 seconds;4%\0	a,none\0	a,	a,none\0	a,
@@ -9018,7 +9018,7 @@ id1	id2	level1	level2	id3	id4	level3	level4	name	description	desc_val	desc_add1	
 1607	0	35	0	1607	0	34	0	a,Excruciating Strike\0	a,	a,2175;20%\0	a,none\0	a,	a,none\0	a,
 1607	0	36	0	1607	0	35	0	a,Excruciating Strike\0	a,	a,2239;20%\0	a,none\0	a,	a,none\0	a,
 1607	0	37	0	1607	0	36	0	a,Excruciating Strike\0	a,	a,2301;20%\0	a,none\0	a,	a,none\0	a,
-1608	0	1	0	0	0	-1	-1	a,Immortal Life\0	u,For 5 seconds HP doesnï¿½t drop below 1. Additionally recovers 20%% HP if the effect of Immortality ends.\0	a,	a,	a,	a,	a,
+1608	0	1	0	0	0	-1	-1	a,Immortal Life\0	u,For 5 seconds HP doesn’t drop below 1. Additionally recovers 20%% HP if the effect of Immortality ends.\0	a,	a,	a,	a,	a,
 1609	0	1	0	0	0	-1	-1	a,Sword Expert\0	a,Increases P. Atk. by $s1, Accuracy by $s2. Atk. Spd. Boost +$s3 when using a sword/two-handed sword. Continuously consumes MP proportionately to your level.\0	a,40;1;30\0	a,none\0	a,	a,none\0	a,
 1609	0	2	0	1609	0	1	0	a,Sword Expert\0	a,	a,50;2;30\0	a,none\0	a,	a,none\0	a,
 1609	0	3	0	1609	0	2	0	a,Sword Expert\0	a,Increases P. Atk. by $s1, Accuracy by $s2. Atk. Spd. Boost +$s3 when using a sword/two-handed sword. Continuously consumes MP proportionately to your level.\0	a,60;3;30\0	a,none\0	a,	a,none\0	a,
@@ -9054,7 +9054,7 @@ id1	id2	level1	level2	id3	id4	level3	level4	name	description	desc_val	desc_add1	
 1613	0	7	0	1613	0	6	0	a,Body Impale\0	a,	a,2069;5 seconds;1\0	a,none\0	a,	a,none\0	a,
 1613	0	8	0	1613	0	7	0	a,Body Impale\0	a,	a,2361;5 seconds;1\0	a,none\0	a,	a,none\0	a,
 1613	0	9	0	1613	0	8	0	a,Body Impale\0	a,	a,2652;5 seconds;1\0	a,none\0	a,	a,none\0	a,
-1615	0	1	0	0	0	-1	-1	a,Weapon Reinforcement\0	u,For 5 minutes enhances polearms and blunt weapons, increasing P. Atl. by $s1. At a certain chance decreases targetï¿½s Atk. Spd. and Casting Spd. by $s2.\0	a,3%;10%\0	a,none\0	a,	a,none\0	a,
+1615	0	1	0	0	0	-1	-1	a,Weapon Reinforcement\0	u,For 5 minutes enhances polearms and blunt weapons, increasing P. Atl. by $s1. At a certain chance decreases target’s Atk. Spd. and Casting Spd. by $s2.\0	a,3%;10%\0	a,none\0	a,	a,none\0	a,
 1615	0	2	0	1615	0	1	0	a,Weapon Reinforcement\0	a,	a,4%;10%\0	a,none\0	a,	a,none\0	a,
 1615	0	3	0	1615	0	2	0	a,Weapon Reinforcement\0	a,	a,5%;10%\0	a,none\0	a,	a,none\0	a,
 1616	0	1	0	0	0	-1	-1	a,Physical Damage\0	a,You were damaged and for 15 seconds Atk. Spd. and Casting Spd. are decreased by 10%%.\0	a,	a,none\0	a,	a,none\0	a,
@@ -9080,9 +9080,9 @@ id1	id2	level1	level2	id3	id4	level3	level4	name	description	desc_val	desc_add1	
 1620	0	6	0	1620	0	5	0	a,Focus Force\0	a,none\0	a,	a,none\0	a,	a,none\0	a,
 1620	0	7	0	1620	0	6	0	a,Focus Force\0	a,none\0	a,	a,none\0	a,	a,none\0	a,
 1620	0	8	0	1620	0	7	0	a,Focus Force\0	a,none\0	a,	a,none\0	a,	a,none\0	a,
-1800	0	1	0	0	0	-1	-1	a,Pirate\0	u,This pirate once ruled ancient lands of Giran. His own crew excited a riot, but didnï¿½t manage to cope with their captain that became even more powerful with the dark forces. Zaken killed all the remaining rebels and disappeared. (Consumes 1 Elemental Stone)\0	a,	a,none\0	a,	a,none\0	a,
+1800	0	1	0	0	0	-1	-1	a,Pirate\0	u,This pirate once ruled ancient lands of Giran. His own crew excited a riot, but didn’t manage to cope with their captain that became even more powerful with the dark forces. Zaken killed all the remaining rebels and disappeared. (Consumes 1 Elemental Stone)\0	a,	a,none\0	a,	a,none\0	a,
 1801	0	1	0	0	0	-1	-1	a,Dark Assassin\0	a,This is an organization of assassins created by Mercenary Captain Sieghardt Ein for making contract murders and carrying out secret orders. Sieghardt Ein, having become a member of Dawn, has disappeared without a trace, but the organization created by him still leads its shadowy deals. (Consumes 1 Elemental Stone).\0	a,	a,none\0	a,	a,none\0	a,
-1802	0	1	0	0	0	-1	-1	a,White Assassin\0	u,Rune noble Erica Ken Weber is the right hand of Sieghardt Ein. She wasnï¿½t influenced by the organizations of dark assassins. For her quest she created an organization of white assassins, continuing to be an informer. (Consumes 2 Elemental Stones).\0	a,	a,none\0	a,	a,none\0	a,
+1802	0	1	0	0	0	-1	-1	a,White Assassin\0	u,Rune noble Erica Ken Weber is the right hand of Sieghardt Ein. She wasn’t influenced by the organizations of dark assassins. For her quest she created an organization of white assassins, continuing to be an informer. (Consumes 2 Elemental Stones).\0	a,	a,none\0	a,	a,none\0	a,
 2001	0	1	0	0	0	-1	-1	a,Red Potion\0	a,none\0	a,	a,none\0	a,	a,none\0	a,
 2002	0	1	0	0	0	-1	-1	a,Healing Drug\0	a,none\0	a,	a,none\0	a,	a,none\0	a,
 2003	0	1	0	0	0	-1	-1	a,Squash Seed\0	a,none\0	a,	a,none\0	a,	a,none\0	a,
@@ -17032,7 +17032,7 @@ id1	id2	level1	level2	id3	id4	level3	level4	name	description	desc_val	desc_add1	
 4864	0	1	0	0	0	-1	-1	a,Raid Boss (Lv. 40)\0	a,An Evil Spirit born from Goddess Shilen's despair, woe, and rage. Although he fought in the war with the gods on the side of Shilen during the Era of Myths, he was greatly injured in the battle, and has been hiding under the protection of the Water Dragon Fafuion. Lately, he has been rumored to propagate Shilen's return. He serves Fafurion, waiting for the day when Shilen and Evil Spirits dominate the world again.\0	a,	a,none\0	a,	a,none\0	a,
 4865	0	1	0	0	0	-1	-1	a,Raid Boss (Lv. 36)\0	a,Crokian Chief who rules Alligator Island. As a native Crokian who has lived in Innadril before humans and elves came, he hates outsiders and tries to protect his territory and tribe from them. Although he is not happy about the Water Couatl Ateka living on the same island, he cannot do anything about it because he is afraid of Water Dragon Fafurion. He dreams about the day when Crokians can rule Innadril again.\0	a,	a,none\0	a,	a,none\0	a,
 4866	0	1	0	0	0	-1	-1	a,Raid Boss (Lv. 40)\0	a,As Water Dragon Fafurion's lieutenant, this Evil Spirit defeated countless disciples of the gods. Known as Sika of Storm during the War of the Gods, he is a veteran warrior and an engaging storyteller. Currently, he travels the world and tells stories at the command of Fafurion.\0	a,	a,none\0	a,	a,none\0	a,
-4867	0	1	0	0	0	-1	-1	a,Raid Boss (Lv. 50)\0	a,She was a beautiful lady of a respectable family from her birth, but she angered Einhasad by her arrogance and was turned into a Medusa. She could not adjust to her new state and became a brutal monster that takes her anger out on people near her. She even turned her fiancï¿½ who remained true to her into stone, and then smashed him to pieces.\0	a,	a,none\0	a,	a,none\0	a,
+4867	0	1	0	0	0	-1	-1	a,Raid Boss (Lv. 50)\0	a,She was a beautiful lady of a respectable family from her birth, but she angered Einhasad by her arrogance and was turned into a Medusa. She could not adjust to her new state and became a brutal monster that takes her anger out on people near her. She even turned her fiancé who remained true to her into stone, and then smashed him to pieces.\0	a,	a,none\0	a,	a,none\0	a,
 4868	0	1	0	0	0	-1	-1	a,Raid Boss (Lv. 73)\0	a,The leader of the devils trying to occupy the Tower of Insolence. He strives to obtain the secret knowledge hidden in the Tower of Insolence and use it as a bridgehead to expand the power of devils. But he expended too much power trying to break a seal of the Tower, and is now weak. He is enemies with the angels and the Platinum tribe protecting the Tower of Insolence at the command of Einhasad. He has three loyal subordinates: Kernon, Rahha, and Verfa.\0	a,	a,none\0	a,	a,none\0	a,
 4869	0	1	0	0	0	-1	-1	a,Raid Boss (Lv. 35)\0	a,A mercenary hired by a lord during the Dion Peasant Riot. He was once told that he could achieve eternal life if he collected souls and dedicated them to Shilen, so he slaughtered countless innocent peasants. Disgusted with his brutality, Duke Ashton finally executed him. Even after his death, his desire to gain eternal life was still strong, and he came back to life again as one of the Undead. Presently, he lurks near Dion Castle and kills innocent people.\0	a,	a,none\0	a,	a,none\0	a,
 4870	0	1	0	0	0	-1	-1	a,Raid Boss (Lv. 62)\0	a,The Oel Mahum Lord who once owned the Bandit Stronghold. Tired of the constant fighting for territory, he abandoned the stronghold along with his loyal seers and prefects, and is observing the competition for the Bandit Stronghold as a spectator.\0	a,	a,none\0	a,	a,none\0	a,
@@ -17118,7 +17118,7 @@ id1	id2	level1	level2	id3	id4	level3	level4	name	description	desc_val	desc_add1	
 4950	0	1	0	0	0	-1	-1	a,Raid Boss (Lv. 40)\0	a,This cranky, ambitious Wyrm leads the Wyrms in the Gorgon Flower Garden against the occupying Gorgons. He is forcing even neutral Wyrms into conflict with the Gorgons. He hates Gorgon Queen Stenoa passionately.\0	a,	a,none\0	a,	a,none\0	a,
 4951	0	1	0	0	0	-1	-1	a,Raid Boss (Lv. 57)\0	a,This Immortal Knight is searching for Orfen in the Sea of Spores. As a young adventurer, he and his lover joined the Sea of Spores Troops. Orfen's plot caused her death, however, and Kraven's sorrow and rage helped him gain an immortal body in order to revenge himself on Orfen with his sharp, fearsome blade.\0	a,	a,none\0	a,	a,none\0	a,
 4952	0	1	0	0	0	-1	-1	a,Raid Boss (Lv. 58)\0	a,This Riba follows Arachne Orfen. Unlike other monsters living in the Sea of Spores, he possesses great intelligence and profound magical knowledge. At Orfen's command, he is searching for flaws in the Ivory Tower's magic force field, which blocks the spores from advancing.\0	a,	a,none\0	a,	a,none\0	a,
-4953	0	1	0	0	0	-1	-1	a,Raid Boss (Lv. 61)\0	u,Queen of All the Fairies who rules the Enchanted Valley for thousands of years. Sheï¿½s capricious and stubborn just like any Queen of Elves would be. She fears the gradual weakening of the Seal of Shilen.\0	a,	a,none\0	a,	a,none\0	a,
+4953	0	1	0	0	0	-1	-1	a,Raid Boss (Lv. 61)\0	u,Queen of All the Fairies who rules the Enchanted Valley for thousands of years. She’s capricious and stubborn just like any Queen of Elves would be. She fears the gradual weakening of the Seal of Shilen.\0	a,	a,none\0	a,	a,none\0	a,
 4954	0	1	0	0	0	-1	-1	a,Raid Boss (Lv. 25)\0	a,This Maraku Werewolf Chief was once the ally of the Urutu Orcs and peacefully coexisted with them. Then he suddenly attacked the Urutu Tribe while its power was weakened, inflicting a serious blow. He and his Werewolves are now in engaged in an all-out attempt to conquer the Immortal Plateau, ancestral home to Orcs.\0	a,	a,none\0	a,	a,none\0	a,
 4955	0	1	0	0	0	-1	-1	a,Raid Boss (Lv. 55)\0	a,This Ol Mahum Warrior is warring with other bandit leaders for Oren's Bandit Stronghold. Although he cannot personally perform spells, he still has profound knowledge about magic and numbers several Shamans among his subordinates. For an Ol Mahum, he is somewhat prudent and cautious.\0	a,	a,none\0	a,	a,none\0	a,
 4956	0	1	0	0	0	-1	-1	a,Raid Boss (Lv. 45)\0	a,This savage hero leads the Timak Orc Warriors in battle. Unlike Chertuba and Ragoth, fighting is his only expertise and interest. Surprisingly, that makes him popular among many Orcs who do not comprehend Chertuba's idealism or Ragoth' wisdom.\0	a,	a,none\0	a,	a,none\0	a,
@@ -26242,7 +26242,7 @@ id1	id2	level1	level2	id3	id4	level3	level4	name	description	desc_val	desc_add1	
 7115	0	1	0	0	0	-1	-1	a,Energy of Chaos\0	a,Character's hair and cloak have been changed due to participation in the Ceremony of Chaos.\0	a,	a,none\0	a,	a,none\0	a,
 8245	0	1	0	0	0	-1	-1	a,Release Agathion's Seal - Love\0	a,Removes the Agathion's seal.\0	a,	a,	a,	a,	a,
 8256	0	1	0	0	0	-1	-1	a,Release Agathion's Seal - Joy\0	a,Removes the Agathion's seal.\0	a,	a,	a,	a,	a,
-8522	0	1	0	0	0	-1	-1	u,Agathion Summoning Bracelet ï¿½ Nevitt Herald Canna\0	a,Removes Agathion seal.\0	a,	a,	a,	a,	a,
+8522	0	1	0	0	0	-1	-1	u,Agathion Summoning Bracelet – Nevitt Herald Canna\0	a,Removes Agathion seal.\0	a,	a,	a,	a,	a,
 9029	0	1	0	0	0	-1	-1	a,Watermelon Seed\0	a,none\0	a,	a,	a,	a,	a,
 9030	0	1	0	0	0	-1	-1	a,Honey Watermelon Seed\0	a,none\0	a,	a,	a,	a,	a,
 9031	0	1	0	0	0	-1	-1	a,Copied Watermelon Seed\0	a,none\0	a,	a,	a,	a,	a,
@@ -27535,8 +27535,8 @@ id1	id2	level1	level2	id3	id4	level3	level4	name	description	desc_val	desc_add1	
 21109	0	1	0	0	0	-1	-1	a,Release Agathion's Seal - Uthanka\0	a,Removes the Agathion's seal.\0	a,	a,none\0	a,	a,none\0	a,
 21233	0	1	0	0	0	-1	-1	a,Release Agathion's Seal - Singer & Dancer\0	a,Removes the Agathion's seal.\0	a,	a,none\0	a,	a,none\0	a,
 23087	0	1	0	0	0	-1	-1	a,Uthanka Agathion Skill\0	a,See the summoned spirit perform cute tricks.\0	a,	a,none\0	a,	a,none\0	a,
-23088	0	1	0	0	0	-1	-1	u,Synge the Catï¿½s affection\0	a,For 2 hours, XP/SP gain +40%%.\0	a,	a,none\0	a,	a,none\0	a,
-23089	0	1	0	0	0	-1	-1	u,Synge the Catï¿½s Blessing\0	a,For 2 hours, XP/SP gain +20%%.\0	a,	a,none\0	a,	a,none\0	a,
+23088	0	1	0	0	0	-1	-1	u,Synge the Cat’s affection\0	a,For 2 hours, XP/SP gain +40%%.\0	a,	a,none\0	a,	a,none\0	a,
+23089	0	1	0	0	0	-1	-1	u,Synge the Cat’s Blessing\0	a,For 2 hours, XP/SP gain +20%%.\0	a,	a,none\0	a,	a,none\0	a,
 23234	0	1	0	0	0	-1	-1	a,Singer & Dancer Agathion Cute Trick\0	a,See Agathion's cute trick.\0	a,	a,none\0	a,	a,none\0	a,
 32000	0	1	0	0	0	-1	-1	a,Rice Cake of Fighting Spirit\0	a,Increases XP and SP gain by 20%% for 20 minutes. Cooldown - 10 minutes. The effect does not disappear after character's death.\0	a,	a,none\0	a,	a,none\0	a,
 32001	0	1	0	0	0	-1	-1	a,Rice Cake of Fighting Spirit - Personal\0	a,Increases XP and SP gain by 20%% for 20 minutes. Cooldown - 10 minutes. The effect does not disappear after character's death.\0	a,	a,none\0	a,	a,none\0	a,
@@ -27544,7 +27544,7 @@ id1	id2	level1	level2	id3	id4	level3	level4	name	description	desc_val	desc_add1	
 32003	0	1	0	0	0	-1	-1	a,Rich Supplies\0	a,Open the chest to randomly get one of the next items: Scroll: Enchant Weapon / Armor (D / C-grade), Magic Haste Potion, Greater Magic Haste Potion, Haste Potion, Greater Haste Potion, Greater Scroll of Resurrection, Scroll of Escape.\0	a,	a,none\0	a,	a,none\0	a,
 32004	0	1	0	0	0	-1	-1	a,Improved Scroll of Resurrection\0	a,none\0	a,	a,none\0	a,	a,none\0	a,
 32005	0	1	0	0	0	-1	-1	a,Fighting Spirit Support Box\0	a,Double-click to obtain two Cakes of Fighting Spirit. Rich Supplies can be obtained at a certain chance.\0	a,	a,none\0	a,	a,none\0	a,
-32006	0	1	0	0	0	-1	-1	u,Commanderï¿½s Power\0	a,Inflicts 50 damage. Can be used only in PvP.\0	a,	a,none\0	a,	a,none\0	a,
+32006	0	1	0	0	0	-1	-1	u,Commander’s Power\0	a,Inflicts 50 damage. Can be used only in PvP.\0	a,	a,none\0	a,	a,none\0	a,
 32007	0	1	0	0	0	-1	-1	a,Teleport: Entrance to Cruma Tower\0	a,Teleports to Entrance to Cruma Tower\0	a,	a,none\0	a,	a,none\0	a,
 32007	0	2	0	32007	0	1	0	a,Teleport: Entrance to Dragon Valley\0	a,Teleports to Entrance to Dragon Valley\0	a,	a,none\0	a,	a,none\0	a,
 32007	0	3	0	32007	0	2	0	a,Teleport: Dragon Valley Bridge\0	a,Teleports to Dragon Valley\0	a,	a,none\0	a,	a,none\0	a,
@@ -27704,12 +27704,12 @@ id1	id2	level1	level2	id3	id4	level3	level4	name	description	desc_val	desc_add1	
 39076	0	1	0	0	0	-1	-1	a,Fish Stew - The Guild's Gratitude.\0	a,For 20 minutes., obtained XP/SP + 10%%.\0	a,	a,none\0	a,	a,none\0	a,
 39077	0	1	0	0	0	-1	-1	a,Teleport: Gludin Harbor\0	a,Teleports to Gludin Harbor.\0	a,	a,none\0	a,	a,none\0	a,
 39078	0	1	0	0	0	-1	-1	a,Teleport: Giran Harbor\0	a,Teleports to Giran Harbor.\0	a,	a,none\0	a,	a,none\0	a,
-39079	0	1	0	0	0	-1	-1	a,Sheep Resurrection\0	u,Ianï¿½s Blessing resurrects the dead. Besides, restores 70% of lost experience.\0	a,	a,none\0	a,	a,none\0	a,
-39080	0	1	0	0	0	-1	-1	u,Sheepï¿½s Benediction\0	u,For 3 hours M. and P. Atk. +7%%, M. and P. Def +10%%, HP/MP/CP +15%%, HP/MP Recovery +20%%. Can be used once a day. The number of usages is set to zero at 6.30 AM. Persists through death. When the buff ends, character gets a sheepï¿½s present. Warning! The item disappears if a character dies upon obtaining the item, not having put the item into the inventory.\0	a,	a,none\0	a,	a,none\0	a,
+39079	0	1	0	0	0	-1	-1	a,Sheep Resurrection\0	u,Ian’s Blessing resurrects the dead. Besides, restores 70% of lost experience.\0	a,	a,none\0	a,	a,none\0	a,
+39080	0	1	0	0	0	-1	-1	u,Sheep’s Benediction\0	u,For 3 hours M. and P. Atk. +7%%, M. and P. Def +10%%, HP/MP/CP +15%%, HP/MP Recovery +20%%. Can be used once a day. The number of usages is set to zero at 6.30 AM. Persists through death. When the buff ends, character gets a sheep’s present. Warning! The item disappears if a character dies upon obtaining the item, not having put the item into the inventory.\0	a,	a,none\0	a,	a,none\0	a,
 39080	0	2	0	39080	0	1	0	a,Sheep Resurrection\0	a,When the buff effect is over you can get a Sheep Gift.\0	a,	a,	a,	a,	a,
 39081	0	1	0	0	0	-1	-1	a,Sheep Gift\0	a,none\0	a,	a,none\0	a,	a,none\0	a,
 39082	0	1	0	0	0	-1	-1	a,Amulet: Prosperity\0	a,All stats + 1.\0	a,	a,	a,	a,	a,
-39083	0	1	0	0	0	-1	-1	u,Receive Ianï¿½s Gift\0	a,	a,	a,	a,	a,	a,
+39083	0	1	0	0	0	-1	-1	u,Receive Ian’s Gift\0	a,	a,	a,	a,	a,	a,
 39084	0	1	0	0	0	-1	-1	a,Pirate Trophy Chest\0	a,Double-click to get 2 Special Pirate Fruit. With a bit of luck you may receive Pirate King's Treasure Chest.\0	a,	a,none\0	a,	a,none\0	a,
 39085	0	1	0	0	0	-1	-1	a,Special Pirate Fruit\0	a,M/P Attack +7%%, M/P Def. +10%%, max HP / CP / MP +15%%, HP / MP Restoration +20%%. Has a chance to transfer 3%% of P. Damage dealt to the enemy into HP. XP/SP +5%%. Cooldown: 1 minute. The effect doesn't disappear after the character's death. Duration: 20 minutes\0	a,	a,none\0	a,	a,none\0	a,
 39086	0	1	0	0	0	-1	-1	a,King Pirate's Treasure Chest\0	a,none\0	a,	a,none\0	a,	a,none\0	a,
@@ -27811,7 +27811,7 @@ id1	id2	level1	level2	id3	id4	level3	level4	name	description	desc_val	desc_add1	
 55056	0	2	0	0	0	-1	-1	a,2nd Class Transfer Effect Scroll\0	a,Provides the following positive effects: Shield (Lvl 3), Acumen (Lvl 2), Wind Walk (Lvl 2), Focus (Lvl 2), Regeneration (Lvl 1), Guidance (Lvl 1), Death Whisper (Lvl 1), Magic Barrier (Lvl 1), Blessed Body (Lvl 1), Blessed Soul (Lvl 1), Haste (Lvl 1), Agility (Lvl 2). Lasts for 20 minutes.\0	a,	a,none\0	a,	a,none\0	a,
 55057	0	1	0	0	0	-1	-1	a,Wind Walk\0	a,For 10 minutes, Speed +20.\0	a,	a,none\0	a,	a,none\0	a,
 55059	0	1	0	0	0	-1	-1	a,Release Agathion's Seal - Griffin\0	a,Removes the Agathion's seal.\0	a,	a,	a,	a,	a,
-55060	0	1	0	0	0	-1	-1	u,Griffinï¿½s Benediction\0	a,STR + 1, INT + 1.\0	a,	a,none\0	a,	a,none\0	a,
+55060	0	1	0	0	0	-1	-1	u,Griffin’s Benediction\0	a,STR + 1, INT + 1.\0	a,	a,none\0	a,	a,none\0	a,
 55061	0	2	0	0	0	-1	-1	a,Scroll of Experience / SP of the Castle: Normal\0	a,Increases XP and SP gain by 35%% for 20 minutes. The effect does not disappear after character's death.\0	a,	a,none\0	a,	a,none\0	a,
 55062	0	2	0	0	0	-1	-1	a,Scroll of Experience / SP of the Castle: Average\0	a,Increases XP and SP gain by 35% for 20 minutes. The effect does not disappear after character's death.\0	a,	a,none\0	a,	a,none\0	a,
 55063	0	1	0	0	0	-1	-1	a,Quick Castle Healing Potion\0	a,none\0	a,	a,none\0	a,	a,none\0	a,
@@ -29551,885 +29551,3 @@ id1	id2	level1	level2	id3	id4	level3	level4	name	description	desc_val	desc_add1	
 47360	0	1	0	0	0	-1	-1	a,[Spoil: x1--------------------l2classic.club----------------------------]\0	a,Recipe: Piece Bone Gaiters: 20.52%%\nHaste Potion: 1/29\n\0	a,	a,none\0	a,	a,none\0	a,
 47361	0	1	0	0	0	-1	-1	a,[Drop: x1---------------------l2classic.club----------------------------]\0	a,Adena 51-118: 70.0%%\nHealing Potion: 1/19\nThread: 1/21\nStem: 1/21\nAnimal Skin: 1/31\nCharcoal: 1/41\nIron Ore: 1/41\nSuede: 1/61\nCedar Staff Head: 1/84\nRecipe: Forest Bow: 1/200\nCedar Staff: 1/1000\nDwarven Mace: 1/1000\n\0	a,	a,none\0	a,	a,none\0	a,
 47362	0	1	0	0	0	-1	-1	a,[Spoil: x1--------------------l2classic.club----------------------------]\0	a,Leather Tunic Pattern: 1/10\nRecipe: Sword of Reflection: 1/35\n\0	a,	a,none\0	a,	a,none\0	a,
-70000	0	1	0	0	0	-1	-1	a,[Info: x1----------l2classic------------]\0	a,Level:48 \nHP:8,828 \nMP:692 \0	a,	a,none\0	a,	a,none\0	
-70001	0	1	0	0	0	-1	-1	a,[Info: x1----------l2classic------------]\0	a,Level:42 \nHP:1,752 \nMP:531 \0	a,	a,none\0	a,	a,none\0	
-70002	0	1	0	0	0	-1	-1	a,[Info: x1----------l2classic------------]\0	a,Level:13 \nHP:359 \nMP:132 \0	a,	a,none\0	a,	a,none\0	
-70003	0	1	0	0	0	-1	-1	a,[Info: x1----------l2classic------------]\0	a,Level:49 \nHP:6,863 \nMP:720 \0	a,	a,none\0	a,	a,none\0	
-70004	0	1	0	0	0	-1	-1	a,[Info: x1----------l2classic------------]\0	a,Level:1 \nHP:66 \nMP:40 \0	a,	a,none\0	a,	a,none\0	
-70005	0	1	0	0	0	-1	-1	a,[Info: x1----------l2classic------------]\0	a,Level:8 \nHP:209 \nMP:92 \0	a,	a,none\0	a,	a,none\0	
-70006	0	1	0	0	0	-1	-1	a,[Info: x1----------l2classic------------]\0	a,Level:14 \nHP:385 \nMP:140 \0	a,	a,none\0	a,	a,none\0	
-70007	0	1	0	0	0	-1	-1	a,[Info: x1----------l2classic------------]\0	a,Level:13 \nHP:359 \nMP:132 \0	a,	a,none\0	a,	a,none\0	
-70008	0	1	0	0	0	-1	-1	a,[Info: x1----------l2classic------------]\0	a,Level:10 \nHP:273 \nMP:108 \0	a,	a,none\0	a,	a,none\0	
-70009	0	1	0	0	0	-1	-1	a,[Info: x1----------l2classic------------]\0	a,Level:43 \nHP:1,825 \nMP:557 \0	a,	a,none\0	a,	a,none\0	
-70010	0	1	0	0	0	-1	-1	a,[Info: x1----------l2classic------------]\0	a,Level:\nHP:\nMP:\0	a,	a,none\0	a,	a,none\0	
-70011	0	1	0	0	0	-1	-1	a,[Info: x1----------l2classic------------]\0	a,Level:20 21 \nHP:572 608 \nMP:192 205 \0	a,	a,none\0	a,	a,none\0	
-70012	0	1	0	0	0	-1	-1	a,[Info: x1----------l2classic------------]\0	a,Level:14 \nHP:385 \nMP:140 \0	a,	a,none\0	a,	a,none\0	
-70013	0	1	0	0	0	-1	-1	a,[Info: x1----------l2classic------------]\0	a,Level:60 \nHP:27,498 \nMP:1,036 \0	a,	a,none\0	a,	a,none\0	
-70014	0	1	0	0	0	-1	-1	a,[Info: x1----------l2classic------------]\0	a,Level:15 \nHP:412 \nMP:149 \0	a,	a,none\0	a,	a,none\0	
-70015	0	1	0	0	0	-1	-1	a,[Info: x1----------l2classic------------]\0	a,Level:15 \nHP:390 \nMP:149 \0	a,	a,none\0	a,	a,none\0	
-70016	0	1	0	0	0	-1	-1	a,[Info: x1----------l2classic------------]\0	a,Level:\nHP:\nMP:\0	a,	a,none\0	a,	a,none\0	
-70017	0	1	0	0	0	-1	-1	a,[Info: x1----------l2classic------------]\0	a,Level:\nHP:\nMP:\0	a,	a,none\0	a,	a,none\0	
-70018	0	1	0	0	0	-1	-1	a,[Info: x1----------l2classic------------]\0	a,Level:44 \nHP:1,899 \nMP:584 \0	a,	a,none\0	a,	a,none\0	
-70019	0	1	0	0	0	-1	-1	a,[Info: x1----------l2classic------------]\0	a,Level:\nHP:\nMP:\0	a,	a,none\0	a,	a,none\0	
-70020	0	1	0	0	0	-1	-1	a,[Info: x1----------l2classic------------]\0	a,Level:7 \nHP:182 \nMP:84 \0	a,	a,none\0	a,	a,none\0	
-70021	0	1	0	0	0	-1	-1	a,[Info: x1----------l2classic------------]\0	a,Level:\nHP:\nMP:\0	a,	a,none\0	a,	a,none\0	
-70022	0	1	0	0	0	-1	-1	a,[Info: x1----------l2classic------------]\0	a,Level:5 \nHP:134 \nMP:69 \0	a,	a,none\0	a,	a,none\0	
-70023	0	1	0	0	0	-1	-1	a,[Info: x1----------l2classic------------]\0	a,Level:45 \nHP:1,973 \nMP:610 \0	a,	a,none\0	a,	a,none\0	
-70024	0	1	0	0	0	-1	-1	a,[Info: x1----------l2classic------------]\0	a,Level:9 \nHP:240 \nMP:100 \0	a,	a,none\0	a,	a,none\0	
-70025	0	1	0	0	0	-1	-1	a,[Info: x1----------l2classic------------]\0	a,Level:17 12 \nHP:472 333 \nMP:166 124 \0	a,	a,none\0	a,	a,none\0	
-70026	0	1	0	0	0	-1	-1	a,[Info: x1----------l2classic------------]\0	a,Level:19 \nHP:537 \nMP:183 \0	a,	a,none\0	a,	a,none\0	
-70027	0	1	0	0	0	-1	-1	a,[Info: x1----------l2classic------------]\0	a,Level:15 \nHP:412 \nMP:149 \0	a,	a,none\0	a,	a,none\0	
-70028	0	1	0	0	0	-1	-1	a,[Info: x1----------l2classic------------]\0	a,Level:\nHP:\nMP:\0	a,	a,none\0	a,	a,none\0	
-70029	0	1	0	0	0	-1	-1	a,[Info: x1----------l2classic------------]\0	a,Level:\nHP:\nMP:\0	a,	a,none\0	a,	a,none\0	
-70030	0	1	0	0	0	-1	-1	a,[Info: x1----------l2classic------------]\0	a,Level:46 \nHP:2,051 \nMP:637 \0	a,	a,none\0	a,	a,none\0	
-70031	0	1	0	0	0	-1	-1	a,[Info: x1----------l2classic------------]\0	a,Level:8 \nHP:209 \nMP:92 \0	a,	a,none\0	a,	a,none\0	
-70032	0	1	0	0	0	-1	-1	a,[Info: x1----------l2classic------------]\0	a,Level:20 \nHP:572 \nMP:192 \0	a,	a,none\0	a,	a,none\0	
-70033	0	1	0	0	0	-1	-1	a,[Info: x1----------l2classic------------]\0	a,Level:22 \nHP:646 \nMP:218 \0	a,	a,none\0	a,	a,none\0	
-70034	0	1	0	0	0	-1	-1	a,[Info: x1----------l2classic------------]\0	a,Level:\nHP:\nMP:\0	a,	a,none\0	a,	a,none\0	
-70035	0	1	0	0	0	-1	-1	a,[Info: x1----------l2classic------------]\0	a,Level:6 \nHP:156 \nMP:77 \0	a,	a,none\0	a,	a,none\0	
-70036	0	1	0	0	0	-1	-1	a,[Info: x1----------l2classic------------]\0	a,Level:15 \nHP:412 \nMP:149 \0	a,	a,none\0	a,	a,none\0	
-70037	0	1	0	0	0	-1	-1	a,[Info: x1----------l2classic------------]\0	a,Level:21 \nHP:1,216 \nMP:205 \0	a,	a,none\0	a,	a,none\0	
-70038	0	1	0	0	0	-1	-1	a,[Info: x1----------l2classic------------]\0	a,Level:16 \nHP:441 \nMP:157 \0	a,	a,none\0	a,	a,none\0	
-70039	0	1	0	0	0	-1	-1	a,[Info: x1----------l2classic------------]\0	a,Level:\nHP:\nMP:\0	a,	a,none\0	a,	a,none\0	
-70040	0	1	0	0	0	-1	-1	a,[Info: x1----------l2classic------------]\0	a,Level:26 \nHP:814 \nMP:273 \0	a,	a,none\0	a,	a,none\0	
-70041	0	1	0	0	0	-1	-1	a,[Info: x1----------l2classic------------]\0	a,Level:7 \nHP:182 \nMP:84 \0	a,	a,none\0	a,	a,none\0	
-70042	0	1	0	0	0	-1	-1	a,[Info: x1----------l2classic------------]\0	a,Level:47 \nHP:2,128 \nMP:665 \0	a,	a,none\0	a,	a,none\0	
-70043	0	1	0	0	0	-1	-1	a,[Info: x1----------l2classic------------]\0	a,Level:25 \nHP:769 \nMP:259 \0	a,	a,none\0	a,	a,none\0	
-70044	0	1	0	0	0	-1	-1	a,[Info: x1----------l2classic------------]\0	a,Level:\nHP:\nMP:\0	a,	a,none\0	a,	a,none\0	
-70045	0	1	0	0	0	-1	-1	a,[Info: x1----------l2classic------------]\0	a,Level:22 \nHP:646 \nMP:218 \0	a,	a,none\0	a,	a,none\0	
-70046	0	1	0	0	0	-1	-1	a,[Info: x1----------l2classic------------]\0	a,Level:17 \nHP:236 \nMP:166 \0	a,	a,none\0	a,	a,none\0	
-70047	0	1	0	0	0	-1	-1	a,[Info: x1----------l2classic------------]\0	a,Level:21 \nHP:608 \nMP:205 \0	a,	a,none\0	a,	a,none\0	
-70048	0	1	0	0	0	-1	-1	a,[Info: x1----------l2classic------------]\0	a,Level:40 \nHP:1,611 \nMP:478 \0	a,	a,none\0	a,	a,none\0	
-70049	0	1	0	0	0	-1	-1	a,[Info: x1----------l2classic------------]\0	a,Level:8 \nHP:209 \nMP:92 \0	a,	a,none\0	a,	a,none\0	
-70050	0	1	0	0	0	-1	-1	a,[Info: x1----------l2classic------------]\0	a,Level:16 \nHP:441 \nMP:157 \0	a,	a,none\0	a,	a,none\0	
-70051	0	1	0	0	0	-1	-1	a,[Info: x1----------l2classic------------]\0	a,Level:9 \nHP:240 \nMP:100 \0	a,	a,none\0	a,	a,none\0	
-70052	0	1	0	0	0	-1	-1	a,[Info: x1----------l2classic------------]\0	a,Level:12 \nHP:333 \nMP:124 \0	a,	a,none\0	a,	a,none\0	
-70053	0	1	0	0	0	-1	-1	a,[Info: x1----------l2classic------------]\0	a,Level:14 \nHP:385 \nMP:140 \0	a,	a,none\0	a,	a,none\0	
-70054	0	1	0	0	0	-1	-1	a,[Info: x1----------l2classic------------]\0	a,Level:23 \nHP:686 \nMP:231 \0	a,	a,none\0	a,	a,none\0	
-70055	0	1	0	0	0	-1	-1	a,[Info: x1----------l2classic------------]\0	a,Level:24 \nHP:727 \nMP:245 \0	a,	a,none\0	a,	a,none\0	
-70056	0	1	0	0	0	-1	-1	a,[Info: x1----------l2classic------------]\0	a,Level:21 \nHP:608 \nMP:205 \0	a,	a,none\0	a,	a,none\0	
-70057	0	1	0	0	0	-1	-1	a,[Info: x1----------l2classic------------]\0	a,Level:41 \nHP:1,681 \nMP:504 \0	a,	a,none\0	a,	a,none\0	
-70058	0	1	0	0	0	-1	-1	a,[Info: x1----------l2classic------------]\0	a,Level:\nHP:\nMP:\0	a,	a,none\0	a,	a,none\0	
-70059	0	1	0	0	0	-1	-1	a,[Info: x1----------l2classic------------]\0	a,Level:28 \nHP:907 \nMP:300 \0	a,	a,none\0	a,	a,none\0	
-70060	0	1	0	0	0	-1	-1	a,[Info: x1----------l2classic------------]\0	a,Level:12 \nHP:333 \nMP:124 \0	a,	a,none\0	a,	a,none\0	
-70061	0	1	0	0	0	-1	-1	a,[Info: x1----------l2classic------------]\0	a,Level:14 \nHP:385 \nMP:140 \0	a,	a,none\0	a,	a,none\0	
-70062	0	1	0	0	0	-1	-1	a,[Info: x1----------l2classic------------]\0	a,Level:19 \nHP:537 \nMP:183 \0	a,	a,none\0	a,	a,none\0	
-70063	0	1	0	0	0	-1	-1	a,[Info: x1----------l2classic------------]\0	a,Level:\nHP:\nMP:\0	a,	a,none\0	a,	a,none\0	
-70064	0	1	0	0	0	-1	-1	a,[Info: x1----------l2classic------------]\0	a,Level:\nHP:\nMP:\0	a,	a,none\0	a,	a,none\0	
-70065	0	1	0	0	0	-1	-1	a,[Info: x1----------l2classic------------]\0	a,Level:16 \nHP:441 \nMP:157 \0	a,	a,none\0	a,	a,none\0	
-70066	0	1	0	0	0	-1	-1	a,[Info: x1----------l2classic------------]\0	a,Level:27 \nHP:859 \nMP:286 \0	a,	a,none\0	a,	a,none\0	
-70067	0	1	0	0	0	-1	-1	a,[Info: x1----------l2classic------------]\0	a,Level:14 \nHP:385 \nMP:140 \0	a,	a,none\0	a,	a,none\0	
-70068	0	1	0	0	0	-1	-1	a,[Info: x1----------l2classic------------]\0	a,Level:30 \nHP:1,008 \nMP:329 \0	a,	a,none\0	a,	a,none\0	
-70069	0	1	0	0	0	-1	-1	a,[Info: x1----------l2classic------------]\0	a,Level:4 \nHP:114 \nMP:62 \0	a,	a,none\0	a,	a,none\0	
-70070	0	1	0	0	0	-1	-1	a,[Info: x1----------l2classic------------]\0	a,Level:19 \nHP:537 \nMP:183 \0	a,	a,none\0	a,	a,none\0	
-70071	0	1	0	0	0	-1	-1	a,[Info: x1----------l2classic------------]\0	a,Level:\nHP:\nMP:\0	a,	a,none\0	a,	a,none\0	
-70072	0	1	0	0	0	-1	-1	a,[Info: x1----------l2classic------------]\0	a,Level:\nHP:\nMP:\0	a,	a,none\0	a,	a,none\0	
-70073	0	1	0	0	0	-1	-1	a,[Info: x1----------l2classic------------]\0	a,Level:54 \nHP:2,703 \nMP:861 \0	a,	a,none\0	a,	a,none\0	
-70074	0	1	0	0	0	-1	-1	a,[Info: x1----------l2classic------------]\0	a,Level:15 \nHP:412 \nMP:149 \0	a,	a,none\0	a,	a,none\0	
-70075	0	1	0	0	0	-1	-1	a,[Info: x1----------l2classic------------]\0	a,Level:45 \nHP:1,973 \nMP:610 \0	a,	a,none\0	a,	a,none\0	
-70076	0	1	0	0	0	-1	-1	a,[Info: x1----------l2classic------------]\0	a,Level:32 \nHP:1,115 \nMP:358 \0	a,	a,none\0	a,	a,none\0	
-70077	0	1	0	0	0	-1	-1	a,[Info: x1----------l2classic------------]\0	a,Level:44 \nHP:1,899 \nMP:584 \0	a,	a,none\0	a,	a,none\0	
-70078	0	1	0	0	0	-1	-1	a,[Info: x1----------l2classic------------]\0	a,Level:22 \nHP:646 \nMP:218 \0	a,	a,none\0	a,	a,none\0	
-70079	0	1	0	0	0	-1	-1	a,[Info: x1----------l2classic------------]\0	a,Level:10 \nHP:273 \nMP:108 \0	a,	a,none\0	a,	a,none\0	
-70080	0	1	0	0	0	-1	-1	a,[Info: x1----------l2classic------------]\0	a,Level:\nHP:\nMP:\0	a,	a,none\0	a,	a,none\0	
-70081	0	1	0	0	0	-1	-1	a,[Info: x1----------l2classic------------]\0	a,Level:25 \nHP:769 \nMP:259 \0	a,	a,none\0	a,	a,none\0	
-70082	0	1	0	0	0	-1	-1	a,[Info: x1----------l2classic------------]\0	a,Level:34 \nHP:1,229 \nMP:387 \0	a,	a,none\0	a,	a,none\0	
-70083	0	1	0	0	0	-1	-1	a,[Info: x1----------l2classic------------]\0	a,Level:16 \nHP:441 \nMP:157 \0	a,	a,none\0	a,	a,none\0	
-70084	0	1	0	0	0	-1	-1	a,[Info: x1----------l2classic------------]\0	a,Level:31 \nHP:1,060 \nMP:343 \0	a,	a,none\0	a,	a,none\0	
-70085	0	1	0	0	0	-1	-1	a,[Info: x1----------l2classic------------]\0	a,Level:\nHP:\nMP:\0	a,	a,none\0	a,	a,none\0	
-70086	0	1	0	0	0	-1	-1	a,[Info: x1----------l2classic------------]\0	a,Level:52 \nHP:2,534 \nMP:804 \0	a,	a,none\0	a,	a,none\0	
-70087	0	1	0	0	0	-1	-1	a,[Info: x1----------l2classic------------]\0	a,Level:43 \nHP:1,825 \nMP:557 \0	a,	a,none\0	a,	a,none\0	
-70088	0	1	0	0	0	-1	-1	a,[Info: x1----------l2classic------------]\0	a,Level:46 \nHP:2,051 \nMP:637 \0	a,	a,none\0	a,	a,none\0	
-70089	0	1	0	0	0	-1	-1	a,[Info: x1----------l2classic------------]\0	a,Level:65 \nHP:3,656 \nMP:1,188 \0	a,	a,none\0	a,	a,none\0	
-70090	0	1	0	0	0	-1	-1	a,[Info: x1----------l2classic------------]\0	a,Level:63 \nHP:3,483 \nMP:1,127 \0	a,	a,none\0	a,	a,none\0	
-70091	0	1	0	0	0	-1	-1	a,[Info: x1----------l2classic------------]\0	a,Level:17 \nHP:472 \nMP:166 \0	a,	a,none\0	a,	a,none\0	
-70092	0	1	0	0	0	-1	-1	a,[Info: x1----------l2classic------------]\0	a,Level:42 \nHP:1,752 \nMP:531 \0	a,	a,none\0	a,	a,none\0	
-70093	0	1	0	0	0	-1	-1	a,[Info: x1----------l2classic------------]\0	a,Level:16 \nHP:441 \nMP:157 \0	a,	a,none\0	a,	a,none\0	
-70094	0	1	0	0	0	-1	-1	a,[Info: x1----------l2classic------------]\0	a,Level:33 \nHP:1,171 \nMP:372 \0	a,	a,none\0	a,	a,none\0	
-70095	0	1	0	0	0	-1	-1	a,[Info: x1----------l2classic------------]\0	a,Level:24 \nHP:727 \nMP:245 \0	a,	a,none\0	a,	a,none\0	
-70096	0	1	0	0	0	-1	-1	a,[Info: x1----------l2classic------------]\0	a,Level:15 \nHP:412 \nMP:149 \0	a,	a,none\0	a,	a,none\0	
-70097	0	1	0	0	0	-1	-1	a,[Info: x1----------l2classic------------]\0	a,Level:62 \nHP:3,397 \nMP:1,097 \0	a,	a,none\0	a,	a,none\0	
-70098	0	1	0	0	0	-1	-1	a,[Info: x1----------l2classic------------]\0	a,Level:15 \nHP:412 \nMP:149 \0	a,	a,none\0	a,	a,none\0	
-70099	0	1	0	0	0	-1	-1	a,[Info: x1----------l2classic------------]\0	a,Level:\nHP:\nMP:\0	a,	a,none\0	a,	a,none\0	
-70100	0	1	0	0	0	-1	-1	a,[Info: x1----------l2classic------------]\0	a,Level:19 \nHP:537 \nMP:183 \0	a,	a,none\0	a,	a,none\0	
-70101	0	1	0	0	0	-1	-1	a,[Info: x1----------l2classic------------]\0	a,Level:13 \nHP:359 \nMP:132 \0	a,	a,none\0	a,	a,none\0	
-70102	0	1	0	0	0	-1	-1	a,[Info: x1----------l2classic------------]\0	a,Level:55 \nHP:2,788 \nMP:889 \0	a,	a,none\0	a,	a,none\0	
-70103	0	1	0	0	0	-1	-1	a,[Info: x1----------l2classic------------]\0	a,Level:30 \nHP:1,008 \nMP:329 \0	a,	a,none\0	a,	a,none\0	
-70104	0	1	0	0	0	-1	-1	a,[Info: x1----------l2classic------------]\0	a,Level:\nHP:\nMP:\0	a,	a,none\0	a,	a,none\0	
-70105	0	1	0	0	0	-1	-1	a,[Info: x1----------l2classic------------]\0	a,Level:\nHP:\nMP:\0	a,	a,none\0	a,	a,none\0	
-70106	0	1	0	0	0	-1	-1	a,[Info: x1----------l2classic------------]\0	a,Level:15 \nHP:412 \nMP:149 \0	a,	a,none\0	a,	a,none\0	
-70107	0	1	0	0	0	-1	-1	a,[Info: x1----------l2classic------------]\0	a,Level:15 \nHP:412 \nMP:149 \0	a,	a,none\0	a,	a,none\0	
-70108	0	1	0	0	0	-1	-1	a,[Info: x1----------l2classic------------]\0	a,Level:47 \nHP:2,128 \nMP:665 \0	a,	a,none\0	a,	a,none\0	
-70109	0	1	0	0	0	-1	-1	a,[Info: x1----------l2classic------------]\0	a,Level:62 \nHP:3,397 \nMP:1,097 \0	a,	a,none\0	a,	a,none\0	
-70110	0	1	0	0	0	-1	-1	a,[Info: x1----------l2classic------------]\0	a,Level:61 \nHP:3,310 \nMP:1,066 \0	a,	a,none\0	a,	a,none\0	
-70111	0	1	0	0	0	-1	-1	a,[Info: x1----------l2classic------------]\0	a,Level:45 45 \nHP:1,973 1,973 \nMP:610 610 \0	a,	a,none\0	a,	a,none\0	
-70112	0	1	0	0	0	-1	-1	a,[Info: x1----------l2classic------------]\0	a,Level:13 \nHP:359 \nMP:132 \0	a,	a,none\0	a,	a,none\0	
-70113	0	1	0	0	0	-1	-1	a,[Info: x1----------l2classic------------]\0	a,Level:\nHP:\nMP:\0	a,	a,none\0	a,	a,none\0	
-70114	0	1	0	0	0	-1	-1	a,[Info: x1----------l2classic------------]\0	a,Level:\nHP:\nMP:\0	a,	a,none\0	a,	a,none\0	
-70115	0	1	0	0	0	-1	-1	a,[Info: x1----------l2classic------------]\0	a,Level:63 \nHP:3,483 \nMP:1,127 \0	a,	a,none\0	a,	a,none\0	
-70116	0	1	0	0	0	-1	-1	a,[Info: x1----------l2classic------------]\0	a,Level:46 46 \nHP:4,101 4,101 \nMP:637 637 \0	a,	a,none\0	a,	a,none\0	
-70117	0	1	0	0	0	-1	-1	a,[Info: x1----------l2classic------------]\0	a,Level:\nHP:\nMP:\0	a,	a,none\0	a,	a,none\0	
-70118	0	1	0	0	0	-1	-1	a,[Info: x1----------l2classic------------]\0	a,Level:17 \nHP:472 \nMP:166 \0	a,	a,none\0	a,	a,none\0	
-70119	0	1	0	0	0	-1	-1	a,[Info: x1----------l2classic------------]\0	a,Level:48 \nHP:2,207 \nMP:692 \0	a,	a,none\0	a,	a,none\0	
-70120	0	1	0	0	0	-1	-1	a,[Info: x1----------l2classic------------]\0	a,Level:31 \nHP:1,060 \nMP:343 \0	a,	a,none\0	a,	a,none\0	
-70121	0	1	0	0	0	-1	-1	a,[Info: x1----------l2classic------------]\0	a,Level:32 \nHP:1,115 \nMP:358 \0	a,	a,none\0	a,	a,none\0	
-70122	0	1	0	0	0	-1	-1	a,[Info: x1----------l2classic------------]\0	a,Level:50 \nHP:2,368 \nMP:747 \0	a,	a,none\0	a,	a,none\0	
-70123	0	1	0	0	0	-1	-1	a,[Info: x1----------l2classic------------]\0	a,Level:13 \nHP:359 \nMP:132 \0	a,	a,none\0	a,	a,none\0	
-70124	0	1	0	0	0	-1	-1	a,[Info: x1----------l2classic------------]\0	a,Level:17 \nHP:472 \nMP:166 \0	a,	a,none\0	a,	a,none\0	
-70125	0	1	0	0	0	-1	-1	a,[Info: x1----------l2classic------------]\0	a,Level:64 \nHP:3,570 \nMP:1,158 \0	a,	a,none\0	a,	a,none\0	
-70126	0	1	0	0	0	-1	-1	a,[Info: x1----------l2classic------------]\0	a,Level:34 \nHP:1,229 \nMP:387 \0	a,	a,none\0	a,	a,none\0	
-70127	0	1	0	0	0	-1	-1	a,[Info: x1----------l2classic------------]\0	a,Level:\nHP:\nMP:\0	a,	a,none\0	a,	a,none\0	
-70128	0	1	0	0	0	-1	-1	a,[Info: x1----------l2classic------------]\0	a,Level:\nHP:\nMP:\0	a,	a,none\0	a,	a,none\0	
-70129	0	1	0	0	0	-1	-1	a,[Info: x1----------l2classic------------]\0	a,Level:\nHP:\nMP:\0	a,	a,none\0	a,	a,none\0	
-70130	0	1	0	0	0	-1	-1	a,[Info: x1----------l2classic------------]\0	a,Level:49 \nHP:2,288 \nMP:720 \0	a,	a,none\0	a,	a,none\0	
-70131	0	1	0	0	0	-1	-1	a,[Info: x1----------l2classic------------]\0	a,Level:13 \nHP:359 \nMP:132 \0	a,	a,none\0	a,	a,none\0	
-70132	0	1	0	0	0	-1	-1	a,[Info: x1----------l2classic------------]\0	a,Level:33 \nHP:1,171 \nMP:372 \0	a,	a,none\0	a,	a,none\0	
-70133	0	1	0	0	0	-1	-1	a,[Info: x1----------l2classic------------]\0	a,Level:12 \nHP:333 \nMP:124 \0	a,	a,none\0	a,	a,none\0	
-70134	0	1	0	0	0	-1	-1	a,[Info: x1----------l2classic------------]\0	a,Level:20 \nHP:572 \nMP:192 \0	a,	a,none\0	a,	a,none\0	
-70135	0	1	0	0	0	-1	-1	a,[Info: x1----------l2classic------------]\0	a,Level:65 \nHP:3,656 \nMP:1,188 \0	a,	a,none\0	a,	a,none\0	
-70136	0	1	0	0	0	-1	-1	a,[Info: x1----------l2classic------------]\0	a,Level:17 \nHP:472 \nMP:166 \0	a,	a,none\0	a,	a,none\0	
-70137	0	1	0	0	0	-1	-1	a,[Info: x1----------l2classic------------]\0	a,Level:16 \nHP:441 \nMP:157 \0	a,	a,none\0	a,	a,none\0	
-70138	0	1	0	0	0	-1	-1	a,[Info: x1----------l2classic------------]\0	a,Level:47 47 \nHP:4,256 4,256 \nMP:665 665 \0	a,	a,none\0	a,	a,none\0	
-70139	0	1	0	0	0	-1	-1	a,[Info: x1----------l2classic------------]\0	a,Level:\nHP:\nMP:\0	a,	a,none\0	a,	a,none\0	
-70140	0	1	0	0	0	-1	-1	a,[Info: x1----------l2classic------------]\0	a,Level:19 \nHP:1,074 \nMP:183 \0	a,	a,none\0	a,	a,none\0	
-70141	0	1	0	0	0	-1	-1	a,[Info: x1----------l2classic------------]\0	a,Level:35 \nHP:1,289 \nMP:402 \0	a,	a,none\0	a,	a,none\0	
-70142	0	1	0	0	0	-1	-1	a,[Info: x1----------l2classic------------]\0	a,Level:13 \nHP:359 \nMP:132 \0	a,	a,none\0	a,	a,none\0	
-70143	0	1	0	0	0	-1	-1	a,[Info: x1----------l2classic------------]\0	a,Level:13 \nHP:359 \nMP:132 \0	a,	a,none\0	a,	a,none\0	
-70144	0	1	0	0	0	-1	-1	a,[Info: x1----------l2classic------------]\0	a,Level:19 \nHP:1,074 \nMP:183 \0	a,	a,none\0	a,	a,none\0	
-70145	0	1	0	0	0	-1	-1	a,[Info: x1----------l2classic------------]\0	a,Level:6 \nHP:156 \nMP:77 \0	a,	a,none\0	a,	a,none\0	
-70146	0	1	0	0	0	-1	-1	a,[Info: x1----------l2classic------------]\0	a,Level:50 \nHP:2,368 \nMP:747 \0	a,	a,none\0	a,	a,none\0	
-70147	0	1	0	0	0	-1	-1	a,[Info: x1----------l2classic------------]\0	a,Level:\nHP:\nMP:\0	a,	a,none\0	a,	a,none\0	
-70148	0	1	0	0	0	-1	-1	a,[Info: x1----------l2classic------------]\0	a,Level:67 \nHP:7,653 \nMP:1,251 \0	a,	a,none\0	a,	a,none\0	
-70149	0	1	0	0	0	-1	-1	a,[Info: x1----------l2classic------------]\0	a,Level:48 48 \nHP:6,621 6,621 \nMP:692 692 \0	a,	a,none\0	a,	a,none\0	
-70150	0	1	0	0	0	-1	-1	a,[Info: x1----------l2classic------------]\0	a,Level:20 \nHP:572 \nMP:192 \0	a,	a,none\0	a,	a,none\0	
-70151	0	1	0	0	0	-1	-1	a,[Info: x1----------l2classic------------]\0	a,Level:51 \nHP:2,452 \nMP:775 \0	a,	a,none\0	a,	a,none\0	
-70152	0	1	0	0	0	-1	-1	a,[Info: x1----------l2classic------------]\0	a,Level:\nHP:\nMP:\0	a,	a,none\0	a,	a,none\0	
-70153	0	1	0	0	0	-1	-1	a,[Info: x1----------l2classic------------]\0	a,Level:35 \nHP:2,578 \nMP:402 \0	a,	a,none\0	a,	a,none\0	
-70154	0	1	0	0	0	-1	-1	a,[Info: x1----------l2classic------------]\0	a,Level:14 \nHP:385 \nMP:140 \0	a,	a,none\0	a,	a,none\0	
-70155	0	1	0	0	0	-1	-1	a,[Info: x1----------l2classic------------]\0	a,Level:66 \nHP:7,482 \nMP:1,219 \0	a,	a,none\0	a,	a,none\0	
-70156	0	1	0	0	0	-1	-1	a,[Info: x1----------l2classic------------]\0	a,Level:69 \nHP:7,984 \nMP:1,314 \0	a,	a,none\0	a,	a,none\0	
-70157	0	1	0	0	0	-1	-1	a,[Info: x1----------l2classic------------]\0	a,Level:35 \nHP:1,289 \nMP:402 \0	a,	a,none\0	a,	a,none\0	
-70158	0	1	0	0	0	-1	-1	a,[Info: x1----------l2classic------------]\0	a,Level:\nHP:\nMP:\0	a,	a,none\0	a,	a,none\0	
-70159	0	1	0	0	0	-1	-1	a,[Info: x1----------l2classic------------]\0	a,Level:17 \nHP:472 \nMP:166 \0	a,	a,none\0	a,	a,none\0	
-70160	0	1	0	0	0	-1	-1	a,[Info: x1----------l2classic------------]\0	a,Level:60 \nHP:3,223 \nMP:1,036 \0	a,	a,none\0	a,	a,none\0	
-70161	0	1	0	0	0	-1	-1	a,[Info: x1----------l2classic------------]\0	a,Level:\nHP:\nMP:\0	a,	a,none\0	a,	a,none\0	
-70162	0	1	0	0	0	-1	-1	a,[Info: x1----------l2classic------------]\0	a,Level:\nHP:\nMP:\0	a,	a,none\0	a,	a,none\0	
-70163	0	1	0	0	0	-1	-1	a,[Info: x1----------l2classic------------]\0	a,Level:\nHP:\nMP:\0	a,	a,none\0	a,	a,none\0	
-70164	0	1	0	0	0	-1	-1	a,[Info: x1----------l2classic------------]\0	a,Level:\nHP:\nMP:\0	a,	a,none\0	a,	a,none\0	
-70165	0	1	0	0	0	-1	-1	a,[Info: x1----------l2classic------------]\0	a,Level:\nHP:\nMP:\0	a,	a,none\0	a,	a,none\0	
-70166	0	1	0	0	0	-1	-1	a,[Info: x1----------l2classic------------]\0	a,Level:14 \nHP:385 \nMP:140 \0	a,	a,none\0	a,	a,none\0	
-70167	0	1	0	0	0	-1	-1	a,[Info: x1----------l2classic------------]\0	a,Level:53 \nHP:2,619 \nMP:832 \0	a,	a,none\0	a,	a,none\0	
-70168	0	1	0	0	0	-1	-1	a,[Info: x1----------l2classic------------]\0	a,Level:54 54 \nHP:10,812 10,812 \nMP:861 861 \0	a,	a,none\0	a,	a,none\0	
-70169	0	1	0	0	0	-1	-1	a,[Info: x1----------l2classic------------]\0	a,Level:53 53 \nHP:10,477 10,477 \nMP:832 832 \0	a,	a,none\0	a,	a,none\0	
-70170	0	1	0	0	0	-1	-1	a,[Info: x1----------l2classic------------]\0	a,Level:\nHP:\nMP:\0	a,	a,none\0	a,	a,none\0	
-70171	0	1	0	0	0	-1	-1	a,[Info: x1----------l2classic------------]\0	a,Level:61 \nHP:3,310 \nMP:1,066 \0	a,	a,none\0	a,	a,none\0	
-70172	0	1	0	0	0	-1	-1	a,[Info: x1----------l2classic------------]\0	a,Level:62 \nHP:3,397 \nMP:1,097 \0	a,	a,none\0	a,	a,none\0	
-70173	0	1	0	0	0	-1	-1	a,[Info: x1----------l2classic------------]\0	a,Level:14 \nHP:385 \nMP:140 \0	a,	a,none\0	a,	a,none\0	
-70174	0	1	0	0	0	-1	-1	a,[Info: x1----------l2classic------------]\0	a,Level:8 \nHP:209 \nMP:92 \0	a,	a,none\0	a,	a,none\0	
-70175	0	1	0	0	0	-1	-1	a,[Info: x1----------l2classic------------]\0	a,Level:68 \nHP:7,820 \nMP:1,282 \0	a,	a,none\0	a,	a,none\0	
-70176	0	1	0	0	0	-1	-1	a,[Info: x1----------l2classic------------]\0	a,Level:65 \nHP:7,311 \nMP:1,188 \0	a,	a,none\0	a,	a,none\0	
-70177	0	1	0	0	0	-1	-1	a,[Info: x1----------l2classic------------]\0	a,Level:55 \nHP:5,577 \nMP:889 \0	a,	a,none\0	a,	a,none\0	
-70178	0	1	0	0	0	-1	-1	a,[Info: x1----------l2classic------------]\0	a,Level:22 \nHP:646 \nMP:218 \0	a,	a,none\0	a,	a,none\0	
-70179	0	1	0	0	0	-1	-1	a,[Info: x1----------l2classic------------]\0	a,Level:51 51 \nHP:9,807 9,807 \nMP:775 775 \0	a,	a,none\0	a,	a,none\0	
-70180	0	1	0	0	0	-1	-1	a,[Info: x1----------l2classic------------]\0	a,Level:54 \nHP:2,703 \nMP:861 \0	a,	a,none\0	a,	a,none\0	
-70181	0	1	0	0	0	-1	-1	a,[Info: x1----------l2classic------------]\0	a,Level:21 \nHP:608 \nMP:205 \0	a,	a,none\0	a,	a,none\0	
-70182	0	1	0	0	0	-1	-1	a,[Info: x1----------l2classic------------]\0	a,Level:7 \nHP:182 \nMP:84 \0	a,	a,none\0	a,	a,none\0	
-70183	0	1	0	0	0	-1	-1	a,[Info: x1----------l2classic------------]\0	a,Level:15 \nHP:412 \nMP:149 \0	a,	a,none\0	a,	a,none\0	
-70184	0	1	0	0	0	-1	-1	a,[Info: x1----------l2classic------------]\0	a,Level:14 \nHP:385 \nMP:140 \0	a,	a,none\0	a,	a,none\0	
-70185	0	1	0	0	0	-1	-1	a,[Info: x1----------l2classic------------]\0	a,Level:55 55 \nHP:11,153 11,153 \nMP:889 889 \0	a,	a,none\0	a,	a,none\0	
-70186	0	1	0	0	0	-1	-1	a,[Info: x1----------l2classic------------]\0	a,Level:\nHP:\nMP:\0	a,	a,none\0	a,	a,none\0	
-70187	0	1	0	0	0	-1	-1	a,[Info: x1----------l2classic------------]\0	a,Level:21 \nHP:608 \nMP:205 \0	a,	a,none\0	a,	a,none\0	
-70188	0	1	0	0	0	-1	-1	a,[Info: x1----------l2classic------------]\0	a,Level:4 \nHP:114 \nMP:62 \0	a,	a,none\0	a,	a,none\0	
-70189	0	1	0	0	0	-1	-1	a,[Info: x1----------l2classic------------]\0	a,Level:70 \nHP:8,149 \nMP:1,345 \0	a,	a,none\0	a,	a,none\0	
-70190	0	1	0	0	0	-1	-1	a,[Info: x1----------l2classic------------]\0	a,Level:5 \nHP:134 \nMP:69 \0	a,	a,none\0	a,	a,none\0	
-70191	0	1	0	0	0	-1	-1	a,[Info: x1----------l2classic------------]\0	a,Level:\nHP:\nMP:\0	a,	a,none\0	a,	a,none\0	
-70192	0	1	0	0	0	-1	-1	a,[Info: x1----------l2classic------------]\0	a,Level:37 \nHP:1,412 \nMP:432 \0	a,	a,none\0	a,	a,none\0	
-70193	0	1	0	0	0	-1	-1	a,[Info: x1----------l2classic------------]\0	a,Level:58 58 \nHP:15,237 15,237 \nMP:977 977 \0	a,	a,none\0	a,	a,none\0	
-70194	0	1	0	0	0	-1	-1	a,[Info: x1----------l2classic------------]\0	a,Level:16 \nHP:441 \nMP:157 \0	a,	a,none\0	a,	a,none\0	
-70195	0	1	0	0	0	-1	-1	a,[Info: x1----------l2classic------------]\0	a,Level:4 \nHP:114 \nMP:62 \0	a,	a,none\0	a,	a,none\0	
-70196	0	1	0	0	0	-1	-1	a,[Info: x1----------l2classic------------]\0	a,Level:45 \nHP:3,946 \nMP:610 \0	a,	a,none\0	a,	a,none\0	
-70197	0	1	0	0	0	-1	-1	a,[Info: x1----------l2classic------------]\0	a,Level:9 \nHP:240 \nMP:100 \0	a,	a,none\0	a,	a,none\0	
-70198	0	1	0	0	0	-1	-1	a,[Info: x1----------l2classic------------]\0	a,Level:65 \nHP:3,656 \nMP:1,188 \0	a,	a,none\0	a,	a,none\0	
-70199	0	1	0	0	0	-1	-1	a,[Info: x1----------l2classic------------]\0	a,Level:38 \nHP:2,954 \nMP:447 \0	a,	a,none\0	a,	a,none\0	
-70200	0	1	0	0	0	-1	-1	a,[Info: x1----------l2classic------------]\0	a,Level:\nHP:\nMP:\0	a,	a,none\0	a,	a,none\0	
-70201	0	1	0	0	0	-1	-1	a,[Info: x1----------l2classic------------]\0	a,Level:\nHP:\nMP:\0	a,	a,none\0	a,	a,none\0	
-70202	0	1	0	0	0	-1	-1	a,[Info: x1----------l2classic------------]\0	a,Level:44 \nHP:3,798 \nMP:584 \0	a,	a,none\0	a,	a,none\0	
-70203	0	1	0	0	0	-1	-1	a,[Info: x1----------l2classic------------]\0	a,Level:70 \nHP:8,149 \nMP:1,345 \0	a,	a,none\0	a,	a,none\0	
-70204	0	1	0	0	0	-1	-1	a,[Info: x1----------l2classic------------]\0	a,Level:40 \nHP:1,611 \nMP:478 \0	a,	a,none\0	a,	a,none\0	
-70205	0	1	0	0	0	-1	-1	a,[Info: x1----------l2classic------------]\0	a,Level:\nHP:\nMP:\0	a,	a,none\0	a,	a,none\0	
-70206	0	1	0	0	0	-1	-1	a,[Info: x1----------l2classic------------]\0	a,Level:15 \nHP:412 \nMP:149 \0	a,	a,none\0	a,	a,none\0	
-70207	0	1	0	0	0	-1	-1	a,[Info: x1----------l2classic------------]\0	a,Level:59 59 \nHP:18,815 18,815 \nMP:1,007 1,007 \0	a,	a,none\0	a,	a,none\0	
-70208	0	1	0	0	0	-1	-1	a,[Info: x1----------l2classic------------]\0	a,Level:10 \nHP:273 \nMP:108 \0	a,	a,none\0	a,	a,none\0	
-70209	0	1	0	0	0	-1	-1	a,[Info: x1----------l2classic------------]\0	a,Level:\nHP:\nMP:\0	a,	a,none\0	a,	a,none\0	
-70210	0	1	0	0	0	-1	-1	a,[Info: x1----------l2classic------------]\0	a,Level:47 \nHP:6,384 \nMP:665 \0	a,	a,none\0	a,	a,none\0	
-70211	0	1	0	0	0	-1	-1	a,[Info: x1----------l2classic------------]\0	a,Level:\nHP:\nMP:\0	a,	a,none\0	a,	a,none\0	
-70212	0	1	0	0	0	-1	-1	a,[Info: x1----------l2classic------------]\0	a,Level:22 \nHP:646 \nMP:218 \0	a,	a,none\0	a,	a,none\0	
-70213	0	1	0	0	0	-1	-1	a,[Info: x1----------l2classic------------]\0	a,Level:70 \nHP:8,149 \nMP:1,345 \0	a,	a,none\0	a,	a,none\0	
-70214	0	1	0	0	0	-1	-1	a,[Info: x1----------l2classic------------]\0	a,Level:\nHP:\nMP:\0	a,	a,none\0	a,	a,none\0	
-70215	0	1	0	0	0	-1	-1	a,[Info: x1----------l2classic------------]\0	a,Level:7 \nHP:182 \nMP:84 \0	a,	a,none\0	a,	a,none\0	
-70216	0	1	0	0	0	-1	-1	a,[Info: x1----------l2classic------------]\0	a,Level:39 \nHP:1,463 \nMP:463 \0	a,	a,none\0	a,	a,none\0	
-70217	0	1	0	0	0	-1	-1	a,[Info: x1----------l2classic------------]\0	a,Level:19 \nHP:537 \nMP:183 \0	a,	a,none\0	a,	a,none\0	
-70218	0	1	0	0	0	-1	-1	a,[Info: x1----------l2classic------------]\0	a,Level:\nHP:\nMP:\0	a,	a,none\0	a,	a,none\0	
-70219	0	1	0	0	0	-1	-1	a,[Info: x1----------l2classic------------]\0	a,Level:15 \nHP:412 \nMP:149 \0	a,	a,none\0	a,	a,none\0	
-70220	0	1	0	0	0	-1	-1	a,[Info: x1----------l2classic------------]\0	a,Level:70 \nHP:8,149 \nMP:1,345 \0	a,	a,none\0	a,	a,none\0	
-70221	0	1	0	0	0	-1	-1	a,[Info: x1----------l2classic------------]\0	a,Level:52 52 \nHP:10,136 10,136 \nMP:804 804 \0	a,	a,none\0	a,	a,none\0	
-70222	0	1	0	0	0	-1	-1	a,[Info: x1----------l2classic------------]\0	a,Level:18 \nHP:504 \nMP:174 \0	a,	a,none\0	a,	a,none\0	
-70223	0	1	0	0	0	-1	-1	a,[Info: x1----------l2classic------------]\0	a,Level:63 \nHP:3,483 \nMP:1,127 \0	a,	a,none\0	a,	a,none\0	
-70224	0	1	0	0	0	-1	-1	a,[Info: x1----------l2classic------------]\0	a,Level:44 \nHP:3,798 \nMP:584 \0	a,	a,none\0	a,	a,none\0	
-70225	0	1	0	0	0	-1	-1	a,[Info: x1----------l2classic------------]\0	a,Level:19 \nHP:537 \nMP:183 \0	a,	a,none\0	a,	a,none\0	
-70226	0	1	0	0	0	-1	-1	a,[Info: x1----------l2classic------------]\0	a,Level:\nHP:\nMP:\0	a,	a,none\0	a,	a,none\0	
-70227	0	1	0	0	0	-1	-1	a,[Info: x1----------l2classic------------]\0	a,Level:39 \nHP:1,543 \nMP:463 \0	a,	a,none\0	a,	a,none\0	
-70228	0	1	0	0	0	-1	-1	a,[Info: x1----------l2classic------------]\0	a,Level:16 \nHP:441 \nMP:157 \0	a,	a,none\0	a,	a,none\0	
-70229	0	1	0	0	0	-1	-1	a,[Info: x1----------l2classic------------]\0	a,Level:27 \nHP:859 \nMP:286 \0	a,	a,none\0	a,	a,none\0	
-70230	0	1	0	0	0	-1	-1	a,[Info: x1----------l2classic------------]\0	a,Level:40 \nHP:3,223 \nMP:478 \0	a,	a,none\0	a,	a,none\0	
-70231	0	1	0	0	0	-1	-1	a,[Info: x1----------l2classic------------]\0	a,Level:9 \nHP:240 \nMP:100 \0	a,	a,none\0	a,	a,none\0	
-70232	0	1	0	0	0	-1	-1	a,[Info: x1----------l2classic------------]\0	a,Level:\nHP:\nMP:\0	a,	a,none\0	a,	a,none\0	
-70233	0	1	0	0	0	-1	-1	a,[Info: x1----------l2classic------------]\0	a,Level:40 \nHP:1,611 \nMP:478 \0	a,	a,none\0	a,	a,none\0	
-70234	0	1	0	0	0	-1	-1	a,[Info: x1----------l2classic------------]\0	a,Level:15 \nHP:412 \nMP:149 \0	a,	a,none\0	a,	a,none\0	
-70235	0	1	0	0	0	-1	-1	a,[Info: x1----------l2classic------------]\0	a,Level:\nHP:\nMP:\0	a,	a,none\0	a,	a,none\0	
-70236	0	1	0	0	0	-1	-1	a,[Info: x1----------l2classic------------]\0	a,Level:46 \nHP:6,152 \nMP:637 \0	a,	a,none\0	a,	a,none\0	
-70237	0	1	0	0	0	-1	-1	a,[Info: x1----------l2classic------------]\0	a,Level:\nHP:\nMP:\0	a,	a,none\0	a,	a,none\0	
-70238	0	1	0	0	0	-1	-1	a,[Info: x1----------l2classic------------]\0	a,Level:50 \nHP:7,104 \nMP:747 \0	a,	a,none\0	a,	a,none\0	
-70239	0	1	0	0	0	-1	-1	a,[Info: x1----------l2classic------------]\0	a,Level:17 \nHP:472 \nMP:166 \0	a,	a,none\0	a,	a,none\0	
-70240	0	1	0	0	0	-1	-1	a,[Info: x1----------l2classic------------]\0	a,Level:56 56 \nHP:14,376 14,376 \nMP:918 918 \0	a,	a,none\0	a,	a,none\0	
-70241	0	1	0	0	0	-1	-1	a,[Info: x1----------l2classic------------]\0	a,Level:16 \nHP:441 \nMP:157 \0	a,	a,none\0	a,	a,none\0	
-70242	0	1	0	0	0	-1	-1	a,[Info: x1----------l2classic------------]\0	a,Level:50 \nHP:7,104 \nMP:747 \0	a,	a,none\0	a,	a,none\0	
-70243	0	1	0	0	0	-1	-1	a,[Info: x1----------l2classic------------]\0	a,Level:\nHP:\nMP:\0	a,	a,none\0	a,	a,none\0	
-70244	0	1	0	0	0	-1	-1	a,[Info: x1----------l2classic------------]\0	a,Level:\nHP:\nMP:\0	a,	a,none\0	a,	a,none\0	
-70245	0	1	0	0	0	-1	-1	a,[Info: x1----------l2classic------------]\0	a,Level:45 \nHP:5,920 \nMP:610 \0	a,	a,none\0	a,	a,none\0	
-70246	0	1	0	0	0	-1	-1	a,[Info: x1----------l2classic------------]\0	a,Level:11 \nHP:310 \nMP:116 \0	a,	a,none\0	a,	a,none\0	
-70247	0	1	0	0	0	-1	-1	a,[Info: x1----------l2classic------------]\0	a,Level:28 \nHP:907 \nMP:300 \0	a,	a,none\0	a,	a,none\0	
-70248	0	1	0	0	0	-1	-1	a,[Info: x1----------l2classic------------]\0	a,Level:37 \nHP:1,412 \nMP:432 \0	a,	a,none\0	a,	a,none\0	
-70249	0	1	0	0	0	-1	-1	a,[Info: x1----------l2classic------------]\0	a,Level:57 57 \nHP:14,811 14,811 \nMP:948 948 \0	a,	a,none\0	a,	a,none\0	
-70250	0	1	0	0	0	-1	-1	a,[Info: x1----------l2classic------------]\0	a,Level:25 \nHP:769 \nMP:259 \0	a,	a,none\0	a,	a,none\0	
-70251	0	1	0	0	0	-1	-1	a,[Info: x1----------l2classic------------]\0	a,Level:36 \nHP:1,349 \nMP:417 \0	a,	a,none\0	a,	a,none\0	
-70252	0	1	0	0	0	-1	-1	a,[Info: x1----------l2classic------------]\0	a,Level:\nHP:\nMP:\0	a,	a,none\0	a,	a,none\0	
-70253	0	1	0	0	0	-1	-1	a,[Info: x1----------l2classic------------]\0	a,Level:64 \nHP:3,570 \nMP:1,158 \0	a,	a,none\0	a,	a,none\0	
-70254	0	1	0	0	0	-1	-1	a,[Info: x1----------l2classic------------]\0	a,Level:\nHP:\nMP:\0	a,	a,none\0	a,	a,none\0	
-70255	0	1	0	0	0	-1	-1	a,[Info: x1----------l2classic------------]\0	a,Level:\nHP:\nMP:\0	a,	a,none\0	a,	a,none\0	
-70256	0	1	0	0	0	-1	-1	a,[Info: x1----------l2classic------------]\0	a,Level:12 \nHP:333 \nMP:124 \0	a,	a,none\0	a,	a,none\0	
-70257	0	1	0	0	0	-1	-1	a,[Info: x1----------l2classic------------]\0	a,Level:31 \nHP:1,060 \nMP:343 \0	a,	a,none\0	a,	a,none\0	
-70258	0	1	0	0	0	-1	-1	a,[Info: x1----------l2classic------------]\0	a,Level:48 \nHP:8,828 \nMP:692 \0	a,	a,none\0	a,	a,none\0	
-70259	0	1	0	0	0	-1	-1	a,[Info: x1----------l2classic------------]\0	a,Level:49 49 \nHP:6,863 6,863 \nMP:720 720 \0	a,	a,none\0	a,	a,none\0	
-70260	0	1	0	0	0	-1	-1	a,[Info: x1----------l2classic------------]\0	a,Level:17 \nHP:472 \nMP:166 \0	a,	a,none\0	a,	a,none\0	
-70261	0	1	0	0	0	-1	-1	a,[Info: x1----------l2classic------------]\0	a,Level:15 \nHP:412 \nMP:149 \0	a,	a,none\0	a,	a,none\0	
-70262	0	1	0	0	0	-1	-1	a,[Info: x1----------l2classic------------]\0	a,Level:10 \nHP:273 \nMP:108 \0	a,	a,none\0	a,	a,none\0	
-70263	0	1	0	0	0	-1	-1	a,[Info: x1----------l2classic------------]\0	a,Level:8 \nHP:209 \nMP:92 \0	a,	a,none\0	a,	a,none\0	
-70264	0	1	0	0	0	-1	-1	a,[Info: x1----------l2classic------------]\0	a,Level:20 \nHP:572 \nMP:192 \0	a,	a,none\0	a,	a,none\0	
-70265	0	1	0	0	0	-1	-1	a,[Info: x1----------l2classic------------]\0	a,Level:\nHP:\nMP:\0	a,	a,none\0	a,	a,none\0	
-70266	0	1	0	0	0	-1	-1	a,[Info: x1----------l2classic------------]\0	a,Level:\nHP:\nMP:\0	a,	a,none\0	a,	a,none\0	
-70267	0	1	0	0	0	-1	-1	a,[Info: x1----------l2classic------------]\0	a,Level:41 \nHP:1,681 \nMP:504 \0	a,	a,none\0	a,	a,none\0	
-70268	0	1	0	0	0	-1	-1	a,[Info: x1----------l2classic------------]\0	a,Level:17 \nHP:472 \nMP:166 \0	a,	a,none\0	a,	a,none\0	
-70269	0	1	0	0	0	-1	-1	a,[Info: x1----------l2classic------------]\0	a,Level:12 \nHP:333 \nMP:124 \0	a,	a,none\0	a,	a,none\0	
-70270	0	1	0	0	0	-1	-1	a,[Info: x1----------l2classic------------]\0	a,Level:42 \nHP:1,752 \nMP:531 \0	a,	a,none\0	a,	a,none\0	
-70271	0	1	0	0	0	-1	-1	a,[Info: x1----------l2classic------------]\0	a,Level:20 \nHP:572 \nMP:192 \0	a,	a,none\0	a,	a,none\0	
-70272	0	1	0	0	0	-1	-1	a,[Info: x1----------l2classic------------]\0	a,Level:\nHP:\nMP:\0	a,	a,none\0	a,	a,none\0	
-70273	0	1	0	0	0	-1	-1	a,[Info: x1----------l2classic------------]\0	a,Level:17 \nHP:472 \nMP:166 \0	a,	a,none\0	a,	a,none\0	
-70274	0	1	0	0	0	-1	-1	a,[Info: x1----------l2classic------------]\0	a,Level:16 \nHP:441 \nMP:157 \0	a,	a,none\0	a,	a,none\0	
-70275	0	1	0	0	0	-1	-1	a,[Info: x1----------l2classic------------]\0	a,Level:13 \nHP:359 \nMP:132 \0	a,	a,none\0	a,	a,none\0	
-70276	0	1	0	0	0	-1	-1	a,[Info: x1----------l2classic------------]\0	a,Level:17 \nHP:472 \nMP:166 \0	a,	a,none\0	a,	a,none\0	
-70277	0	1	0	0	0	-1	-1	a,[Info: x1----------l2classic------------]\0	a,Level:17 \nHP:472 \nMP:166 \0	a,	a,none\0	a,	a,none\0	
-70278	0	1	0	0	0	-1	-1	a,[Info: x1----------l2classic------------]\0	a,Level:52 \nHP:2,534 \nMP:804 \0	a,	a,none\0	a,	a,none\0	
-70279	0	1	0	0	0	-1	-1	a,[Info: x1----------l2classic------------]\0	a,Level:53 \nHP:2,619 \nMP:832 \0	a,	a,none\0	a,	a,none\0	
-70280	0	1	0	0	0	-1	-1	a,[Info: x1----------l2classic------------]\0	a,Level:51 \nHP:4,101 \nMP:637 \0	a,	a,none\0	a,	a,none\0	
-70281	0	1	0	0	0	-1	-1	a,[Info: x1----------l2classic------------]\0	a,Level:24 \nHP:727 \nMP:245 \0	a,	a,none\0	a,	a,none\0	
-70282	0	1	0	0	0	-1	-1	a,[Info: x1----------l2classic------------]\0	a,Level:42 \nHP:1,660 \nMP:531 \0	a,	a,none\0	a,	a,none\0	
-70283	0	1	0	0	0	-1	-1	a,[Info: x1----------l2classic------------]\0	a,Level:70 \nHP:8,149 \nMP:1,345 \0	a,	a,none\0	a,	a,none\0	
-70284	0	1	0	0	0	-1	-1	a,[Info: x1----------l2classic------------]\0	a,Level:22 \nHP:646 \nMP:218 \0	a,	a,none\0	a,	a,none\0	
-70285	0	1	0	0	0	-1	-1	a,[Info: x1----------l2classic------------]\0	a,Level:44 \nHP:1,799 \nMP:584 \0	a,	a,none\0	a,	a,none\0	
-70286	0	1	0	0	0	-1	-1	a,[Info: x1----------l2classic------------]\0	a,Level:50 \nHP:2,368 \nMP:747 \0	a,	a,none\0	a,	a,none\0	
-70287	0	1	0	0	0	-1	-1	a,[Info: x1----------l2classic------------]\0	a,Level:23 \nHP:686 \nMP:231 \0	a,	a,none\0	a,	a,none\0	
-70288	0	1	0	0	0	-1	-1	a,[Info: x1----------l2classic------------]\0	a,Level:16 \nHP:441 \nMP:157 \0	a,	a,none\0	a,	a,none\0	
-70289	0	1	0	0	0	-1	-1	a,[Info: x1----------l2classic------------]\0	a,Level:17 \nHP:472 \nMP:166 \0	a,	a,none\0	a,	a,none\0	
-70290	0	1	0	0	0	-1	-1	a,[Info: x1----------l2classic------------]\0	a,Level:10 \nHP:273 \nMP:108 \0	a,	a,none\0	a,	a,none\0	
-70291	0	1	0	0	0	-1	-1	a,[Info: x1----------l2classic------------]\0	a,Level:60 \nHP:19,337 \nMP:1,036 \0	a,	a,none\0	a,	a,none\0	
-70292	0	1	0	0	0	-1	-1	a,[Info: x1----------l2classic------------]\0	a,Level:\nHP:\nMP:\0	a,	a,none\0	a,	a,none\0	
-70293	0	1	0	0	0	-1	-1	a,[Info: x1----------l2classic------------]\0	a,Level:6 \nHP:156 \nMP:77 \0	a,	a,none\0	a,	a,none\0	
-70294	0	1	0	0	0	-1	-1	a,[Info: x1----------l2classic------------]\0	a,Level:33 \nHP:2,341 \nMP:372 \0	a,	a,none\0	a,	a,none\0	
-70295	0	1	0	0	0	-1	-1	a,[Info: x1----------l2classic------------]\0	a,Level:\nHP:\nMP:\0	a,	a,none\0	a,	a,none\0	
-70296	0	1	0	0	0	-1	-1	a,[Info: x1----------l2classic------------]\0	a,Level:21 \nHP:608 \nMP:205 \0	a,	a,none\0	a,	a,none\0	
-70297	0	1	0	0	0	-1	-1	a,[Info: x1----------l2classic------------]\0	a,Level:15 \nHP:412 \nMP:149 \0	a,	a,none\0	a,	a,none\0	
-70298	0	1	0	0	0	-1	-1	a,[Info: x1----------l2classic------------]\0	a,Level:70 \nHP:8,149 \nMP:1,345 \0	a,	a,none\0	a,	a,none\0	
-70299	0	1	0	0	0	-1	-1	a,[Info: x1----------l2classic------------]\0	a,Level:1 \nHP:66 \nMP:40 \0	a,	a,none\0	a,	a,none\0	
-70300	0	1	0	0	0	-1	-1	a,[Info: x1----------l2classic------------]\0	a,Level:35 \nHP:1,289 \nMP:402 \0	a,	a,none\0	a,	a,none\0	
-70301	0	1	0	0	0	-1	-1	a,[Info: x1----------l2classic------------]\0	a,Level:17 \nHP:472 \nMP:166 \0	a,	a,none\0	a,	a,none\0	
-70302	0	1	0	0	0	-1	-1	a,[Info: x1----------l2classic------------]\0	a,Level:\nHP:\nMP:\0	a,	a,none\0	a,	a,none\0	
-70303	0	1	0	0	0	-1	-1	a,[Info: x1----------l2classic------------]\0	a,Level:\nHP:\nMP:\0	a,	a,none\0	a,	a,none\0	
-70304	0	1	0	0	0	-1	-1	a,[Info: x1----------l2classic------------]\0	a,Level:54 \nHP:6,863 \nMP:720 \0	a,	a,none\0	a,	a,none\0	
-70305	0	1	0	0	0	-1	-1	a,[Info: x1----------l2classic------------]\0	a,Level:\nHP:\nMP:\0	a,	a,none\0	a,	a,none\0	
-70306	0	1	0	0	0	-1	-1	a,[Info: x1----------l2classic------------]\0	a,Level:20 \nHP:572 \nMP:192 \0	a,	a,none\0	a,	a,none\0	
-70307	0	1	0	0	0	-1	-1	a,[Info: x1----------l2classic------------]\0	a,Level:30 \nHP:1,008 \nMP:329 \0	a,	a,none\0	a,	a,none\0	
-70308	0	1	0	0	0	-1	-1	a,[Info: x1----------l2classic------------]\0	a,Level:18 \nHP:504 \nMP:174 \0	a,	a,none\0	a,	a,none\0	
-70309	0	1	0	0	0	-1	-1	a,[Info: x1----------l2classic------------]\0	a,Level:35 \nHP:1,289 \nMP:402 \0	a,	a,none\0	a,	a,none\0	
-70310	0	1	0	0	0	-1	-1	a,[Info: x1----------l2classic------------]\0	a,Level:29 \nHP:956 \nMP:315 \0	a,	a,none\0	a,	a,none\0	
-70311	0	1	0	0	0	-1	-1	a,[Info: x1----------l2classic------------]\0	a,Level:33 \nHP:1,060 \nMP:343 \0	a,	a,none\0	a,	a,none\0	
-70312	0	1	0	0	0	-1	-1	a,[Info: x1----------l2classic------------]\0	a,Level:45 \nHP:1,973 \nMP:610 \0	a,	a,none\0	a,	a,none\0	
-70313	0	1	0	0	0	-1	-1	a,[Info: x1----------l2classic------------]\0	a,Level:\nHP:\nMP:\0	a,	a,none\0	a,	a,none\0	
-70314	0	1	0	0	0	-1	-1	a,[Info: x1----------l2classic------------]\0	a,Level:23 \nHP:686 \nMP:231 \0	a,	a,none\0	a,	a,none\0	
-70315	0	1	0	0	0	-1	-1	a,[Info: x1----------l2classic------------]\0	a,Level:51 \nHP:2,452 \nMP:775 \0	a,	a,none\0	a,	a,none\0	
-70316	0	1	0	0	0	-1	-1	a,[Info: x1----------l2classic------------]\0	a,Level:56 \nHP:2,875 \nMP:918 \0	a,	a,none\0	a,	a,none\0	
-70317	0	1	0	0	0	-1	-1	a,[Info: x1----------l2classic------------]\0	a,Level:25 \nHP:769 \nMP:259 \0	a,	a,none\0	a,	a,none\0	
-70318	0	1	0	0	0	-1	-1	a,[Info: x1----------l2classic------------]\0	a,Level:\nHP:\nMP:\0	a,	a,none\0	a,	a,none\0	
-70319	0	1	0	0	0	-1	-1	a,[Info: x1----------l2classic------------]\0	a,Level:\nHP:\nMP:\0	a,	a,none\0	a,	a,none\0	
-70320	0	1	0	0	0	-1	-1	a,[Info: x1----------l2classic------------]\0	a,Level:32 \nHP:1,115 \nMP:358 \0	a,	a,none\0	a,	a,none\0	
-70321	0	1	0	0	0	-1	-1	a,[Info: x1----------l2classic------------]\0	a,Level:32 \nHP:2,231 \nMP:358 \0	a,	a,none\0	a,	a,none\0	
-70322	0	1	0	0	0	-1	-1	a,[Info: x1----------l2classic------------]\0	a,Level:\nHP:\nMP:\0	a,	a,none\0	a,	a,none\0	
-70323	0	1	0	0	0	-1	-1	a,[Info: x1----------l2classic------------]\0	a,Level:54 \nHP:2,703 \nMP:861 \0	a,	a,none\0	a,	a,none\0	
-70324	0	1	0	0	0	-1	-1	a,[Info: x1----------l2classic------------]\0	a,Level:17 \nHP:472 \nMP:166 \0	a,	a,none\0	a,	a,none\0	
-70325	0	1	0	0	0	-1	-1	a,[Info: x1----------l2classic------------]\0	a,Level:\nHP:\nMP:\0	a,	a,none\0	a,	a,none\0	
-70326	0	1	0	0	0	-1	-1	a,[Info: x1----------l2classic------------]\0	a,Level:50 50 \nHP:9,472 9,472 \nMP:747 747 \0	a,	a,none\0	a,	a,none\0	
-70327	0	1	0	0	0	-1	-1	a,[Info: x1----------l2classic------------]\0	a,Level:29 \nHP:1,912 \nMP:315 \0	a,	a,none\0	a,	a,none\0	
-70328	0	1	0	0	0	-1	-1	a,[Info: x1----------l2classic------------]\0	a,Level:22 \nHP:646 \nMP:218 \0	a,	a,none\0	a,	a,none\0	
-70329	0	1	0	0	0	-1	-1	a,[Info: x1----------l2classic------------]\0	a,Level:\nHP:\nMP:\0	a,	a,none\0	a,	a,none\0	
-70330	0	1	0	0	0	-1	-1	a,[Info: x1----------l2classic------------]\0	a,Level:22 \nHP:646 \nMP:218 \0	a,	a,none\0	a,	a,none\0	
-70331	0	1	0	0	0	-1	-1	a,[Info: x1----------l2classic------------]\0	a,Level:54 \nHP:6,863 \nMP:720 \0	a,	a,none\0	a,	a,none\0	
-70332	0	1	0	0	0	-1	-1	a,[Info: x1----------l2classic------------]\0	a,Level:28 \nHP:907 \nMP:300 \0	a,	a,none\0	a,	a,none\0	
-70333	0	1	0	0	0	-1	-1	a,[Info: x1----------l2classic------------]\0	a,Level:50 \nHP:3,946 \nMP:610 \0	a,	a,none\0	a,	a,none\0	
-70334	0	1	0	0	0	-1	-1	a,[Info: x1----------l2classic------------]\0	a,Level:16 \nHP:441 \nMP:157 \0	a,	a,none\0	a,	a,none\0	
-70335	0	1	0	0	0	-1	-1	a,[Info: x1----------l2classic------------]\0	a,Level:21 \nHP:608 \nMP:205 \0	a,	a,none\0	a,	a,none\0	
-70336	0	1	0	0	0	-1	-1	a,[Info: x1----------l2classic------------]\0	a,Level:57 \nHP:5,068 \nMP:804 \0	a,	a,none\0	a,	a,none\0	
-70337	0	1	0	0	0	-1	-1	a,[Info: x1----------l2classic------------]\0	a,Level:59 \nHP:3,136 \nMP:1,007 \0	a,	a,none\0	a,	a,none\0	
-70338	0	1	0	0	0	-1	-1	a,[Info: x1----------l2classic------------]\0	a,Level:32 \nHP:2,231 \nMP:358 \0	a,	a,none\0	a,	a,none\0	
-70339	0	1	0	0	0	-1	-1	a,[Info: x1----------l2classic------------]\0	a,Level:43 \nHP:1,825 \nMP:557 \0	a,	a,none\0	a,	a,none\0	
-70340	0	1	0	0	0	-1	-1	a,[Info: x1----------l2classic------------]\0	a,Level:12 \nHP:333 \nMP:124 \0	a,	a,none\0	a,	a,none\0	
-70341	0	1	0	0	0	-1	-1	a,[Info: x1----------l2classic------------]\0	a,Level:14 \nHP:385 \nMP:140 \0	a,	a,none\0	a,	a,none\0	
-70342	0	1	0	0	0	-1	-1	a,[Info: x1----------l2classic------------]\0	a,Level:\nHP:\nMP:\0	a,	a,none\0	a,	a,none\0	
-70343	0	1	0	0	0	-1	-1	a,[Info: x1----------l2classic------------]\0	a,Level:\nHP:\nMP:\0	a,	a,none\0	a,	a,none\0	
-70344	0	1	0	0	0	-1	-1	a,[Info: x1----------l2classic------------]\0	a,Level:52 \nHP:4,256 \nMP:665 \0	a,	a,none\0	a,	a,none\0	
-70345	0	1	0	0	0	-1	-1	a,[Info: x1----------l2classic------------]\0	a,Level:55 \nHP:2,788 \nMP:889 \0	a,	a,none\0	a,	a,none\0	
-70346	0	1	0	0	0	-1	-1	a,[Info: x1----------l2classic------------]\0	a,Level:21 \nHP:608 \nMP:205 \0	a,	a,none\0	a,	a,none\0	
-70347	0	1	0	0	0	-1	-1	a,[Info: x1----------l2classic------------]\0	a,Level:18 \nHP:504 \nMP:174 \0	a,	a,none\0	a,	a,none\0	
-70348	0	1	0	0	0	-1	-1	a,[Info: x1----------l2classic------------]\0	a,Level:18 \nHP:504 \nMP:174 \0	a,	a,none\0	a,	a,none\0	
-70349	0	1	0	0	0	-1	-1	a,[Info: x1----------l2classic------------]\0	a,Level:61 \nHP:3,310 \nMP:1,066 \0	a,	a,none\0	a,	a,none\0	
-70350	0	1	0	0	0	-1	-1	a,[Info: x1----------l2classic------------]\0	a,Level:7 \nHP:91 \nMP:84 \0	a,	a,none\0	a,	a,none\0	
-70351	0	1	0	0	0	-1	-1	a,[Info: x1----------l2classic------------]\0	a,Level:38 \nHP:1,401 \nMP:447 \0	a,	a,none\0	a,	a,none\0	
-70352	0	1	0	0	0	-1	-1	a,[Info: x1----------l2classic------------]\0	a,Level:29 \nHP:1,912 \nMP:315 \0	a,	a,none\0	a,	a,none\0	
-70353	0	1	0	0	0	-1	-1	a,[Info: x1----------l2classic------------]\0	a,Level:59 \nHP:8,109 \nMP:861 \0	a,	a,none\0	a,	a,none\0	
-70354	0	1	0	0	0	-1	-1	a,[Info: x1----------l2classic------------]\0	a,Level:44 \nHP:9,495 \nMP:584 \0	a,	a,none\0	a,	a,none\0	
-70355	0	1	0	0	0	-1	-1	a,[Info: x1----------l2classic------------]\0	a,Level:39 \nHP:1,463 \nMP:463 \0	a,	a,none\0	a,	a,none\0	
-70356	0	1	0	0	0	-1	-1	a,[Info: x1----------l2classic------------]\0	a,Level:\nHP:\nMP:\0	a,	a,none\0	a,	a,none\0	
-70357	0	1	0	0	0	-1	-1	a,[Info: x1----------l2classic------------]\0	a,Level:60 \nHP:3,223 \nMP:1,036 \0	a,	a,none\0	a,	a,none\0	
-70358	0	1	0	0	0	-1	-1	a,[Info: x1----------l2classic------------]\0	a,Level:15 \nHP:412 \nMP:149 \0	a,	a,none\0	a,	a,none\0	
-70359	0	1	0	0	0	-1	-1	a,[Info: x1----------l2classic------------]\0	a,Level:\nHP:\nMP:\0	a,	a,none\0	a,	a,none\0	
-70360	0	1	0	0	0	-1	-1	a,[Info: x1----------l2classic------------]\0	a,Level:19 \nHP:537 \nMP:183 \0	a,	a,none\0	a,	a,none\0	
-70361	0	1	0	0	0	-1	-1	a,[Info: x1----------l2classic------------]\0	a,Level:15 \nHP:412 \nMP:149 \0	a,	a,none\0	a,	a,none\0	
-70362	0	1	0	0	0	-1	-1	a,[Info: x1----------l2classic------------]\0	a,Level:10 \nHP:273 \nMP:108 \0	a,	a,none\0	a,	a,none\0	
-70363	0	1	0	0	0	-1	-1	a,[Info: x1----------l2classic------------]\0	a,Level:13 \nHP:359 \nMP:132 \0	a,	a,none\0	a,	a,none\0	
-70364	0	1	0	0	0	-1	-1	a,[Info: x1----------l2classic------------]\0	a,Level:65 \nHP:18,278 \nMP:1,188 \0	a,	a,none\0	a,	a,none\0	
-70365	0	1	0	0	0	-1	-1	a,[Info: x1----------l2classic------------]\0	a,Level:53 \nHP:6,621 \nMP:692 \0	a,	a,none\0	a,	a,none\0	
-70366	0	1	0	0	0	-1	-1	a,[Info: x1----------l2classic------------]\0	a,Level:\nHP:\nMP:\0	a,	a,none\0	a,	a,none\0	
-70367	0	1	0	0	0	-1	-1	a,[Info: x1----------l2classic------------]\0	a,Level:44 \nHP:1,899 \nMP:584 \0	a,	a,none\0	a,	a,none\0	
-70368	0	1	0	0	0	-1	-1	a,[Info: x1----------l2classic------------]\0	a,Level:\nHP:\nMP:\0	a,	a,none\0	a,	a,none\0	
-70369	0	1	0	0	0	-1	-1	a,[Info: x1----------l2classic------------]\0	a,Level:11 \nHP:310 \nMP:116 \0	a,	a,none\0	a,	a,none\0	
-70370	0	1	0	0	0	-1	-1	a,[Info: x1----------l2classic------------]\0	a,Level:\nHP:\nMP:\0	a,	a,none\0	a,	a,none\0	
-70371	0	1	0	0	0	-1	-1	a,[Info: x1----------l2classic------------]\0	a,Level:18 \nHP:504 \nMP:174 \0	a,	a,none\0	a,	a,none\0	
-70372	0	1	0	0	0	-1	-1	a,[Info: x1----------l2classic------------]\0	a,Level:38 \nHP:1,401 \nMP:447 \0	a,	a,none\0	a,	a,none\0	
-70373	0	1	0	0	0	-1	-1	a,[Info: x1----------l2classic------------]\0	a,Level:19 \nHP:537 \nMP:183 \0	a,	a,none\0	a,	a,none\0	
-70374	0	1	0	0	0	-1	-1	a,[Info: x1----------l2classic------------]\0	a,Level:42 43 \nHP:5,256 5,474 \nMP:531 557 \0	a,	a,none\0	a,	a,none\0	
-70375	0	1	0	0	0	-1	-1	a,[Info: x1----------l2classic------------]\0	a,Level:57 \nHP:2,962 \nMP:948 \0	a,	a,none\0	a,	a,none\0	
-70376	0	1	0	0	0	-1	-1	a,[Info: x1----------l2classic------------]\0	a,Level:\nHP:\nMP:\0	a,	a,none\0	a,	a,none\0	
-70377	0	1	0	0	0	-1	-1	a,[Info: x1----------l2classic------------]\0	a,Level:62 \nHP:3,397 \nMP:1,097 \0	a,	a,none\0	a,	a,none\0	
-70378	0	1	0	0	0	-1	-1	a,[Info: x1----------l2classic------------]\0	a,Level:40 \nHP:1,611 \nMP:478 \0	a,	a,none\0	a,	a,none\0	
-70379	0	1	0	0	0	-1	-1	a,[Info: x1----------l2classic------------]\0	a,Level:50 \nHP:11,841 \nMP:747 \0	a,	a,none\0	a,	a,none\0	
-70380	0	1	0	0	0	-1	-1	a,[Info: x1----------l2classic------------]\0	a,Level:63 \nHP:3,483 \nMP:1,127 \0	a,	a,none\0	a,	a,none\0	
-70381	0	1	0	0	0	-1	-1	a,[Info: x1----------l2classic------------]\0	a,Level:18 \nHP:504 \nMP:174 \0	a,	a,none\0	a,	a,none\0	
-70382	0	1	0	0	0	-1	-1	a,[Info: x1----------l2classic------------]\0	a,Level:21 \nHP:608 \nMP:205 \0	a,	a,none\0	a,	a,none\0	
-70383	0	1	0	0	0	-1	-1	a,[Info: x1----------l2classic------------]\0	a,Level:55 \nHP:4,736 \nMP:747 \0	a,	a,none\0	a,	a,none\0	
-70384	0	1	0	0	0	-1	-1	a,[Info: x1----------l2classic------------]\0	a,Level:21 \nHP:608 \nMP:205 \0	a,	a,none\0	a,	a,none\0	
-70385	0	1	0	0	0	-1	-1	a,[Info: x1----------l2classic------------]\0	a,Level:56 \nHP:4,904 \nMP:775 \0	a,	a,none\0	a,	a,none\0	
-70386	0	1	0	0	0	-1	-1	a,[Info: x1----------l2classic------------]\0	a,Level:58 \nHP:3,047 \nMP:977 \0	a,	a,none\0	a,	a,none\0	
-70387	0	1	0	0	0	-1	-1	a,[Info: x1----------l2classic------------]\0	a,Level:\nHP:\nMP:\0	a,	a,none\0	a,	a,none\0	
-70388	0	1	0	0	0	-1	-1	a,[Info: x1----------l2classic------------]\0	a,Level:\nHP:\nMP:\0	a,	a,none\0	a,	a,none\0	
-70389	0	1	0	0	0	-1	-1	a,[Info: x1----------l2classic------------]\0	a,Level:\nHP:\nMP:\0	a,	a,none\0	a,	a,none\0	
-70390	0	1	0	0	0	-1	-1	a,[Info: x1----------l2classic------------]\0	a,Level:23 \nHP:686 \nMP:231 \0	a,	a,none\0	a,	a,none\0	
-70391	0	1	0	0	0	-1	-1	a,[Info: x1----------l2classic------------]\0	a,Level:19 \nHP:537 \nMP:183 \0	a,	a,none\0	a,	a,none\0	
-70392	0	1	0	0	0	-1	-1	a,[Info: x1----------l2classic------------]\0	a,Level:15 \nHP:412 \nMP:149 \0	a,	a,none\0	a,	a,none\0	
-70393	0	1	0	0	0	-1	-1	a,[Info: x1----------l2classic------------]\0	a,Level:\nHP:\nMP:\0	a,	a,none\0	a,	a,none\0	
-70394	0	1	0	0	0	-1	-1	a,[Info: x1----------l2classic------------]\0	a,Level:39 \nHP:1,463 \nMP:463 \0	a,	a,none\0	a,	a,none\0	
-70395	0	1	0	0	0	-1	-1	a,[Info: x1----------l2classic------------]\0	a,Level:\nHP:\nMP:\0	a,	a,none\0	a,	a,none\0	
-70396	0	1	0	0	0	-1	-1	a,[Info: x1----------l2classic------------]\0	a,Level:25 \nHP:769 \nMP:259 \0	a,	a,none\0	a,	a,none\0	
-70397	0	1	0	0	0	-1	-1	a,[Info: x1----------l2classic------------]\0	a,Level:48 \nHP:6,621 \nMP:692 \0	a,	a,none\0	a,	a,none\0	
-70398	0	1	0	0	0	-1	-1	a,[Info: x1----------l2classic------------]\0	a,Level:64 \nHP:3,570 \nMP:1,158 \0	a,	a,none\0	a,	a,none\0	
-70399	0	1	0	0	0	-1	-1	a,[Info: x1----------l2classic------------]\0	a,Level:24 \nHP:1,453 \nMP:245 \0	a,	a,none\0	a,	a,none\0	
-70400	0	1	0	0	0	-1	-1	a,[Info: x1----------l2classic------------]\0	a,Level:\nHP:\nMP:\0	a,	a,none\0	a,	a,none\0	
-70401	0	1	0	0	0	-1	-1	a,[Info: x1----------l2classic------------]\0	a,Level:58 \nHP:7,858 \nMP:832 \0	a,	a,none\0	a,	a,none\0	
-70402	0	1	0	0	0	-1	-1	a,[Info: x1----------l2classic------------]\0	a,Level:19 \nHP:537 \nMP:183 \0	a,	a,none\0	a,	a,none\0	
-70403	0	1	0	0	0	-1	-1	a,[Info: x1----------l2classic------------]\0	a,Level:30 \nHP:2,016 \nMP:329 \0	a,	a,none\0	a,	a,none\0	
-70404	0	1	0	0	0	-1	-1	a,[Info: x1----------l2classic------------]\0	a,Level:11 \nHP:310 \nMP:116 \0	a,	a,none\0	a,	a,none\0	
-70405	0	1	0	0	0	-1	-1	a,[Info: x1----------l2classic------------]\0	a,Level:32 \nHP:2,231 \nMP:358 \0	a,	a,none\0	a,	a,none\0	
-70406	0	1	0	0	0	-1	-1	a,[Info: x1----------l2classic------------]\0	a,Level:\nHP:\nMP:\0	a,	a,none\0	a,	a,none\0	
-70407	0	1	0	0	0	-1	-1	a,[Info: x1----------l2classic------------]\0	a,Level:18 \nHP:504 \nMP:174 \0	a,	a,none\0	a,	a,none\0	
-70408	0	1	0	0	0	-1	-1	a,[Info: x1----------l2classic------------]\0	a,Level:\nHP:\nMP:\0	a,	a,none\0	a,	a,none\0	
-70409	0	1	0	0	0	-1	-1	a,[Info: x1----------l2classic------------]\0	a,Level:\nHP:\nMP:\0	a,	a,none\0	a,	a,none\0	
-70410	0	1	0	0	0	-1	-1	a,[Info: x1----------l2classic------------]\0	a,Level:20 21 \nHP:572 608 \nMP:192 205 \0	a,	a,none\0	a,	a,none\0	
-70411	0	1	0	0	0	-1	-1	a,[Info: x1----------l2classic------------]\0	a,Level:19 \nHP:537 \nMP:183 \0	a,	a,none\0	a,	a,none\0	
-70412	0	1	0	0	0	-1	-1	a,[Info: x1----------l2classic------------]\0	a,Level:18 \nHP:504 \nMP:174 \0	a,	a,none\0	a,	a,none\0	
-70413	0	1	0	0	0	-1	-1	a,[Info: x1----------l2classic------------]\0	a,Level:\nHP:\nMP:\0	a,	a,none\0	a,	a,none\0	
-70414	0	1	0	0	0	-1	-1	a,[Info: x1----------l2classic------------]\0	a,Level:43 \nHP:1,825 \nMP:557 \0	a,	a,none\0	a,	a,none\0	
-70415	0	1	0	0	0	-1	-1	a,[Info: x1----------l2classic------------]\0	a,Level:28 \nHP:1,814 \nMP:300 \0	a,	a,none\0	a,	a,none\0	
-70416	0	1	0	0	0	-1	-1	a,[Info: x1----------l2classic------------]\0	a,Level:\nHP:\nMP:\0	a,	a,none\0	a,	a,none\0	
-70417	0	1	0	0	0	-1	-1	a,[Info: x1----------l2classic------------]\0	a,Level:46 46 \nHP:4,101 4,101 \nMP:637 637 \0	a,	a,none\0	a,	a,none\0	
-70418	0	1	0	0	0	-1	-1	a,[Info: x1----------l2classic------------]\0	a,Level:23 \nHP:686 \nMP:231 \0	a,	a,none\0	a,	a,none\0	
-70419	0	1	0	0	0	-1	-1	a,[Info: x1----------l2classic------------]\0	a,Level:20 \nHP:572 \nMP:192 \0	a,	a,none\0	a,	a,none\0	
-70420	0	1	0	0	0	-1	-1	a,[Info: x1----------l2classic------------]\0	a,Level:14 \nHP:385 \nMP:140 \0	a,	a,none\0	a,	a,none\0	
-70421	0	1	0	0	0	-1	-1	a,[Info: x1----------l2classic------------]\0	a,Level:31 \nHP:2,120 \nMP:343 \0	a,	a,none\0	a,	a,none\0	
-70422	0	1	0	0	0	-1	-1	a,[Info: x1----------l2classic------------]\0	a,Level:31 \nHP:1,060 \nMP:343 \0	a,	a,none\0	a,	a,none\0	
-70423	0	1	0	0	0	-1	-1	a,[Info: x1----------l2classic------------]\0	a,Level:60 \nHP:8,365 \nMP:889 \0	a,	a,none\0	a,	a,none\0	
-70424	0	1	0	0	0	-1	-1	a,[Info: x1----------l2classic------------]\0	a,Level:32 \nHP:1,115 \nMP:358 \0	a,	a,none\0	a,	a,none\0	
-70425	0	1	0	0	0	-1	-1	a,[Info: x1----------l2classic------------]\0	a,Level:14 \nHP:385 \nMP:140 \0	a,	a,none\0	a,	a,none\0	
-70426	0	1	0	0	0	-1	-1	a,[Info: x1----------l2classic------------]\0	a,Level:20 \nHP:572 \nMP:192 \0	a,	a,none\0	a,	a,none\0	
-70427	0	1	0	0	0	-1	-1	a,[Info: x1----------l2classic------------]\0	a,Level:29 \nHP:956 \nMP:315 \0	a,	a,none\0	a,	a,none\0	
-70428	0	1	0	0	0	-1	-1	a,[Info: x1----------l2classic------------]\0	a,Level:27 \nHP:1,719 \nMP:286 \0	a,	a,none\0	a,	a,none\0	
-70429	0	1	0	0	0	-1	-1	a,[Info: x1----------l2classic------------]\0	a,Level:\nHP:\nMP:\0	a,	a,none\0	a,	a,none\0	
-70430	0	1	0	0	0	-1	-1	a,[Info: x1----------l2classic------------]\0	a,Level:\nHP:\nMP:\0	a,	a,none\0	a,	a,none\0	
-70431	0	1	0	0	0	-1	-1	a,[Info: x1----------l2classic------------]\0	a,Level:25 \nHP:769 \nMP:259 \0	a,	a,none\0	a,	a,none\0	
-70432	0	1	0	0	0	-1	-1	a,[Info: x1----------l2classic------------]\0	a,Level:\nHP:\nMP:\0	a,	a,none\0	a,	a,none\0	
-70433	0	1	0	0	0	-1	-1	a,[Info: x1----------l2classic------------]\0	a,Level:20 \nHP:572 \nMP:192 \0	a,	a,none\0	a,	a,none\0	
-70434	0	1	0	0	0	-1	-1	a,[Info: x1----------l2classic------------]\0	a,Level:34 \nHP:1,229 \nMP:387 \0	a,	a,none\0	a,	a,none\0	
-70435	0	1	0	0	0	-1	-1	a,[Info: x1----------l2classic------------]\0	a,Level:27 \nHP:1,719 \nMP:286 \0	a,	a,none\0	a,	a,none\0	
-70436	0	1	0	0	0	-1	-1	a,[Info: x1----------l2classic------------]\0	a,Level:37 \nHP:1,340 \nMP:432 \0	a,	a,none\0	a,	a,none\0	
-70437	0	1	0	0	0	-1	-1	a,[Info: x1----------l2classic------------]\0	a,Level:17 \nHP:472 \nMP:166 \0	a,	a,none\0	a,	a,none\0	
-70438	0	1	0	0	0	-1	-1	a,[Info: x1----------l2classic------------]\0	a,Level:\nHP:\nMP:\0	a,	a,none\0	a,	a,none\0	
-70439	0	1	0	0	0	-1	-1	a,[Info: x1----------l2classic------------]\0	a,Level:16 \nHP:441 \nMP:157 \0	a,	a,none\0	a,	a,none\0	
-70440	0	1	0	0	0	-1	-1	a,[Info: x1----------l2classic------------]\0	a,Level:\nHP:\nMP:\0	a,	a,none\0	a,	a,none\0	
-70441	0	1	0	0	0	-1	-1	a,[Info: x1----------l2classic------------]\0	a,Level:42 \nHP:1,752 \nMP:531 \0	a,	a,none\0	a,	a,none\0	
-70442	0	1	0	0	0	-1	-1	a,[Info: x1----------l2classic------------]\0	a,Level:\nHP:\nMP:\0	a,	a,none\0	a,	a,none\0	
-70443	0	1	0	0	0	-1	-1	a,[Info: x1----------l2classic------------]\0	a,Level:20 \nHP:572 \nMP:192 \0	a,	a,none\0	a,	a,none\0	
-70444	0	1	0	0	0	-1	-1	a,[Info: x1----------l2classic------------]\0	a,Level:28 \nHP:907 \nMP:300 \0	a,	a,none\0	a,	a,none\0	
-70445	0	1	0	0	0	-1	-1	a,[Info: x1----------l2classic------------]\0	a,Level:30 \nHP:2,016 \nMP:329 \0	a,	a,none\0	a,	a,none\0	
-70446	0	1	0	0	0	-1	-1	a,[Info: x1----------l2classic------------]\0	a,Level:29 \nHP:1,912 \nMP:315 \0	a,	a,none\0	a,	a,none\0	
-70447	0	1	0	0	0	-1	-1	a,[Info: x1----------l2classic------------]\0	a,Level:58 58 \nHP:15,237 15,237 \nMP:977 977 \0	a,	a,none\0	a,	a,none\0	
-70448	0	1	0	0	0	-1	-1	a,[Info: x1----------l2classic------------]\0	a,Level:68 \nHP:31,280 \nMP:1,282 \0	a,	a,none\0	a,	a,none\0	
-70449	0	1	0	0	0	-1	-1	a,[Info: x1----------l2classic------------]\0	a,Level:68 \nHP:31,280 \nMP:1,282 \0	a,	a,none\0	a,	a,none\0	
-70450	0	1	0	0	0	-1	-1	a,[Info: x1----------l2classic------------]\0	a,Level:35 \nHP:1,221 \nMP:402 \0	a,	a,none\0	a,	a,none\0	
-70451	0	1	0	0	0	-1	-1	a,[Info: x1----------l2classic------------]\0	a,Level:33 \nHP:1,171 \nMP:372 \0	a,	a,none\0	a,	a,none\0	
-70452	0	1	0	0	0	-1	-1	a,[Info: x1----------l2classic------------]\0	a,Level:11 \nHP:310 \nMP:116 \0	a,	a,none\0	a,	a,none\0	
-70453	0	1	0	0	0	-1	-1	a,[Info: x1----------l2classic------------]\0	a,Level:\nHP:\nMP:\0	a,	a,none\0	a,	a,none\0	
-70454	0	1	0	0	0	-1	-1	a,[Info: x1----------l2classic------------]\0	a,Level:10 \nHP:547 \nMP:108 \0	a,	a,none\0	a,	a,none\0	
-70455	0	1	0	0	0	-1	-1	a,[Info: x1----------l2classic------------]\0	a,Level:\nHP:\nMP:\0	a,	a,none\0	a,	a,none\0	
-70456	0	1	0	0	0	-1	-1	a,[Info: x1----------l2classic------------]\0	a,Level:24 \nHP:727 \nMP:245 \0	a,	a,none\0	a,	a,none\0	
-70457	0	1	0	0	0	-1	-1	a,[Info: x1----------l2classic------------]\0	a,Level:41 \nHP:1,681 \nMP:504 \0	a,	a,none\0	a,	a,none\0	
-70458	0	1	0	0	0	-1	-1	a,[Info: x1----------l2classic------------]\0	a,Level:10 \nHP:273 \nMP:108 \0	a,	a,none\0	a,	a,none\0	
-70459	0	1	0	0	0	-1	-1	a,[Info: x1----------l2classic------------]\0	a,Level:27 \nHP:1,719 \nMP:286 \0	a,	a,none\0	a,	a,none\0	
-70460	0	1	0	0	0	-1	-1	a,[Info: x1----------l2classic------------]\0	a,Level:25 \nHP:769 \nMP:259 \0	a,	a,none\0	a,	a,none\0	
-70461	0	1	0	0	0	-1	-1	a,[Info: x1----------l2classic------------]\0	a,Level:31 \nHP:1,060 \nMP:343 \0	a,	a,none\0	a,	a,none\0	
-70462	0	1	0	0	0	-1	-1	a,[Info: x1----------l2classic------------]\0	a,Level:19 \nHP:537 \nMP:183 \0	a,	a,none\0	a,	a,none\0	
-70463	0	1	0	0	0	-1	-1	a,[Info: x1----------l2classic------------]\0	a,Level:22 \nHP:1,292 \nMP:218 \0	a,	a,none\0	a,	a,none\0	
-70464	0	1	0	0	0	-1	-1	a,[Info: x1----------l2classic------------]\0	a,Level:45 45 \nHP:1,973 1,973 \nMP:610 610 \0	a,	a,none\0	a,	a,none\0	
-70465	0	1	0	0	0	-1	-1	a,[Info: x1----------l2classic------------]\0	a,Level:53 \nHP:2,619 \nMP:832 \0	a,	a,none\0	a,	a,none\0	
-70466	0	1	0	0	0	-1	-1	a,[Info: x1----------l2classic------------]\0	a,Level:21 \nHP:608 \nMP:205 \0	a,	a,none\0	a,	a,none\0	
-70467	0	1	0	0	0	-1	-1	a,[Info: x1----------l2classic------------]\0	a,Level:45 \nHP:1,973 \nMP:610 \0	a,	a,none\0	a,	a,none\0	
-70468	0	1	0	0	0	-1	-1	a,[Info: x1----------l2classic------------]\0	a,Level:44 \nHP:1,899 \nMP:584 \0	a,	a,none\0	a,	a,none\0	
-70469	0	1	0	0	0	-1	-1	a,[Info: x1----------l2classic------------]\0	a,Level:12 \nHP:333 \nMP:124 \0	a,	a,none\0	a,	a,none\0	
-70470	0	1	0	0	0	-1	-1	a,[Info: x1----------l2classic------------]\0	a,Level:50 50 \nHP:9,472 9,472 \nMP:747 747 \0	a,	a,none\0	a,	a,none\0	
-70471	0	1	0	0	0	-1	-1	a,[Info: x1----------l2classic------------]\0	a,Level:49 \nHP:6,863 \nMP:720 \0	a,	a,none\0	a,	a,none\0	
-70472	0	1	0	0	0	-1	-1	a,[Info: x1----------l2classic------------]\0	a,Level:15 \nHP:412 \nMP:149 \0	a,	a,none\0	a,	a,none\0	
-70473	0	1	0	0	0	-1	-1	a,[Info: x1----------l2classic------------]\0	a,Level:\nHP:\nMP:\0	a,	a,none\0	a,	a,none\0	
-70474	0	1	0	0	0	-1	-1	a,[Info: x1----------l2classic------------]\0	a,Level:34 \nHP:1,229 \nMP:387 \0	a,	a,none\0	a,	a,none\0	
-70475	0	1	0	0	0	-1	-1	a,[Info: x1----------l2classic------------]\0	a,Level:48 48 \nHP:6,621 6,621 \nMP:692 692 \0	a,	a,none\0	a,	a,none\0	
-70476	0	1	0	0	0	-1	-1	a,[Info: x1----------l2classic------------]\0	a,Level:34 \nHP:1,229 \nMP:387 \0	a,	a,none\0	a,	a,none\0	
-70477	0	1	0	0	0	-1	-1	a,[Info: x1----------l2classic------------]\0	a,Level:\nHP:\nMP:\0	a,	a,none\0	a,	a,none\0	
-70478	0	1	0	0	0	-1	-1	a,[Info: x1----------l2classic------------]\0	a,Level:19 \nHP:537 \nMP:183 \0	a,	a,none\0	a,	a,none\0	
-70479	0	1	0	0	0	-1	-1	a,[Info: x1----------l2classic------------]\0	a,Level:33 \nHP:2,341 \nMP:372 \0	a,	a,none\0	a,	a,none\0	
-70480	0	1	0	0	0	-1	-1	a,[Info: x1----------l2classic------------]\0	a,Level:\nHP:\nMP:\0	a,	a,none\0	a,	a,none\0	
-70481	0	1	0	0	0	-1	-1	a,[Info: x1----------l2classic------------]\0	a,Level:53 53 \nHP:10,477 10,477 \nMP:832 832 \0	a,	a,none\0	a,	a,none\0	
-70482	0	1	0	0	0	-1	-1	a,[Info: x1----------l2classic------------]\0	a,Level:\nHP:\nMP:\0	a,	a,none\0	a,	a,none\0	
-70483	0	1	0	0	0	-1	-1	a,[Info: x1----------l2classic------------]\0	a,Level:33 \nHP:1,171 \nMP:372 \0	a,	a,none\0	a,	a,none\0	
-70484	0	1	0	0	0	-1	-1	a,[Info: x1----------l2classic------------]\0	a,Level:20 \nHP:572 \nMP:192 \0	a,	a,none\0	a,	a,none\0	
-70485	0	1	0	0	0	-1	-1	a,[Info: x1----------l2classic------------]\0	a,Level:34 \nHP:1,229 \nMP:387 \0	a,	a,none\0	a,	a,none\0	
-70486	0	1	0	0	0	-1	-1	a,[Info: x1----------l2classic------------]\0	a,Level:47 47 \nHP:4,256 4,256 \nMP:665 665 \0	a,	a,none\0	a,	a,none\0	
-70487	0	1	0	0	0	-1	-1	a,[Info: x1----------l2classic------------]\0	a,Level:49 49 \nHP:6,863 6,863 \nMP:720 720 \0	a,	a,none\0	a,	a,none\0	
-70488	0	1	0	0	0	-1	-1	a,[Info: x1----------l2classic------------]\0	a,Level:12 \nHP:333 \nMP:124 \0	a,	a,none\0	a,	a,none\0	
-70489	0	1	0	0	0	-1	-1	a,[Info: x1----------l2classic------------]\0	a,Level:28 \nHP:1,814 \nMP:300 \0	a,	a,none\0	a,	a,none\0	
-70490	0	1	0	0	0	-1	-1	a,[Info: x1----------l2classic------------]\0	a,Level:26 \nHP:814 \nMP:273 \0	a,	a,none\0	a,	a,none\0	
-70491	0	1	0	0	0	-1	-1	a,[Info: x1----------l2classic------------]\0	a,Level:\nHP:\nMP:\0	a,	a,none\0	a,	a,none\0	
-70492	0	1	0	0	0	-1	-1	a,[Info: x1----------l2classic------------]\0	a,Level:48 \nHP:4,414 \nMP:692 \0	a,	a,none\0	a,	a,none\0	
-70493	0	1	0	0	0	-1	-1	a,[Info: x1----------l2classic------------]\0	a,Level:54 54 \nHP:10,812 10,812 \nMP:861 861 \0	a,	a,none\0	a,	a,none\0	
-70494	0	1	0	0	0	-1	-1	a,[Info: x1----------l2classic------------]\0	a,Level:55 55 \nHP:11,153 11,153 \nMP:889 889 \0	a,	a,none\0	a,	a,none\0	
-70495	0	1	0	0	0	-1	-1	a,[Info: x1----------l2classic------------]\0	a,Level:\nHP:\nMP:\0	a,	a,none\0	a,	a,none\0	
-70496	0	1	0	0	0	-1	-1	a,[Info: x1----------l2classic------------]\0	a,Level:21 \nHP:608 \nMP:205 \0	a,	a,none\0	a,	a,none\0	
-70497	0	1	0	0	0	-1	-1	a,[Info: x1----------l2classic------------]\0	a,Level:51 51 \nHP:9,807 9,807 \nMP:775 775 \0	a,	a,none\0	a,	a,none\0	
-70498	0	1	0	0	0	-1	-1	a,[Info: x1----------l2classic------------]\0	a,Level:21 \nHP:608 \nMP:205 \0	a,	a,none\0	a,	a,none\0	
-70499	0	1	0	0	0	-1	-1	a,[Info: x1----------l2classic------------]\0	a,Level:29 \nHP:1,912 \nMP:315 \0	a,	a,none\0	a,	a,none\0	
-70500	0	1	0	0	0	-1	-1	a,[Info: x1----------l2classic------------]\0	a,Level:35 \nHP:1,221 \nMP:402 \0	a,	a,none\0	a,	a,none\0	
-70501	0	1	0	0	0	-1	-1	a,[Info: x1----------l2classic------------]\0	a,Level:30 \nHP:1,008 \nMP:329 \0	a,	a,none\0	a,	a,none\0	
-70502	0	1	0	0	0	-1	-1	a,[Info: x1----------l2classic------------]\0	a,Level:\nHP:\nMP:\0	a,	a,none\0	a,	a,none\0	
-70503	0	1	0	0	0	-1	-1	a,[Info: x1----------l2classic------------]\0	a,Level:17 \nHP:472 \nMP:166 \0	a,	a,none\0	a,	a,none\0	
-70504	0	1	0	0	0	-1	-1	a,[Info: x1----------l2classic------------]\0	a,Level:\nHP:\nMP:\0	a,	a,none\0	a,	a,none\0	
-70505	0	1	0	0	0	-1	-1	a,[Info: x1----------l2classic------------]\0	a,Level:16 \nHP:441 \nMP:157 \0	a,	a,none\0	a,	a,none\0	
-70506	0	1	0	0	0	-1	-1	a,[Info: x1----------l2classic------------]\0	a,Level:35 \nHP:1,289 \nMP:402 \0	a,	a,none\0	a,	a,none\0	
-70507	0	1	0	0	0	-1	-1	a,[Info: x1----------l2classic------------]\0	a,Level:33 \nHP:1,111 \nMP:372 \0	a,	a,none\0	a,	a,none\0	
-70508	0	1	0	0	0	-1	-1	a,[Info: x1----------l2classic------------]\0	a,Level:57 57 \nHP:14,811 14,811 \nMP:948 948 \0	a,	a,none\0	a,	a,none\0	
-70509	0	1	0	0	0	-1	-1	a,[Info: x1----------l2classic------------]\0	a,Level:29 \nHP:1,912 \nMP:315 \0	a,	a,none\0	a,	a,none\0	
-70510	0	1	0	0	0	-1	-1	a,[Info: x1----------l2classic------------]\0	a,Level:28 \nHP:907 \nMP:300 \0	a,	a,none\0	a,	a,none\0	
-70511	0	1	0	0	0	-1	-1	a,[Info: x1----------l2classic------------]\0	a,Level:30 \nHP:2,016 \nMP:329 \0	a,	a,none\0	a,	a,none\0	
-70512	0	1	0	0	0	-1	-1	a,[Info: x1----------l2classic------------]\0	a,Level:1 \nHP:66 \nMP:40 \0	a,	a,none\0	a,	a,none\0	
-70513	0	1	0	0	0	-1	-1	a,[Info: x1----------l2classic------------]\0	a,Level:26 \nHP:1,627 \nMP:273 \0	a,	a,none\0	a,	a,none\0	
-70514	0	1	0	0	0	-1	-1	a,[Info: x1----------l2classic------------]\0	a,Level:35 \nHP:1,289 \nMP:402 \0	a,	a,none\0	a,	a,none\0	
-70515	0	1	0	0	0	-1	-1	a,[Info: x1----------l2classic------------]\0	a,Level:21 \nHP:608 \nMP:205 \0	a,	a,none\0	a,	a,none\0	
-70516	0	1	0	0	0	-1	-1	a,[Info: x1----------l2classic------------]\0	a,Level:22 \nHP:646 \nMP:218 \0	a,	a,none\0	a,	a,none\0	
-70517	0	1	0	0	0	-1	-1	a,[Info: x1----------l2classic------------]\0	a,Level:25 \nHP:1,539 \nMP:259 \0	a,	a,none\0	a,	a,none\0	
-70518	0	1	0	0	0	-1	-1	a,[Info: x1----------l2classic------------]\0	a,Level:30 \nHP:1,008 \nMP:329 \0	a,	a,none\0	a,	a,none\0	
-70519	0	1	0	0	0	-1	-1	a,[Info: x1----------l2classic------------]\0	a,Level:52 52 \nHP:10,136 10,136 \nMP:804 804 \0	a,	a,none\0	a,	a,none\0	
-70520	0	1	0	0	0	-1	-1	a,[Info: x1----------l2classic------------]\0	a,Level:\nHP:\nMP:\0	a,	a,none\0	a,	a,none\0	
-70521	0	1	0	0	0	-1	-1	a,[Info: x1----------l2classic------------]\0	a,Level:40 \nHP:3,223 \nMP:478 \0	a,	a,none\0	a,	a,none\0	
-70522	0	1	0	0	0	-1	-1	a,[Info: x1----------l2classic------------]\0	a,Level:39 \nHP:3,087 \nMP:463 \0	a,	a,none\0	a,	a,none\0	
-70523	0	1	0	0	0	-1	-1	a,[Info: x1----------l2classic------------]\0	a,Level:\nHP:\nMP:\0	a,	a,none\0	a,	a,none\0	
-70524	0	1	0	0	0	-1	-1	a,[Info: x1----------l2classic------------]\0	a,Level:32 \nHP:2,231 \nMP:358 \0	a,	a,none\0	a,	a,none\0	
-70525	0	1	0	0	0	-1	-1	a,[Info: x1----------l2classic------------]\0	a,Level:\nHP:\nMP:\0	a,	a,none\0	a,	a,none\0	
-70526	0	1	0	0	0	-1	-1	a,[Info: x1----------l2classic------------]\0	a,Level:18 \nHP:504 \nMP:174 \0	a,	a,none\0	a,	a,none\0	
-70527	0	1	0	0	0	-1	-1	a,[Info: x1----------l2classic------------]\0	a,Level:38 \nHP:2,954 \nMP:447 \0	a,	a,none\0	a,	a,none\0	
-70528	0	1	0	0	0	-1	-1	a,[Info: x1----------l2classic------------]\0	a,Level:21 \nHP:608 \nMP:205 \0	a,	a,none\0	a,	a,none\0	
-70529	0	1	0	0	0	-1	-1	a,[Info: x1----------l2classic------------]\0	a,Level:32 \nHP:2,231 \nMP:358 \0	a,	a,none\0	a,	a,none\0	
-70530	0	1	0	0	0	-1	-1	a,[Info: x1----------l2classic------------]\0	a,Level:12 \nHP:333 \nMP:124 \0	a,	a,none\0	a,	a,none\0	
-70531	0	1	0	0	0	-1	-1	a,[Info: x1----------l2classic------------]\0	a,Level:8 \nHP:209 \nMP:92 \0	a,	a,none\0	a,	a,none\0	
-70532	0	1	0	0	0	-1	-1	a,[Info: x1----------l2classic------------]\0	a,Level:59 59 \nHP:18,815 18,815 \nMP:1,007 1,007 \0	a,	a,none\0	a,	a,none\0	
-70533	0	1	0	0	0	-1	-1	a,[Info: x1----------l2classic------------]\0	a,Level:23 \nHP:686 \nMP:231 \0	a,	a,none\0	a,	a,none\0	
-70534	0	1	0	0	0	-1	-1	a,[Info: x1----------l2classic------------]\0	a,Level:33 \nHP:2,341 \nMP:372 \0	a,	a,none\0	a,	a,none\0	
-70535	0	1	0	0	0	-1	-1	a,[Info: x1----------l2classic------------]\0	a,Level:23 \nHP:686 \nMP:231 \0	a,	a,none\0	a,	a,none\0	
-70536	0	1	0	0	0	-1	-1	a,[Info: x1----------l2classic------------]\0	a,Level:12 \nHP:333 \nMP:124 \0	a,	a,none\0	a,	a,none\0	
-70537	0	1	0	0	0	-1	-1	a,[Info: x1----------l2classic------------]\0	a,Level:32 \nHP:1,115 \nMP:358 \0	a,	a,none\0	a,	a,none\0	
-70538	0	1	0	0	0	-1	-1	a,[Info: x1----------l2classic------------]\0	a,Level:30 \nHP:956 \nMP:329 \0	a,	a,none\0	a,	a,none\0	
-70539	0	1	0	0	0	-1	-1	a,[Info: x1----------l2classic------------]\0	a,Level:\nHP:\nMP:\0	a,	a,none\0	a,	a,none\0	
-70540	0	1	0	0	0	-1	-1	a,[Info: x1----------l2classic------------]\0	a,Level:26 \nHP:814 \nMP:273 \0	a,	a,none\0	a,	a,none\0	
-70541	0	1	0	0	0	-1	-1	a,[Info: x1----------l2classic------------]\0	a,Level:61 \nHP:16,548 \nMP:1,066 \0	a,	a,none\0	a,	a,none\0	
-70542	0	1	0	0	0	-1	-1	a,[Info: x1----------l2classic------------]\0	a,Level:10 \nHP:273 \nMP:108 \0	a,	a,none\0	a,	a,none\0	
-70543	0	1	0	0	0	-1	-1	a,[Info: x1----------l2classic------------]\0	a,Level:9 \nHP:240 \nMP:100 \0	a,	a,none\0	a,	a,none\0	
-70544	0	1	0	0	0	-1	-1	a,[Info: x1----------l2classic------------]\0	a,Level:44 \nHP:5,697 \nMP:584 \0	a,	a,none\0	a,	a,none\0	
-70545	0	1	0	0	0	-1	-1	a,[Info: x1----------l2classic------------]\0	a,Level:48 \nHP:4,414 \nMP:692 \0	a,	a,none\0	a,	a,none\0	
-70546	0	1	0	0	0	-1	-1	a,[Info: x1----------l2classic------------]\0	a,Level:22 \nHP:646 \nMP:218 \0	a,	a,none\0	a,	a,none\0	
-70547	0	1	0	0	0	-1	-1	a,[Info: x1----------l2classic------------]\0	a,Level:\nHP:\nMP:\0	a,	a,none\0	a,	a,none\0	
-70548	0	1	0	0	0	-1	-1	a,[Info: x1----------l2classic------------]\0	a,Level:16 \nHP:441 \nMP:157 \0	a,	a,none\0	a,	a,none\0	
-70549	0	1	0	0	0	-1	-1	a,[Info: x1----------l2classic------------]\0	a,Level:28 \nHP:1,814 \nMP:300 \0	a,	a,none\0	a,	a,none\0	
-70550	0	1	0	0	0	-1	-1	a,[Info: x1----------l2classic------------]\0	a,Level:22 \nHP:646 \nMP:218 \0	a,	a,none\0	a,	a,none\0	
-70551	0	1	0	0	0	-1	-1	a,[Info: x1----------l2classic------------]\0	a,Level:\nHP:\nMP:\0	a,	a,none\0	a,	a,none\0	
-70552	0	1	0	0	0	-1	-1	a,[Info: x1----------l2classic------------]\0	a,Level:62 \nHP:16,983 \nMP:1,097 \0	a,	a,none\0	a,	a,none\0	
-70553	0	1	0	0	0	-1	-1	a,[Info: x1----------l2classic------------]\0	a,Level:\nHP:\nMP:\0	a,	a,none\0	a,	a,none\0	
-70554	0	1	0	0	0	-1	-1	a,[Info: x1----------l2classic------------]\0	a,Level:\nHP:\nMP:\0	a,	a,none\0	a,	a,none\0	
-70555	0	1	0	0	0	-1	-1	a,[Info: x1----------l2classic------------]\0	a,Level:\nHP:\nMP:\0	a,	a,none\0	a,	a,none\0	
-70556	0	1	0	0	0	-1	-1	a,[Info: x1----------l2classic------------]\0	a,Level:\nHP:\nMP:\0	a,	a,none\0	a,	a,none\0	
-70557	0	1	0	0	0	-1	-1	a,[Info: x1----------l2classic------------]\0	a,Level:42 \nHP:5,256 \nMP:531 \0	a,	a,none\0	a,	a,none\0	
-70558	0	1	0	0	0	-1	-1	a,[Info: x1----------l2classic------------]\0	a,Level:44 \nHP:3,798 \nMP:584 \0	a,	a,none\0	a,	a,none\0	
-70559	0	1	0	0	0	-1	-1	a,[Info: x1----------l2classic------------]\0	a,Level:22 \nHP:646 \nMP:218 \0	a,	a,none\0	a,	a,none\0	
-70560	0	1	0	0	0	-1	-1	a,[Info: x1----------l2classic------------]\0	a,Level:70 \nHP:8,149 \nMP:1,345 \0	a,	a,none\0	a,	a,none\0	
-70561	0	1	0	0	0	-1	-1	a,[Info: x1----------l2classic------------]\0	a,Level:56 56 \nHP:14,376 14,376 \nMP:918 918 \0	a,	a,none\0	a,	a,none\0	
-70562	0	1	0	0	0	-1	-1	a,[Info: x1----------l2classic------------]\0	a,Level:63 \nHP:17,417 \nMP:1,127 \0	a,	a,none\0	a,	a,none\0	
-70563	0	1	0	0	0	-1	-1	a,[Info: x1----------l2classic------------]\0	a,Level:22 \nHP:646 \nMP:218 \0	a,	a,none\0	a,	a,none\0	
-70564	0	1	0	0	0	-1	-1	a,[Info: x1----------l2classic------------]\0	a,Level:49 \nHP:6,863 \nMP:720 \0	a,	a,none\0	a,	a,none\0	
-70565	0	1	0	0	0	-1	-1	a,[Info: x1----------l2classic------------]\0	a,Level:11 \nHP:310 \nMP:116 \0	a,	a,none\0	a,	a,none\0	
-70566	0	1	0	0	0	-1	-1	a,[Info: x1----------l2classic------------]\0	a,Level:15 \nHP:412 \nMP:149 \0	a,	a,none\0	a,	a,none\0	
-70567	0	1	0	0	0	-1	-1	a,[Info: x1----------l2classic------------]\0	a,Level:\nHP:\nMP:\0	a,	a,none\0	a,	a,none\0	
-70568	0	1	0	0	0	-1	-1	a,[Info: x1----------l2classic------------]\0	a,Level:27 \nHP:859 \nMP:286 \0	a,	a,none\0	a,	a,none\0	
-70569	0	1	0	0	0	-1	-1	a,[Info: x1----------l2classic------------]\0	a,Level:43 \nHP:3,649 \nMP:557 \0	a,	a,none\0	a,	a,none\0	
-70570	0	1	0	0	0	-1	-1	a,[Info: x1----------l2classic------------]\0	a,Level:16 \nHP:441 \nMP:157 \0	a,	a,none\0	a,	a,none\0	
-70571	0	1	0	0	0	-1	-1	a,[Info: x1----------l2classic------------]\0	a,Level:31 \nHP:2,120 \nMP:343 \0	a,	a,none\0	a,	a,none\0	
-70572	0	1	0	0	0	-1	-1	a,[Info: x1----------l2classic------------]\0	a,Level:65 \nHP:18,278 \nMP:1,188 \0	a,	a,none\0	a,	a,none\0	
-70573	0	1	0	0	0	-1	-1	a,[Info: x1----------l2classic------------]\0	a,Level:64 \nHP:17,852 \nMP:1,158 \0	a,	a,none\0	a,	a,none\0	
-70574	0	1	0	0	0	-1	-1	a,[Info: x1----------l2classic------------]\0	a,Level:12 \nHP:333 \nMP:124 \0	a,	a,none\0	a,	a,none\0	
-70575	0	1	0	0	0	-1	-1	a,[Info: x1----------l2classic------------]\0	a,Level:29 \nHP:956 \nMP:315 \0	a,	a,none\0	a,	a,none\0	
-70576	0	1	0	0	0	-1	-1	a,[Info: x1----------l2classic------------]\0	a,Level:20 \nHP:572 \nMP:192 \0	a,	a,none\0	a,	a,none\0	
-70577	0	1	0	0	0	-1	-1	a,[Info: x1----------l2classic------------]\0	a,Level:17 \nHP:472 \nMP:166 \0	a,	a,none\0	a,	a,none\0	
-70578	0	1	0	0	0	-1	-1	a,[Info: x1----------l2classic------------]\0	a,Level:\nHP:\nMP:\0	a,	a,none\0	a,	a,none\0	
-70579	0	1	0	0	0	-1	-1	a,[Info: x1----------l2classic------------]\0	a,Level:42 43 \nHP:5,256 5,474 \nMP:531 557 \0	a,	a,none\0	a,	a,none\0	
-70580	0	1	0	0	0	-1	-1	a,[Info: x1----------l2classic------------]\0	a,Level:15 \nHP:412 \nMP:149 \0	a,	a,none\0	a,	a,none\0	
-70581	0	1	0	0	0	-1	-1	a,[Info: x1----------l2classic------------]\0	a,Level:\nHP:\nMP:\0	a,	a,none\0	a,	a,none\0	
-70582	0	1	0	0	0	-1	-1	a,[Info: x1----------l2classic------------]\0	a,Level:23 \nHP:686 \nMP:231 \0	a,	a,none\0	a,	a,none\0	
-70583	0	1	0	0	0	-1	-1	a,[Info: x1----------l2classic------------]\0	a,Level:\nHP:\nMP:\0	a,	a,none\0	a,	a,none\0	
-70584	0	1	0	0	0	-1	-1	a,[Info: x1----------l2classic------------]\0	a,Level:65 \nHP:21,934 \nMP:1,188 \0	a,	a,none\0	a,	a,none\0	
-70585	0	1	0	0	0	-1	-1	a,[Info: x1----------l2classic------------]\0	a,Level:14 \nHP:385 \nMP:140 \0	a,	a,none\0	a,	a,none\0	
-70586	0	1	0	0	0	-1	-1	a,[Info: x1----------l2classic------------]\0	a,Level:24 \nHP:727 \nMP:245 \0	a,	a,none\0	a,	a,none\0	
-70587	0	1	0	0	0	-1	-1	a,[Info: x1----------l2classic------------]\0	a,Level:21 \nHP:608 \nMP:205 \0	a,	a,none\0	a,	a,none\0	
-70588	0	1	0	0	0	-1	-1	a,[Info: x1----------l2classic------------]\0	a,Level:13 \nHP:359 \nMP:132 \0	a,	a,none\0	a,	a,none\0	
-70589	0	1	0	0	0	-1	-1	a,[Info: x1----------l2classic------------]\0	a,Level:70 \nHP:20,372 \nMP:1,345 \0	a,	a,none\0	a,	a,none\0	
-70590	0	1	0	0	0	-1	-1	a,[Info: x1----------l2classic------------]\0	a,Level:9 \nHP:227 \nMP:100 \0	a,	a,none\0	a,	a,none\0	
-70591	0	1	0	0	0	-1	-1	a,[Info: x1----------l2classic------------]\0	a,Level:15 \nHP:412 \nMP:149 \0	a,	a,none\0	a,	a,none\0	
-70592	0	1	0	0	0	-1	-1	a,[Info: x1----------l2classic------------]\0	a,Level:66 \nHP:22,446 \nMP:1,219 \0	a,	a,none\0	a,	a,none\0	
-70593	0	1	0	0	0	-1	-1	a,[Info: x1----------l2classic------------]\0	a,Level:35 \nHP:1,289 \nMP:402 \0	a,	a,none\0	a,	a,none\0	
-70594	0	1	0	0	0	-1	-1	a,[Info: x1----------l2classic------------]\0	a,Level:67 \nHP:22,958 \nMP:1,251 \0	a,	a,none\0	a,	a,none\0	
-70595	0	1	0	0	0	-1	-1	a,[Info: x1----------l2classic------------]\0	a,Level:\nHP:\nMP:\0	a,	a,none\0	a,	a,none\0	
-70596	0	1	0	0	0	-1	-1	a,[Info: x1----------l2classic------------]\0	a,Level:24 \nHP:727 \nMP:245 \0	a,	a,none\0	a,	a,none\0	
-70597	0	1	0	0	0	-1	-1	a,[Info: x1----------l2classic------------]\0	a,Level:20 \nHP:572 \nMP:192 \0	a,	a,none\0	a,	a,none\0	
-70598	0	1	0	0	0	-1	-1	a,[Info: x1----------l2classic------------]\0	a,Level:22 \nHP:613 \nMP:218 \0	a,	a,none\0	a,	a,none\0	
-70599	0	1	0	0	0	-1	-1	a,[Info: x1----------l2classic------------]\0	a,Level:16 \nHP:441 \nMP:157 \0	a,	a,none\0	a,	a,none\0	
-70600	0	1	0	0	0	-1	-1	a,[Info: x1----------l2classic------------]\0	a,Level:45 \nHP:3,946 \nMP:610 \0	a,	a,none\0	a,	a,none\0	
-70601	0	1	0	0	0	-1	-1	a,[Info: x1----------l2classic------------]\0	a,Level:60 \nHP:16,114 \nMP:1,036 \0	a,	a,none\0	a,	a,none\0	
-70602	0	1	0	0	0	-1	-1	a,[Info: x1----------l2classic------------]\0	a,Level:9 \nHP:227 \nMP:100 \0	a,	a,none\0	a,	a,none\0	
-70603	0	1	0	0	0	-1	-1	a,[Info: x1----------l2classic------------]\0	a,Level:36 \nHP:2,698 \nMP:417 \0	a,	a,none\0	a,	a,none\0	
-70604	0	1	0	0	0	-1	-1	a,[Info: x1----------l2classic------------]\0	a,Level:\nHP:\nMP:\0	a,	a,none\0	a,	a,none\0	
-70605	0	1	0	0	0	-1	-1	a,[Info: x1----------l2classic------------]\0	a,Level:\nHP:\nMP:\0	a,	a,none\0	a,	a,none\0	
-70606	0	1	0	0	0	-1	-1	a,[Info: x1----------l2classic------------]\0	a,Level:70 \nHP:8,149 \nMP:1,345 \0	a,	a,none\0	a,	a,none\0	
-70607	0	1	0	0	0	-1	-1	a,[Info: x1----------l2classic------------]\0	a,Level:\nHP:\nMP:\0	a,	a,none\0	a,	a,none\0	
-70608	0	1	0	0	0	-1	-1	a,[Info: x1----------l2classic------------]\0	a,Level:68 \nHP:27,370 \nMP:1,282 \0	a,	a,none\0	a,	a,none\0	
-70609	0	1	0	0	0	-1	-1	a,[Info: x1----------l2classic------------]\0	a,Level:12 \nHP:333 \nMP:124 \0	a,	a,none\0	a,	a,none\0	
-70610	0	1	0	0	0	-1	-1	a,[Info: x1----------l2classic------------]\0	a,Level:13 \nHP:359 \nMP:132 \0	a,	a,none\0	a,	a,none\0	
-70611	0	1	0	0	0	-1	-1	a,[Info: x1----------l2classic------------]\0	a,Level:69 \nHP:27,945 \nMP:1,314 \0	a,	a,none\0	a,	a,none\0	
-70612	0	1	0	0	0	-1	-1	a,[Info: x1----------l2classic------------]\0	a,Level:11 \nHP:310 \nMP:116 \0	a,	a,none\0	a,	a,none\0	
-70613	0	1	0	0	0	-1	-1	a,[Info: x1----------l2classic------------]\0	a,Level:29 \nHP:956 \nMP:315 \0	a,	a,none\0	a,	a,none\0	
-70614	0	1	0	0	0	-1	-1	a,[Info: x1----------l2classic------------]\0	a,Level:27 \nHP:859 \nMP:286 \0	a,	a,none\0	a,	a,none\0	
-70615	0	1	0	0	0	-1	-1	a,[Info: x1----------l2classic------------]\0	a,Level:24 \nHP:727 \nMP:245 \0	a,	a,none\0	a,	a,none\0	
-70616	0	1	0	0	0	-1	-1	a,[Info: x1----------l2classic------------]\0	a,Level:\nHP:\nMP:\0	a,	a,none\0	a,	a,none\0	
-70617	0	1	0	0	0	-1	-1	a,[Info: x1----------l2classic------------]\0	a,Level:\nHP:\nMP:\0	a,	a,none\0	a,	a,none\0	
-70618	0	1	0	0	0	-1	-1	a,[Info: x1----------l2classic------------]\0	a,Level:16 \nHP:441 \nMP:157 \0	a,	a,none\0	a,	a,none\0	
-70619	0	1	0	0	0	-1	-1	a,[Info: x1----------l2classic------------]\0	a,Level:\nHP:\nMP:\0	a,	a,none\0	a,	a,none\0	
-70620	0	1	0	0	0	-1	-1	a,[Info: x1----------l2classic------------]\0	a,Level:47 \nHP:6,384 \nMP:665 \0	a,	a,none\0	a,	a,none\0	
-70621	0	1	0	0	0	-1	-1	a,[Info: x1----------l2classic------------]\0	a,Level:9 \nHP:227 \nMP:100 \0	a,	a,none\0	a,	a,none\0	
-70622	0	1	0	0	0	-1	-1	a,[Info: x1----------l2classic------------]\0	a,Level:25 \nHP:769 \nMP:259 \0	a,	a,none\0	a,	a,none\0	
-70623	0	1	0	0	0	-1	-1	a,[Info: x1----------l2classic------------]\0	a,Level:28 \nHP:907 \nMP:300 \0	a,	a,none\0	a,	a,none\0	
-70624	0	1	0	0	0	-1	-1	a,[Info: x1----------l2classic------------]\0	a,Level:\nHP:\nMP:\0	a,	a,none\0	a,	a,none\0	
-70625	0	1	0	0	0	-1	-1	a,[Info: x1----------l2classic------------]\0	a,Level:\nHP:\nMP:\0	a,	a,none\0	a,	a,none\0	
-70626	0	1	0	0	0	-1	-1	a,[Info: x1----------l2classic------------]\0	a,Level:45 \nHP:1,973 \nMP:610 \0	a,	a,none\0	a,	a,none\0	
-70627	0	1	0	0	0	-1	-1	a,[Info: x1----------l2classic------------]\0	a,Level:18 \nHP:504 \nMP:174 \0	a,	a,none\0	a,	a,none\0	
-70628	0	1	0	0	0	-1	-1	a,[Info: x1----------l2classic------------]\0	a,Level:20 \nHP:542 \nMP:192 \0	a,	a,none\0	a,	a,none\0	
-70629	0	1	0	0	0	-1	-1	a,[Info: x1----------l2classic------------]\0	a,Level:\nHP:\nMP:\0	a,	a,none\0	a,	a,none\0	
-70630	0	1	0	0	0	-1	-1	a,[Info: x1----------l2classic------------]\0	a,Level:70 \nHP:28,520 \nMP:1,345 \0	a,	a,none\0	a,	a,none\0	
-70631	0	1	0	0	0	-1	-1	a,[Info: x1----------l2classic------------]\0	a,Level:12 \nHP:333 \nMP:124 \0	a,	a,none\0	a,	a,none\0	
-70632	0	1	0	0	0	-1	-1	a,[Info: x1----------l2classic------------]\0	a,Level:14 \nHP:385 \nMP:140 \0	a,	a,none\0	a,	a,none\0	
-70633	0	1	0	0	0	-1	-1	a,[Info: x1----------l2classic------------]\0	a,Level:\nHP:\nMP:\0	a,	a,none\0	a,	a,none\0	
-70634	0	1	0	0	0	-1	-1	a,[Info: x1----------l2classic------------]\0	a,Level:\nHP:\nMP:\0	a,	a,none\0	a,	a,none\0	
-70635	0	1	0	0	0	-1	-1	a,[Info: x1----------l2classic------------]\0	a,Level:29 \nHP:956 \nMP:315 \0	a,	a,none\0	a,	a,none\0	
-70636	0	1	0	0	0	-1	-1	a,[Info: x1----------l2classic------------]\0	a,Level:36 \nHP:1,349 \nMP:417 \0	a,	a,none\0	a,	a,none\0	
-70637	0	1	0	0	0	-1	-1	a,[Info: x1----------l2classic------------]\0	a,Level:70 \nHP:48,892 \nMP:1,345 \0	a,	a,none\0	a,	a,none\0	
-70638	0	1	0	0	0	-1	-1	a,[Info: x1----------l2classic------------]\0	a,Level:\nHP:\nMP:\0	a,	a,none\0	a,	a,none\0	
-70639	0	1	0	0	0	-1	-1	a,[Info: x1----------l2classic------------]\0	a,Level:\nHP:\nMP:\0	a,	a,none\0	a,	a,none\0	
-70640	0	1	0	0	0	-1	-1	a,[Info: x1----------l2classic------------]\0	a,Level:\nHP:\nMP:\0	a,	a,none\0	a,	a,none\0	
-70641	0	1	0	0	0	-1	-1	a,[Info: x1----------l2classic------------]\0	a,Level:25 \nHP:769 \nMP:259 \0	a,	a,none\0	a,	a,none\0	
-70642	0	1	0	0	0	-1	-1	a,[Info: x1----------l2classic------------]\0	a,Level:\nHP:\nMP:\0	a,	a,none\0	a,	a,none\0	
-70643	0	1	0	0	0	-1	-1	a,[Info: x1----------l2classic------------]\0	a,Level:\nHP:\nMP:\0	a,	a,none\0	a,	a,none\0	
-70644	0	1	0	0	0	-1	-1	a,[Info: x1----------l2classic------------]\0	a,Level:\nHP:\nMP:\0	a,	a,none\0	a,	a,none\0	
-70645	0	1	0	0	0	-1	-1	a,[Info: x1----------l2classic------------]\0	a,Level:\nHP:\nMP:\0	a,	a,none\0	a,	a,none\0	
-70646	0	1	0	0	0	-1	-1	a,[Info: x1----------l2classic------------]\0	a,Level:4 \nHP:114 \nMP:62 \0	a,	a,none\0	a,	a,none\0	
-70647	0	1	0	0	0	-1	-1	a,[Info: x1----------l2classic------------]\0	a,Level:26 \nHP:814 \nMP:273 \0	a,	a,none\0	a,	a,none\0	
-70648	0	1	0	0	0	-1	-1	a,[Info: x1----------l2classic------------]\0	a,Level:18 \nHP:504 \nMP:174 \0	a,	a,none\0	a,	a,none\0	
-70649	0	1	0	0	0	-1	-1	a,[Info: x1----------l2classic------------]\0	a,Level:15 \nHP:412 \nMP:149 \0	a,	a,none\0	a,	a,none\0	
-70650	0	1	0	0	0	-1	-1	a,[Info: x1----------l2classic------------]\0	a,Level:39 \nHP:1,543 \nMP:463 \0	a,	a,none\0	a,	a,none\0	
-70651	0	1	0	0	0	-1	-1	a,[Info: x1----------l2classic------------]\0	a,Level:22 \nHP:613 \nMP:218 \0	a,	a,none\0	a,	a,none\0	
-70652	0	1	0	0	0	-1	-1	a,[Info: x1----------l2classic------------]\0	a,Level:2 \nHP:81 \nMP:47 \0	a,	a,none\0	a,	a,none\0	
-70653	0	1	0	0	0	-1	-1	a,[Info: x1----------l2classic------------]\0	a,Level:\nHP:\nMP:\0	a,	a,none\0	a,	a,none\0	
-70654	0	1	0	0	0	-1	-1	a,[Info: x1----------l2classic------------]\0	a,Level:\nHP:\nMP:\0	a,	a,none\0	a,	a,none\0	
-70655	0	1	0	0	0	-1	-1	a,[Info: x1----------l2classic------------]\0	a,Level:39 \nHP:1,543 \nMP:463 \0	a,	a,none\0	a,	a,none\0	
-70656	0	1	0	0	0	-1	-1	a,[Info: x1----------l2classic------------]\0	a,Level:\nHP:\nMP:\0	a,	a,none\0	a,	a,none\0	
-70657	0	1	0	0	0	-1	-1	a,[Info: x1----------l2classic------------]\0	a,Level:2 \nHP:81 \nMP:47 \0	a,	a,none\0	a,	a,none\0	
-70658	0	1	0	0	0	-1	-1	a,[Info: x1----------l2classic------------]\0	a,Level:27 \nHP:859 \nMP:286 \0	a,	a,none\0	a,	a,none\0	
-70659	0	1	0	0	0	-1	-1	a,[Info: x1----------l2classic------------]\0	a,Level:35 \nHP:1,289 \nMP:402 \0	a,	a,none\0	a,	a,none\0	
-70660	0	1	0	0	0	-1	-1	a,[Info: x1----------l2classic------------]\0	a,Level:35 \nHP:1,289 \nMP:402 \0	a,	a,none\0	a,	a,none\0	
-70661	0	1	0	0	0	-1	-1	a,[Info: x1----------l2classic------------]\0	a,Level:\nHP:\nMP:\0	a,	a,none\0	a,	a,none\0	
-70662	0	1	0	0	0	-1	-1	a,[Info: x1----------l2classic------------]\0	a,Level:\nHP:\nMP:\0	a,	a,none\0	a,	a,none\0	
-70663	0	1	0	0	0	-1	-1	a,[Info: x1----------l2classic------------]\0	a,Level:30 \nHP:1,008 \nMP:329 \0	a,	a,none\0	a,	a,none\0	
-70664	0	1	0	0	0	-1	-1	a,[Info: x1----------l2classic------------]\0	a,Level:30 \nHP:1,008 \nMP:329 \0	a,	a,none\0	a,	a,none\0	
-70665	0	1	0	0	0	-1	-1	a,[Info: x1----------l2classic------------]\0	a,Level:16 \nHP:441 \nMP:157 \0	a,	a,none\0	a,	a,none\0	
-70666	0	1	0	0	0	-1	-1	a,[Info: x1----------l2classic------------]\0	a,Level:47 \nHP:2,128 \nMP:665 \0	a,	a,none\0	a,	a,none\0	
-70667	0	1	0	0	0	-1	-1	a,[Info: x1----------l2classic------------]\0	a,Level:17 \nHP:472 \nMP:166 \0	a,	a,none\0	a,	a,none\0	
-70668	0	1	0	0	0	-1	-1	a,[Info: x1----------l2classic------------]\0	a,Level:9 \nHP:240 \nMP:100 \0	a,	a,none\0	a,	a,none\0	
-70669	0	1	0	0	0	-1	-1	a,[Info: x1----------l2classic------------]\0	a,Level:2 \nHP:81 \nMP:47 \0	a,	a,none\0	a,	a,none\0	
-70670	0	1	0	0	0	-1	-1	a,[Info: x1----------l2classic------------]\0	a,Level:\nHP:\nMP:\0	a,	a,none\0	a,	a,none\0	
-70671	0	1	0	0	0	-1	-1	a,[Info: x1----------l2classic------------]\0	a,Level:\nHP:\nMP:\0	a,	a,none\0	a,	a,none\0	
-70672	0	1	0	0	0	-1	-1	a,[Info: x1----------l2classic------------]\0	a,Level:\nHP:\nMP:\0	a,	a,none\0	a,	a,none\0	
-70673	0	1	0	0	0	-1	-1	a,[Info: x1----------l2classic------------]\0	a,Level:30 \nHP:1,008 \nMP:329 \0	a,	a,none\0	a,	a,none\0	
-70674	0	1	0	0	0	-1	-1	a,[Info: x1----------l2classic------------]\0	a,Level:31 \nHP:1,060 \nMP:343 \0	a,	a,none\0	a,	a,none\0	
-70675	0	1	0	0	0	-1	-1	a,[Info: x1----------l2classic------------]\0	a,Level:\nHP:\nMP:\0	a,	a,none\0	a,	a,none\0	
-70676	0	1	0	0	0	-1	-1	a,[Info: x1----------l2classic------------]\0	a,Level:\nHP:\nMP:\0	a,	a,none\0	a,	a,none\0	
-70677	0	1	0	0	0	-1	-1	a,[Info: x1----------l2classic------------]\0	a,Level:\nHP:\nMP:\0	a,	a,none\0	a,	a,none\0	
-70678	0	1	0	0	0	-1	-1	a,[Info: x1----------l2classic------------]\0	a,Level:\nHP:\nMP:\0	a,	a,none\0	a,	a,none\0	
-70679	0	1	0	0	0	-1	-1	a,[Info: x1----------l2classic------------]\0	a,Level:\nHP:\nMP:\0	a,	a,none\0	a,	a,none\0	
-70680	0	1	0	0	0	-1	-1	a,[Info: x1----------l2classic------------]\0	a,Level:1 \nHP:66 \nMP:40 \0	a,	a,none\0	a,	a,none\0	
-70681	0	1	0	0	0	-1	-1	a,[Info: x1----------l2classic------------]\0	a,Level:\nHP:\nMP:\0	a,	a,none\0	a,	a,none\0	
-70682	0	1	0	0	0	-1	-1	a,[Info: x1----------l2classic------------]\0	a,Level:32 \nHP:1,115 \nMP:358 \0	a,	a,none\0	a,	a,none\0	
-70683	0	1	0	0	0	-1	-1	a,[Info: x1----------l2classic------------]\0	a,Level:31 \nHP:1,060 \nMP:343 \0	a,	a,none\0	a,	a,none\0	
-70684	0	1	0	0	0	-1	-1	a,[Info: x1----------l2classic------------]\0	a,Level:16 \nHP:441 \nMP:157 \0	a,	a,none\0	a,	a,none\0	
-70685	0	1	0	0	0	-1	-1	a,[Info: x1----------l2classic------------]\0	a,Level:\nHP:\nMP:\0	a,	a,none\0	a,	a,none\0	
-70686	0	1	0	0	0	-1	-1	a,[Info: x1----------l2classic------------]\0	a,Level:1 \nHP:66 \nMP:40 \0	a,	a,none\0	a,	a,none\0	
-70687	0	1	0	0	0	-1	-1	a,[Info: x1----------l2classic------------]\0	a,Level:17 \nHP:472 \nMP:166 \0	a,	a,none\0	a,	a,none\0	
-70688	0	1	0	0	0	-1	-1	a,[Info: x1----------l2classic------------]\0	a,Level:46 \nHP:2,051 \nMP:637 \0	a,	a,none\0	a,	a,none\0	
-70689	0	1	0	0	0	-1	-1	a,[Info: x1----------l2classic------------]\0	a,Level:32 \nHP:2,231 \nMP:358 \0	a,	a,none\0	a,	a,none\0	
-70690	0	1	0	0	0	-1	-1	a,[Info: x1----------l2classic------------]\0	a,Level:\nHP:\nMP:\0	a,	a,none\0	a,	a,none\0	
-70691	0	1	0	0	0	-1	-1	a,[Info: x1----------l2classic------------]\0	a,Level:\nHP:\nMP:\0	a,	a,none\0	a,	a,none\0	
-70692	0	1	0	0	0	-1	-1	a,[Info: x1----------l2classic------------]\0	a,Level:\nHP:\nMP:\0	a,	a,none\0	a,	a,none\0	
-70693	0	1	0	0	0	-1	-1	a,[Info: x1----------l2classic------------]\0	a,Level:34 \nHP:1,229 \nMP:387 \0	a,	a,none\0	a,	a,none\0	
-70694	0	1	0	0	0	-1	-1	a,[Info: x1----------l2classic------------]\0	a,Level:30 \nHP:1,008 \nMP:329 \0	a,	a,none\0	a,	a,none\0	
-70695	0	1	0	0	0	-1	-1	a,[Info: x1----------l2classic------------]\0	a,Level:6 \nHP:156 \nMP:77 \0	a,	a,none\0	a,	a,none\0	
-70696	0	1	0	0	0	-1	-1	a,[Info: x1----------l2classic------------]\0	a,Level:21 \nHP:608 \nMP:205 \0	a,	a,none\0	a,	a,none\0	
-70697	0	1	0	0	0	-1	-1	a,[Info: x1----------l2classic------------]\0	a,Level:20 \nHP:572 \nMP:192 \0	a,	a,none\0	a,	a,none\0	
-70698	0	1	0	0	0	-1	-1	a,[Info: x1----------l2classic------------]\0	a,Level:\nHP:\nMP:\0	a,	a,none\0	a,	a,none\0	
-70699	0	1	0	0	0	-1	-1	a,[Info: x1----------l2classic------------]\0	a,Level:37 \nHP:1,340 \nMP:432 \0	a,	a,none\0	a,	a,none\0	
-70700	0	1	0	0	0	-1	-1	a,[Info: x1----------l2classic------------]\0	a,Level:47 \nHP:4,256 \nMP:665 \0	a,	a,none\0	a,	a,none\0	
-70701	0	1	0	0	0	-1	-1	a,[Info: x1----------l2classic------------]\0	a,Level:33 \nHP:1,171 \nMP:372 \0	a,	a,none\0	a,	a,none\0	
-70702	0	1	0	0	0	-1	-1	a,[Info: x1----------l2classic------------]\0	a,Level:23 \nHP:686 \nMP:231 \0	a,	a,none\0	a,	a,none\0	
-70703	0	1	0	0	0	-1	-1	a,[Info: x1----------l2classic------------]\0	a,Level:50 \nHP:4,736 \nMP:747 \0	a,	a,none\0	a,	a,none\0	
-70704	0	1	0	0	0	-1	-1	a,[Info: x1----------l2classic------------]\0	a,Level:\nHP:\nMP:\0	a,	a,none\0	a,	a,none\0	
-70705	0	1	0	0	0	-1	-1	a,[Info: x1----------l2classic------------]\0	a,Level:12 \nHP:333 \nMP:124 \0	a,	a,none\0	a,	a,none\0	
-70706	0	1	0	0	0	-1	-1	a,[Info: x1----------l2classic------------]\0	a,Level:\nHP:\nMP:\0	a,	a,none\0	a,	a,none\0	
-70707	0	1	0	0	0	-1	-1	a,[Info: x1----------l2classic------------]\0	a,Level:18 \nHP:504 \nMP:174 \0	a,	a,none\0	a,	a,none\0	
-70708	0	1	0	0	0	-1	-1	a,[Info: x1----------l2classic------------]\0	a,Level:\nHP:\nMP:\0	a,	a,none\0	a,	a,none\0	
-70709	0	1	0	0	0	-1	-1	a,[Info: x1----------l2classic------------]\0	a,Level:29 \nHP:956 \nMP:315 \0	a,	a,none\0	a,	a,none\0	
-70710	0	1	0	0	0	-1	-1	a,[Info: x1----------l2classic------------]\0	a,Level:34 \nHP:1,229 \nMP:387 \0	a,	a,none\0	a,	a,none\0	
-70711	0	1	0	0	0	-1	-1	a,[Info: x1----------l2classic------------]\0	a,Level:24 \nHP:727 \nMP:245 \0	a,	a,none\0	a,	a,none\0	
-70712	0	1	0	0	0	-1	-1	a,[Info: x1----------l2classic------------]\0	a,Level:49 \nHP:6,863 \nMP:720 \0	a,	a,none\0	a,	a,none\0	
-70713	0	1	0	0	0	-1	-1	a,[Info: x1----------l2classic------------]\0	a,Level:\nHP:\nMP:\0	a,	a,none\0	a,	a,none\0	
-70714	0	1	0	0	0	-1	-1	a,[Info: x1----------l2classic------------]\0	a,Level:17 \nHP:472 \nMP:166 \0	a,	a,none\0	a,	a,none\0	
-70715	0	1	0	0	0	-1	-1	a,[Info: x1----------l2classic------------]\0	a,Level:\nHP:\nMP:\0	a,	a,none\0	a,	a,none\0	
-70716	0	1	0	0	0	-1	-1	a,[Info: x1----------l2classic------------]\0	a,Level:\nHP:\nMP:\0	a,	a,none\0	a,	a,none\0	
-70717	0	1	0	0	0	-1	-1	a,[Info: x1----------l2classic------------]\0	a,Level:22 \nHP:646 \nMP:218 \0	a,	a,none\0	a,	a,none\0	
-70718	0	1	0	0	0	-1	-1	a,[Info: x1----------l2classic------------]\0	a,Level:29 \nHP:1,912 \nMP:315 \0	a,	a,none\0	a,	a,none\0	
-70719	0	1	0	0	0	-1	-1	a,[Info: x1----------l2classic------------]\0	a,Level:\nHP:\nMP:\0	a,	a,none\0	a,	a,none\0	
-70720	0	1	0	0	0	-1	-1	a,[Info: x1----------l2classic------------]\0	a,Level:34 \nHP:1,229 \nMP:387 \0	a,	a,none\0	a,	a,none\0	
-70721	0	1	0	0	0	-1	-1	a,[Info: x1----------l2classic------------]\0	a,Level:14 \nHP:385 \nMP:140 \0	a,	a,none\0	a,	a,none\0	
-70722	0	1	0	0	0	-1	-1	a,[Info: x1----------l2classic------------]\0	a,Level:\nHP:\nMP:\0	a,	a,none\0	a,	a,none\0	
-70723	0	1	0	0	0	-1	-1	a,[Info: x1----------l2classic------------]\0	a,Level:\nHP:\nMP:\0	a,	a,none\0	a,	a,none\0	
-70724	0	1	0	0	0	-1	-1	a,[Info: x1----------l2classic------------]\0	a,Level:2 \nHP:81 \nMP:47 \0	a,	a,none\0	a,	a,none\0	
-70725	0	1	0	0	0	-1	-1	a,[Info: x1----------l2classic------------]\0	a,Level:\nHP:\nMP:\0	a,	a,none\0	a,	a,none\0	
-70726	0	1	0	0	0	-1	-1	a,[Info: x1----------l2classic------------]\0	a,Level:25 \nHP:769 \nMP:259 \0	a,	a,none\0	a,	a,none\0	
-70727	0	1	0	0	0	-1	-1	a,[Info: x1----------l2classic------------]\0	a,Level:13 \nHP:359 \nMP:132 \0	a,	a,none\0	a,	a,none\0	
-70728	0	1	0	0	0	-1	-1	a,[Info: x1----------l2classic------------]\0	a,Level:\nHP:\nMP:\0	a,	a,none\0	a,	a,none\0	
-70729	0	1	0	0	0	-1	-1	a,[Info: x1----------l2classic------------]\0	a,Level:\nHP:\nMP:\0	a,	a,none\0	a,	a,none\0	
-70730	0	1	0	0	0	-1	-1	a,[Info: x1----------l2classic------------]\0	a,Level:3 \nHP:96 \nMP:54 \0	a,	a,none\0	a,	a,none\0	
-70731	0	1	0	0	0	-1	-1	a,[Info: x1----------l2classic------------]\0	a,Level:29 \nHP:956 \nMP:315 \0	a,	a,none\0	a,	a,none\0	
-70732	0	1	0	0	0	-1	-1	a,[Info: x1----------l2classic------------]\0	a,Level:19 \nHP:537 \nMP:183 \0	a,	a,none\0	a,	a,none\0	
-70733	0	1	0	0	0	-1	-1	a,[Info: x1----------l2classic------------]\0	a,Level:11 \nHP:310 \nMP:116 \0	a,	a,none\0	a,	a,none\0	
-70734	0	1	0	0	0	-1	-1	a,[Info: x1----------l2classic------------]\0	a,Level:17 \nHP:472 \nMP:166 \0	a,	a,none\0	a,	a,none\0	
-70735	0	1	0	0	0	-1	-1	a,[Info: x1----------l2classic------------]\0	a,Level:\nHP:\nMP:\0	a,	a,none\0	a,	a,none\0	
-70736	0	1	0	0	0	-1	-1	a,[Info: x1----------l2classic------------]\0	a,Level:35 \nHP:1,289 \nMP:402 \0	a,	a,none\0	a,	a,none\0	
-70737	0	1	0	0	0	-1	-1	a,[Info: x1----------l2classic------------]\0	a,Level:\nHP:\nMP:\0	a,	a,none\0	a,	a,none\0	
-70738	0	1	0	0	0	-1	-1	a,[Info: x1----------l2classic------------]\0	a,Level:1 \nHP:66 \nMP:40 \0	a,	a,none\0	a,	a,none\0	
-70739	0	1	0	0	0	-1	-1	a,[Info: x1----------l2classic------------]\0	a,Level:\nHP:\nMP:\0	a,	a,none\0	a,	a,none\0	
-70740	0	1	0	0	0	-1	-1	a,[Info: x1----------l2classic------------]\0	a,Level:3 \nHP:96 \nMP:54 \0	a,	a,none\0	a,	a,none\0	
-70741	0	1	0	0	0	-1	-1	a,[Info: x1----------l2classic------------]\0	a,Level:4 \nHP:114 \nMP:62 \0	a,	a,none\0	a,	a,none\0	
-70742	0	1	0	0	0	-1	-1	a,[Info: x1----------l2classic------------]\0	a,Level:\nHP:\nMP:\0	a,	a,none\0	a,	a,none\0	
-70743	0	1	0	0	0	-1	-1	a,[Info: x1----------l2classic------------]\0	a,Level:35 \nHP:2,578 \nMP:402 \0	a,	a,none\0	a,	a,none\0	
-70744	0	1	0	0	0	-1	-1	a,[Info: x1----------l2classic------------]\0	a,Level:\nHP:\nMP:\0	a,	a,none\0	a,	a,none\0	
-70745	0	1	0	0	0	-1	-1	a,[Info: x1----------l2classic------------]\0	a,Level:46 47 48 \nHP:2,051 2,128 2,207 \nMP:637 665 692 \0	a,	a,none\0	a,	a,none\0	
-70746	0	1	0	0	0	-1	-1	a,[Info: x1----------l2classic------------]\0	a,Level:3 \nHP:96 \nMP:54 \0	a,	a,none\0	a,	a,none\0	
-70747	0	1	0	0	0	-1	-1	a,[Info: x1----------l2classic------------]\0	a,Level:\nHP:\nMP:\0	a,	a,none\0	a,	a,none\0	
-70748	0	1	0	0	0	-1	-1	a,[Info: x1----------l2classic------------]\0	a,Level:46 47 48 \nHP:2,051 2,128 2,207 \nMP:637 665 692 \0	a,	a,none\0	a,	a,none\0	
-70749	0	1	0	0	0	-1	-1	a,[Info: x1----------l2classic------------]\0	a,Level:\nHP:\nMP:\0	a,	a,none\0	a,	a,none\0	
-70750	0	1	0	0	0	-1	-1	a,[Info: x1----------l2classic------------]\0	a,Level:15 \nHP:412 \nMP:149 \0	a,	a,none\0	a,	a,none\0	
-70751	0	1	0	0	0	-1	-1	a,[Info: x1----------l2classic------------]\0	a,Level:1 \nHP:66 \nMP:40 \0	a,	a,none\0	a,	a,none\0	
-70752	0	1	0	0	0	-1	-1	a,[Info: x1----------l2classic------------]\0	a,Level:60 \nHP:6,446 \nMP:1,036 \0	a,	a,none\0	a,	a,none\0	
-70753	0	1	0	0	0	-1	-1	a,[Info: x1----------l2classic------------]\0	a,Level:1 \nHP:66 \nMP:40 \0	a,	a,none\0	a,	a,none\0	
-70754	0	1	0	0	0	-1	-1	a,[Info: x1----------l2classic------------]\0	a,Level:18 \nHP:504 \nMP:174 \0	a,	a,none\0	a,	a,none\0	
-70755	0	1	0	0	0	-1	-1	a,[Info: x1----------l2classic------------]\0	a,Level:\nHP:\nMP:\0	a,	a,none\0	a,	a,none\0	
-70756	0	1	0	0	0	-1	-1	a,[Info: x1----------l2classic------------]\0	a,Level:\nHP:\nMP:\0	a,	a,none\0	a,	a,none\0	
-70757	0	1	0	0	0	-1	-1	a,[Info: x1----------l2classic------------]\0	a,Level:37 \nHP:1,412 \nMP:432 \0	a,	a,none\0	a,	a,none\0	
-70758	0	1	0	0	0	-1	-1	a,[Info: x1----------l2classic------------]\0	a,Level:66 \nHP:7,482 \nMP:1,219 \0	a,	a,none\0	a,	a,none\0	
-70759	0	1	0	0	0	-1	-1	a,[Info: x1----------l2classic------------]\0	a,Level:62 \nHP:6,793 \nMP:1,097 \0	a,	a,none\0	a,	a,none\0	
-70760	0	1	0	0	0	-1	-1	a,[Info: x1----------l2classic------------]\0	a,Level:10 \nHP:273 \nMP:108 \0	a,	a,none\0	a,	a,none\0	
-70761	0	1	0	0	0	-1	-1	a,[Info: x1----------l2classic------------]\0	a,Level:\nHP:\nMP:\0	a,	a,none\0	a,	a,none\0	
-70762	0	1	0	0	0	-1	-1	a,[Info: x1----------l2classic------------]\0	a,Level:46 47 48 \nHP:2,051 2,128 2,207 \nMP:637 665 692 \0	a,	a,none\0	a,	a,none\0	
-70763	0	1	0	0	0	-1	-1	a,[Info: x1----------l2classic------------]\0	a,Level:\nHP:\nMP:\0	a,	a,none\0	a,	a,none\0	
-70764	0	1	0	0	0	-1	-1	a,[Info: x1----------l2classic------------]\0	a,Level:\nHP:\nMP:\0	a,	a,none\0	a,	a,none\0	
-70765	0	1	0	0	0	-1	-1	a,[Info: x1----------l2classic------------]\0	a,Level:\nHP:\nMP:\0	a,	a,none\0	a,	a,none\0	
-70766	0	1	0	0	0	-1	-1	a,[Info: x1----------l2classic------------]\0	a,Level:10 \nHP:273 \nMP:108 \0	a,	a,none\0	a,	a,none\0	
-70767	0	1	0	0	0	-1	-1	a,[Info: x1----------l2classic------------]\0	a,Level:10 \nHP:273 \nMP:108 \0	a,	a,none\0	a,	a,none\0	
-70768	0	1	0	0	0	-1	-1	a,[Info: x1----------l2classic------------]\0	a,Level:3 \nHP:96 \nMP:54 \0	a,	a,none\0	a,	a,none\0	
-70769	0	1	0	0	0	-1	-1	a,[Info: x1----------l2classic------------]\0	a,Level:\nHP:\nMP:\0	a,	a,none\0	a,	a,none\0	
-70770	0	1	0	0	0	-1	-1	a,[Info: x1----------l2classic------------]\0	a,Level:\nHP:\nMP:\0	a,	a,none\0	a,	a,none\0	
-70771	0	1	0	0	0	-1	-1	a,[Info: x1----------l2classic------------]\0	a,Level:7 \nHP:182 \nMP:84 \0	a,	a,none\0	a,	a,none\0	
-70772	0	1	0	0	0	-1	-1	a,[Info: x1----------l2classic------------]\0	a,Level:\nHP:\nMP:\0	a,	a,none\0	a,	a,none\0	
-70773	0	1	0	0	0	-1	-1	a,[Info: x1----------l2classic------------]\0	a,Level:40 \nHP:4,834 \nMP:478 \0	a,	a,none\0	a,	a,none\0	
-70774	0	1	0	0	0	-1	-1	a,[Info: x1----------l2classic------------]\0	a,Level:68 \nHP:7,820 \nMP:1,282 \0	a,	a,none\0	a,	a,none\0	
-70775	0	1	0	0	0	-1	-1	a,[Info: x1----------l2classic------------]\0	a,Level:33 \nHP:1,171 \nMP:372 \0	a,	a,none\0	a,	a,none\0	
-70776	0	1	0	0	0	-1	-1	a,[Info: x1----------l2classic------------]\0	a,Level:49 \nHP:4,575 \nMP:720 \0	a,	a,none\0	a,	a,none\0	
-70777	0	1	0	0	0	-1	-1	a,[Info: x1----------l2classic------------]\0	a,Level:43 \nHP:3,223 \nMP:478 \0	a,	a,none\0	a,	a,none\0	
-70778	0	1	0	0	0	-1	-1	a,[Info: x1----------l2classic------------]\0	a,Level:48 \nHP:4,414 \nMP:692 \0	a,	a,none\0	a,	a,none\0	
-70779	0	1	0	0	0	-1	-1	a,[Info: x1----------l2classic------------]\0	a,Level:\nHP:\nMP:\0	a,	a,none\0	a,	a,none\0	
-70780	0	1	0	0	0	-1	-1	a,[Info: x1----------l2classic------------]\0	a,Level:36 \nHP:1,349 \nMP:417 \0	a,	a,none\0	a,	a,none\0	
-70781	0	1	0	0	0	-1	-1	a,[Info: x1----------l2classic------------]\0	a,Level:41 \nHP:5,043 \nMP:504 \0	a,	a,none\0	a,	a,none\0	
-70782	0	1	0	0	0	-1	-1	a,[Info: x1----------l2classic------------]\0	a,Level:\nHP:\nMP:\0	a,	a,none\0	a,	a,none\0	
-70783	0	1	0	0	0	-1	-1	a,[Info: x1----------l2classic------------]\0	a,Level:14 \nHP:385 \nMP:140 \0	a,	a,none\0	a,	a,none\0	
-70784	0	1	0	0	0	-1	-1	a,[Info: x1----------l2classic------------]\0	a,Level:42 \nHP:5,256 \nMP:531 \0	a,	a,none\0	a,	a,none\0	
-70785	0	1	0	0	0	-1	-1	a,[Info: x1----------l2classic------------]\0	a,Level:60 \nHP:12,891 \nMP:1,036 \0	a,	a,none\0	a,	a,none\0	
-70786	0	1	0	0	0	-1	-1	a,[Info: x1----------l2classic------------]\0	a,Level:64 \nHP:7,141 \nMP:1,158 \0	a,	a,none\0	a,	a,none\0	
-70787	0	1	0	0	0	-1	-1	a,[Info: x1----------l2classic------------]\0	a,Level:\nHP:\nMP:\0	a,	a,none\0	a,	a,none\0	
-70788	0	1	0	0	0	-1	-1	a,[Info: x1----------l2classic------------]\0	a,Level:52 \nHP:2,534 \nMP:804 \0	a,	a,none\0	a,	a,none\0	
-70789	0	1	0	0	0	-1	-1	a,[Info: x1----------l2classic------------]\0	a,Level:\nHP:\nMP:\0	a,	a,none\0	a,	a,none\0	
-70790	0	1	0	0	0	-1	-1	a,[Info: x1----------l2classic------------]\0	a,Level:10 \nHP:273 \nMP:108 \0	a,	a,none\0	a,	a,none\0	
-70791	0	1	0	0	0	-1	-1	a,[Info: x1----------l2classic------------]\0	a,Level:51 \nHP:4,904 \nMP:775 \0	a,	a,none\0	a,	a,none\0	
-70792	0	1	0	0	0	-1	-1	a,[Info: x1----------l2classic------------]\0	a,Level:54 \nHP:5,406 \nMP:861 \0	a,	a,none\0	a,	a,none\0	
-70793	0	1	0	0	0	-1	-1	a,[Info: x1----------l2classic------------]\0	a,Level:\nHP:\nMP:\0	a,	a,none\0	a,	a,none\0	
-70794	0	1	0	0	0	-1	-1	a,[Info: x1----------l2classic------------]\0	a,Level:14 \nHP:385 \nMP:140 \0	a,	a,none\0	a,	a,none\0	
-70795	0	1	0	0	0	-1	-1	a,[Info: x1----------l2classic------------]\0	a,Level:43 \nHP:5,474 \nMP:557 \0	a,	a,none\0	a,	a,none\0	
-70796	0	1	0	0	0	-1	-1	a,[Info: x1----------l2classic------------]\0	a,Level:5 \nHP:134 \nMP:69 \0	a,	a,none\0	a,	a,none\0	
-70797	0	1	0	0	0	-1	-1	a,[Info: x1----------l2classic------------]\0	a,Level:38 \nHP:2,954 \nMP:447 \0	a,	a,none\0	a,	a,none\0	
-70798	0	1	0	0	0	-1	-1	a,[Info: x1----------l2classic------------]\0	a,Level:\nHP:\nMP:\0	a,	a,none\0	a,	a,none\0	
-70799	0	1	0	0	0	-1	-1	a,[Info: x1----------l2classic------------]\0	a,Level:42 \nHP:3,504 \nMP:531 \0	a,	a,none\0	a,	a,none\0	
-70800	0	1	0	0	0	-1	-1	a,[Info: x1----------l2classic------------]\0	a,Level:65 \nHP:7,311 \nMP:1,188 \0	a,	a,none\0	a,	a,none\0	
-70801	0	1	0	0	0	-1	-1	a,[Info: x1----------l2classic------------]\0	a,Level:\nHP:\nMP:\0	a,	a,none\0	a,	a,none\0	
-70802	0	1	0	0	0	-1	-1	a,[Info: x1----------l2classic------------]\0	a,Level:\nHP:\nMP:\0	a,	a,none\0	a,	a,none\0	
-70803	0	1	0	0	0	-1	-1	a,[Info: x1----------l2classic------------]\0	a,Level:\nHP:\nMP:\0	a,	a,none\0	a,	a,none\0	
-70804	0	1	0	0	0	-1	-1	a,[Info: x1----------l2classic------------]\0	a,Level:\nHP:\nMP:\0	a,	a,none\0	a,	a,none\0	
-70805	0	1	0	0	0	-1	-1	a,[Info: x1----------l2classic------------]\0	a,Level:6 \nHP:156 \nMP:77 \0	a,	a,none\0	a,	a,none\0	
-70806	0	1	0	0	0	-1	-1	a,[Info: x1----------l2classic------------]\0	a,Level:27 \nHP:1,719 \nMP:286 \0	a,	a,none\0	a,	a,none\0	
-70807	0	1	0	0	0	-1	-1	a,[Info: x1----------l2classic------------]\0	a,Level:26 \nHP:1,627 \nMP:273 \0	a,	a,none\0	a,	a,none\0	
-70808	0	1	0	0	0	-1	-1	a,[Info: x1----------l2classic------------]\0	a,Level:15 \nHP:390 \nMP:149 \0	a,	a,none\0	a,	a,none\0	
-70809	0	1	0	0	0	-1	-1	a,[Info: x1----------l2classic------------]\0	a,Level:\nHP:\nMP:\0	a,	a,none\0	a,	a,none\0	
-70810	0	1	0	0	0	-1	-1	a,[Info: x1----------l2classic------------]\0	a,Level:\nHP:\nMP:\0	a,	a,none\0	a,	a,none\0	
-70811	0	1	0	0	0	-1	-1	a,[Info: x1----------l2classic------------]\0	a,Level:49 \nHP:4,575 \nMP:720 \0	a,	a,none\0	a,	a,none\0	
-70812	0	1	0	0	0	-1	-1	a,[Info: x1----------l2classic------------]\0	a,Level:39 \nHP:1,543 \nMP:463 \0	a,	a,none\0	a,	a,none\0	
-70813	0	1	0	0	0	-1	-1	a,[Info: x1----------l2classic------------]\0	a,Level:5 \nHP:134 \nMP:69 \0	a,	a,none\0	a,	a,none\0	
-70814	0	1	0	0	0	-1	-1	a,[Info: x1----------l2classic------------]\0	a,Level:19 \nHP:537 \nMP:183 \0	a,	a,none\0	a,	a,none\0	
-70815	0	1	0	0	0	-1	-1	a,[Info: x1----------l2classic------------]\0	a,Level:\nHP:\nMP:\0	a,	a,none\0	a,	a,none\0	
-70816	0	1	0	0	0	-1	-1	a,[Info: x1----------l2classic------------]\0	a,Level:44 \nHP:7,596 \nMP:584 \0	a,	a,none\0	a,	a,none\0	
-70817	0	1	0	0	0	-1	-1	a,[Info: x1----------l2classic------------]\0	a,Level:12 \nHP:333 \nMP:124 \0	a,	a,none\0	a,	a,none\0	
-70818	0	1	0	0	0	-1	-1	a,[Info: x1----------l2classic------------]\0	a,Level:11 \nHP:310 \nMP:116 \0	a,	a,none\0	a,	a,none\0	
-70819	0	1	0	0	0	-1	-1	a,[Info: x1----------l2classic------------]\0	a,Level:66 \nHP:7,482 \nMP:1,219 \0	a,	a,none\0	a,	a,none\0	
-70820	0	1	0	0	0	-1	-1	a,[Info: x1----------l2classic------------]\0	a,Level:\nHP:\nMP:\0	a,	a,none\0	a,	a,none\0	
-70821	0	1	0	0	0	-1	-1	a,[Info: x1----------l2classic------------]\0	a,Level:28 \nHP:1,814 \nMP:300 \0	a,	a,none\0	a,	a,none\0	
-70822	0	1	0	0	0	-1	-1	a,[Info: x1----------l2classic------------]\0	a,Level:47 \nHP:6,384 \nMP:665 \0	a,	a,none\0	a,	a,none\0	
-70823	0	1	0	0	0	-1	-1	a,[Info: x1----------l2classic------------]\0	a,Level:40 \nHP:1,611 \nMP:478 \0	a,	a,none\0	a,	a,none\0	
-70824	0	1	0	0	0	-1	-1	a,[Info: x1----------l2classic------------]\0	a,Level:5 \nHP:134 \nMP:69 \0	a,	a,none\0	a,	a,none\0	
-70825	0	1	0	0	0	-1	-1	a,[Info: x1----------l2classic------------]\0	a,Level:11 \nHP:310 \nMP:116 \0	a,	a,none\0	a,	a,none\0	
-70826	0	1	0	0	0	-1	-1	a,[Info: x1----------l2classic------------]\0	a,Level:11 \nHP:310 \nMP:116 \0	a,	a,none\0	a,	a,none\0	
-70827	0	1	0	0	0	-1	-1	a,[Info: x1----------l2classic------------]\0	a,Level:55 \nHP:5,577 \nMP:889 \0	a,	a,none\0	a,	a,none\0	
-70828	0	1	0	0	0	-1	-1	a,[Info: x1----------l2classic------------]\0	a,Level:45 \nHP:5,920 \nMP:610 \0	a,	a,none\0	a,	a,none\0	
-70829	0	1	0	0	0	-1	-1	a,[Info: x1----------l2classic------------]\0	a,Level:65 \nHP:7,311 \nMP:1,188 \0	a,	a,none\0	a,	a,none\0	
-70830	0	1	0	0	0	-1	-1	a,[Info: x1----------l2classic------------]\0	a,Level:68 \nHP:11,730 \nMP:1,282 \0	a,	a,none\0	a,	a,none\0	
-70831	0	1	0	0	0	-1	-1	a,[Info: x1----------l2classic------------]\0	a,Level:8 \nHP:209 \nMP:92 \0	a,	a,none\0	a,	a,none\0	
-70832	0	1	0	0	0	-1	-1	a,[Info: x1----------l2classic------------]\0	a,Level:6 \nHP:156 \nMP:77 \0	a,	a,none\0	a,	a,none\0	
-70833	0	1	0	0	0	-1	-1	a,[Info: x1----------l2classic------------]\0	a,Level:68 \nHP:11,730 \nMP:1,282 \0	a,	a,none\0	a,	a,none\0	
-70834	0	1	0	0	0	-1	-1	a,[Info: x1----------l2classic------------]\0	a,Level:12 \nHP:333 \nMP:124 \0	a,	a,none\0	a,	a,none\0	
-70835	0	1	0	0	0	-1	-1	a,[Info: x1----------l2classic------------]\0	a,Level:46 \nHP:6,152 \nMP:637 \0	a,	a,none\0	a,	a,none\0	
-70836	0	1	0	0	0	-1	-1	a,[Info: x1----------l2classic------------]\0	a,Level:40 \nHP:1,611 \nMP:478 \0	a,	a,none\0	a,	a,none\0	
-70837	0	1	0	0	0	-1	-1	a,[Info: x1----------l2classic------------]\0	a,Level:45 \nHP:3,946 \nMP:610 \0	a,	a,none\0	a,	a,none\0	
-70838	0	1	0	0	0	-1	-1	a,[Info: x1----------l2classic------------]\0	a,Level:21 \nHP:608 \nMP:205 \0	a,	a,none\0	a,	a,none\0	
-70839	0	1	0	0	0	-1	-1	a,[Info: x1----------l2classic------------]\0	a,Level:\nHP:\nMP:\0	a,	a,none\0	a,	a,none\0	
-70840	0	1	0	0	0	-1	-1	a,[Info: x1----------l2classic------------]\0	a,Level:\nHP:\nMP:\0	a,	a,none\0	a,	a,none\0	
-70841	0	1	0	0	0	-1	-1	a,[Info: x1----------l2classic------------]\0	a,Level:\nHP:\nMP:\0	a,	a,none\0	a,	a,none\0	
-70842	0	1	0	0	0	-1	-1	a,[Info: x1----------l2classic------------]\0	a,Level:23 \nHP:686 \nMP:231 \0	a,	a,none\0	a,	a,none\0	
-70843	0	1	0	0	0	-1	-1	a,[Info: x1----------l2classic------------]\0	a,Level:34 \nHP:1,229 \nMP:387 \0	a,	a,none\0	a,	a,none\0	
-70844	0	1	0	0	0	-1	-1	a,[Info: x1----------l2classic------------]\0	a,Level:29 \nHP:1,912 \nMP:315 \0	a,	a,none\0	a,	a,none\0	
-70845	0	1	0	0	0	-1	-1	a,[Info: x1----------l2classic------------]\0	a,Level:\nHP:\nMP:\0	a,	a,none\0	a,	a,none\0	
-70846	0	1	0	0	0	-1	-1	a,[Info: x1----------l2classic------------]\0	a,Level:23 \nHP:686 \nMP:231 \0	a,	a,none\0	a,	a,none\0	
-70847	0	1	0	0	0	-1	-1	a,[Info: x1----------l2classic------------]\0	a,Level:26 \nHP:1,627 \nMP:273 \0	a,	a,none\0	a,	a,none\0	
-70848	0	1	0	0	0	-1	-1	a,[Info: x1----------l2classic------------]\0	a,Level:\nHP:\nMP:\0	a,	a,none\0	a,	a,none\0	
-70849	0	1	0	0	0	-1	-1	a,[Info: x1----------l2classic------------]\0	a,Level:21 \nHP:608 \nMP:205 \0	a,	a,none\0	a,	a,none\0	
-70850	0	1	0	0	0	-1	-1	a,[Info: x1----------l2classic------------]\0	a,Level:\nHP:\nMP:\0	a,	a,none\0	a,	a,none\0	
-70851	0	1	0	0	0	-1	-1	a,[Info: x1----------l2classic------------]\0	a,Level:30 \nHP:2,016 \nMP:329 \0	a,	a,none\0	a,	a,none\0	
-70852	0	1	0	0	0	-1	-1	a,[Info: x1----------l2classic------------]\0	a,Level:64 \nHP:10,711 \nMP:1,158 \0	a,	a,none\0	a,	a,none\0	
-70853	0	1	0	0	0	-1	-1	a,[Info: x1----------l2classic------------]\0	a,Level:38 \nHP:2,954 \nMP:447 \0	a,	a,none\0	a,	a,none\0	
-70854	0	1	0	0	0	-1	-1	a,[Info: x1----------l2classic------------]\0	a,Level:3 \nHP:96 \nMP:54 \0	a,	a,none\0	a,	a,none\0	
-70855	0	1	0	0	0	-1	-1	a,[Info: x1----------l2classic------------]\0	a,Level:\nHP:\nMP:\0	a,	a,none\0	a,	a,none\0	
-70856	0	1	0	0	0	-1	-1	a,[Info: x1----------l2classic------------]\0	a,Level:23 \nHP:686 \nMP:231 \0	a,	a,none\0	a,	a,none\0	
-70857	0	1	0	0	0	-1	-1	a,[Info: x1----------l2classic------------]\0	a,Level:10 \nHP:273 \nMP:108 \0	a,	a,none\0	a,	a,none\0	
-70858	0	1	0	0	0	-1	-1	a,[Info: x1----------l2classic------------]\0	a,Level:8 \nHP:209 \nMP:92 \0	a,	a,none\0	a,	a,none\0	
-70859	0	1	0	0	0	-1	-1	a,[Info: x1----------l2classic------------]\0	a,Level:10 \nHP:273 \nMP:108 \0	a,	a,none\0	a,	a,none\0	
-70860	0	1	0	0	0	-1	-1	a,[Info: x1----------l2classic------------]\0	a,Level:10 \nHP:273 \nMP:108 \0	a,	a,none\0	a,	a,none\0	
-70861	0	1	0	0	0	-1	-1	a,[Info: x1----------l2classic------------]\0	a,Level:5 \nHP:134 \nMP:69 \0	a,	a,none\0	a,	a,none\0	
-70862	0	1	0	0	0	-1	-1	a,[Info: x1----------l2classic------------]\0	a,Level:8 \nHP:209 \nMP:92 \0	a,	a,none\0	a,	a,none\0	
-70863	0	1	0	0	0	-1	-1	a,[Info: x1----------l2classic------------]\0	a,Level:41 \nHP:3,362 \nMP:504 \0	a,	a,none\0	a,	a,none\0	
-70864	0	1	0	0	0	-1	-1	a,[Info: x1----------l2classic------------]\0	a,Level:37 \nHP:1,412 \nMP:432 \0	a,	a,none\0	a,	a,none\0	
-70865	0	1	0	0	0	-1	-1	a,[Info: x1----------l2classic------------]\0	a,Level:53 \nHP:5,239 \nMP:832 \0	a,	a,none\0	a,	a,none\0	
-70866	0	1	0	0	0	-1	-1	a,[Info: x1----------l2classic------------]\0	a,Level:70 \nHP:12,223 \nMP:1,345 \0	a,	a,none\0	a,	a,none\0	
-70867	0	1	0	0	0	-1	-1	a,[Info: x1----------l2classic------------]\0	a,Level:70 \nHP:20,372 \nMP:1,345 \0	a,	a,none\0	a,	a,none\0	
-70868	0	1	0	0	0	-1	-1	a,[Info: x1----------l2classic------------]\0	a,Level:\nHP:\nMP:\0	a,	a,none\0	a,	a,none\0	
-70869	0	1	0	0	0	-1	-1	a,[Info: x1----------l2classic------------]\0	a,Level:41 \nHP:1,681 \nMP:504 \0	a,	a,none\0	a,	a,none\0	
-70870	0	1	0	0	0	-1	-1	a,[Info: x1----------l2classic------------]\0	a,Level:\nHP:\nMP:\0	a,	a,none\0	a,	a,none\0	
-70871	0	1	0	0	0	-1	-1	a,[Info: x1----------l2classic------------]\0	a,Level:24 \nHP:1,453 \nMP:245 \0	a,	a,none\0	a,	a,none\0	
-70872	0	1	0	0	0	-1	-1	a,[Info: x1----------l2classic------------]\0	a,Level:34 \nHP:2,458 \nMP:387 \0	a,	a,none\0	a,	a,none\0	
-70873	0	1	0	0	0	-1	-1	a,[Info: x1----------l2classic------------]\0	a,Level:\nHP:\nMP:\0	a,	a,none\0	a,	a,none\0	
-70874	0	1	0	0	0	-1	-1	a,[Info: x1----------l2classic------------]\0	a,Level:36 \nHP:2,698 \nMP:417 \0	a,	a,none\0	a,	a,none\0	
-70875	0	1	0	0	0	-1	-1	a,[Info: x1----------l2classic------------]\0	a,Level:12 \nHP:333 \nMP:124 \0	a,	a,none\0	a,	a,none\0	
-70876	0	1	0	0	0	-1	-1	a,[Info: x1----------l2classic------------]\0	a,Level:44 \nHP:3,798 \nMP:584 \0	a,	a,none\0	a,	a,none\0	
-70877	0	1	0	0	0	-1	-1	a,[Info: x1----------l2classic------------]\0	a,Level:43 \nHP:3,649 \nMP:557 \0	a,	a,none\0	a,	a,none\0	
-70878	0	1	0	0	0	-1	-1	a,[Info: x1----------l2classic------------]\0	a,Level:12 \nHP:333 \nMP:124 \0	a,	a,none\0	a,	a,none\0	
-70879	0	1	0	0	0	-1	-1	a,[Info: x1----------l2classic------------]\0	a,Level:14 \nHP:385 \nMP:140 \0	a,	a,none\0	a,	a,none\0	
-70880	0	1	0	0	0	-1	-1	a,[Info: x1----------l2classic------------]\0	a,Level:10 \nHP:273 \nMP:108 \0	a,	a,none\0	a,	a,none\0	
-70881	0	1	0	0	0	-1	-1	a,[Info: x1----------l2classic------------]\0	a,Level:\nHP:\nMP:\0	a,	a,none\0	a,	a,none\0	

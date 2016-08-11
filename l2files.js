@@ -9,20 +9,24 @@ const NPC = require('./l2mongodb').NPC
 //Skill id and skill icon => skillgrp_classic.txt
 //Assign skill to npc => npcgrp_classic.txt
 const skillnames = fs.readFileSync('./files/skillname_classic-eu.txt').toString().split('\n')
+const skillnames_source = fs.readFileSync('./files/Skillname_Classic-eu_source.txt').toString().split('\n')
 const skillgrp = fs.readFileSync('./files/skillgrp_classic.txt').toString().split('\n')
 const npcgrp = fs.readFileSync('./files/npcgrp_classic.txt').toString().split('\n')
+const npcgrp_source = fs.readFileSync('./files/Npcgrp_Classic2.txt').toString().split('\n')
 const SKILL_MIN_ID = 70000
 const SKILL_ICON = 'icon.skillraid'
 
 console.log('skillgrp:',skillgrp.length)
 console.log('skillnames:',skillnames.length)
-console.log('npcgrp:',npcgrp.length)
+// console.log('npcgrp:',_.filter(npcgrp, n=>n.split('\t')[0]=='20100')[0])
+console.log('---------------------------------------------------------------------------------')
+// console.log('npcgrp2:',_.filter(npcgrp2, n=>n.split('\t')[0]=='20100')[0])
+// return
 
-
-_.remove(skillnames,s=>s.split('\t')[0]*1>=SKILL_MIN_ID)
+_.remove(skillnames_source,s=>s.split('\t')[0]*1>=SKILL_MIN_ID)
 _.remove(skillgrp,s=>s.split('\t')[0]*1>=SKILL_MIN_ID)
 // _.remove(skillnames,s=>s.split('\t')[0]*1>=SKILL_MIN_ID)
-fs.writeFileSync('./files/skillname_classic-eu.txt', skillnames.join('\n'))
+fs.writeFileSync('./files/skillname_classic-eu.txt', skillnames_source.join('\n'))
 fs.writeFileSync('./files/skillgrp_classic.txt', skillgrp.join('\n'))
 
 
@@ -36,7 +40,7 @@ NPC.find(
 
       let newSkills =
         _.map(npcs,(npc,i)=>
-          _.map(skillnames[0].split('\t'), skill=>{
+          _.map(skillnames_source[0].split('\t'), skill=>{
               switch(skill){
                 case 'id1':	return SKILL_MIN_ID+i
                 case 'id2':	return 0
@@ -99,13 +103,14 @@ NPC.find(
           }).join('\t')
         )
 
-        const NPCGRP0 = npcgrp[0].split('\t')
-        const NPC_IDS = _.map(npcgrp, (line, i)=>({id:line.split('\t')[0]*1, index:i}))
+        const NPCGRP0 = npcgrp_source[0].split('\t')
+        const NPC_IDS = _.map(npcgrp_source, (line, i)=>({id:line.split('\t')[0]*1, index:i}))
 
         _.forEach(npcs,(npc,i)=>{
             const idx = _.find(NPC_IDS, line=> line.id==npc.id).index
-            const LINE= npcgrp[idx].split('\t')
+            const LINE= npcgrp_source[idx].split('\t')
             let flag = false
+            let cnt_dtab1 = 1
             const ln = _.map(NPCGRP0, (np, j) =>{
                           if (j>15 && NPCGRP0[j].includes('dtab1[')){
                             console.log('LINE[j-1]:',LINE[j-1])
@@ -115,16 +120,18 @@ NPC.find(
                             }else if (LINE[j-1]==SKILL_MIN_ID+i){
                               LINE[j] = '1'
                             }
+                            if (LINE[j]) cnt_dtab1++
                           }
                           console.log('SKILL_MIN_ID:',SKILL_MIN_ID+i)
                           return LINE[j]
                       })
+            ln[_.findIndex(ln, (l, j)=>NPCGRP0[j]=='cnt_dtab1')] = cnt_dtab1
             console.log("ln:",ln);
-            npcgrp[idx]=ln.join('\t')
+            npcgrp_source[idx]=ln.join('\t')
           }
         )
 
-      console.log('=>',npcgrp)
+      console.log('=>',npcgrp_source)
 
       fs.appendFile('./files/skillname_classic-eu.txt',newSkills.join('\n')+'\n', (err)=>{
         if (err) throw err
@@ -136,8 +143,8 @@ NPC.find(
         console.log('NewSkillIcons',newSkillIcons.length,'appended')
       })
 
-      fs.writeFile('./files/npcgrp_classic.txt',npcgrp.join('\n')+'\n', (err)=>{
+      fs.writeFile('./files/npcgrp_classic.txt',npcgrp_source.join('\n')+'\n', (err)=>{
         if (err) throw err
-        console.log('NewNpcs',npcgrp.length,'appended')
+        console.log('NewNpcs',npcgrp_source.length,'appended')
       })
   })
